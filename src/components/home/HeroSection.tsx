@@ -48,25 +48,27 @@ export default function HeroSection() {
             {t('description')}
           </p>
           
-          <div className="mt-12 flex flex-col sm:flex-row gap-6 justify-center">
-            <button className="bg-gold-600 hover:bg-gold-500 text-deepBlue-900 px-8 py-4 rounded font-bold transition-all hover:scale-105 active:scale-95 uppercase tracking-wider text-sm">
+          <div className="mt-12 flex flex-col sm:flex-row gap-6 justify-center items-center">
+            <button className="bg-gold-600 hover:bg-gold-500 text-deepBlue-900 px-8 py-4 rounded font-bold transition-all hover:scale-105 active:scale-95 uppercase tracking-wider text-sm w-full sm:w-auto">
               {t('explore')}
             </button>
-            <button className="bg-white/5 border border-white/20 hover:bg-white/10 text-white px-8 py-4 rounded font-medium transition-all hover:border-gold-500 uppercase tracking-wider text-sm backdrop-blur-sm">
+            <button className="bg-white/5 border border-white/20 hover:bg-white/10 text-white px-8 py-4 rounded font-medium transition-all hover:border-gold-500 uppercase tracking-wider text-sm backdrop-blur-sm w-full sm:w-auto">
               {t('partner')}
             </button>
           </div>
         </motion.div>
       </div>
 
-      <motion.div 
-        animate={{ y: [0, 10, 0] }}
-        transition={{ duration: 2, repeat: Infinity }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-gray-500 flex flex-col items-center"
-      >
-        <span className="text-xs tracking-widest uppercase mb-2">{t('discover')}</span>
-        <div className="w-[1px] h-12 bg-gradient-to-b from-gray-500 to-transparent" />
-      </motion.div>
+      <div className="absolute bottom-10 w-full flex justify-center pointer-events-none">
+        <motion.div 
+          animate={{ y: [0, 10, 0] }}
+          transition={{ duration: 2, repeat: Infinity }}
+          className="text-gray-500 flex flex-col items-center"
+        >
+          <span className="text-xs tracking-widest uppercase mb-2">{t('discover')}</span>
+          <div className="w-[1px] h-12 bg-gradient-to-b from-gray-500 to-transparent" />
+        </motion.div>
+      </div>
     </section>
   );
 }
