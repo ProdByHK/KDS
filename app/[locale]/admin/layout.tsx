@@ -1,11 +1,11 @@
 'use client';
 
-import '../globals.css';
+import '../../globals.css';
 import { ShieldAlert, LogOut, LayoutDashboard, BarChart3, Users, Bot, Settings } from 'lucide-react';
 import Link from 'next/link';
 import { Inter } from 'next/font/google';
 import { useState, useEffect } from 'react';
-import AdminLogin from '../../src/components/admin/AdminLogin';
+import AdminLogin from '../../../src/components/admin/AdminLogin';
 
 const inter = Inter({ subsets: ['latin'] });
 
