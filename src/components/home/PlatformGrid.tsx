@@ -1,11 +1,12 @@
 'use client';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { platforms } from '../../lib/mock-data';
+import { Platform, platforms } from '../../lib/mock-data';
 import { Link } from '../../i18n/navigation';
 import { useRef, useState, useEffect } from 'react';
 
-function PlatformCard({ platform, index, t }: { platform: any; index: number; t: any }) {
+function PlatformCard({ platform, index }: { platform: Platform; index: number }) {
+  const t = useTranslations('Platforms');
   const ref = useRef<HTMLDivElement>(null);
   const x = useMotionValue(0);
   const y = useMotionValue(0);
@@ -125,7 +126,7 @@ export default function PlatformGrid() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {platforms.filter(p => p.slug !== 'koonang').map((platform, i) => (
-            <PlatformCard key={platform.id} platform={platform} index={i} t={t} />
+            <PlatformCard key={platform.id} platform={platform} index={i} />
           ))}
         </div>
       </div>
