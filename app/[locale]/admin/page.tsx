@@ -1,7 +1,7 @@
 'use client';
 
 import { Activity, Users, Box, TrendingUp, Ship, Zap, ArrowUpRight, ArrowDownRight, Server, Terminal, Shield } from 'lucide-react';
-import { useLiveData } from '../../../hooks/useLiveData';
+import { useLiveData } from '../../../src/hooks/useLiveData';
 
 const platforms = [
   { name: 'Koonang', metric: '1,245', label: 'Active Sellers', status: 'optimal', icon: Users },
