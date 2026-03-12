@@ -1,7 +1,10 @@
 'use client';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 export default function CoverageMap() {
+  const t = useTranslations('Coverage');
+
   return (
     <section className="py-32 bg-black relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -23,7 +26,7 @@ export default function CoverageMap() {
             <div className="absolute top-1/3 right-1/4 w-2 h-2 bg-blue-500 rounded-full animate-ping delay-1000" />
             <div className="absolute top-1/3 right-1/4 w-2 h-2 bg-blue-500 rounded-full" />
 
-            <div className="relative text-gray-500 font-mono text-sm">(Mapbox Global Integration)</div>
+            <div className="relative text-gray-500 font-mono text-sm">{t('map')}</div>
           </motion.div>
 
           <motion.div
@@ -34,24 +37,24 @@ export default function CoverageMap() {
             className="order-1 lg:order-2"
           >
             <span className="text-gold-500 text-xs tracking-widest uppercase mb-4 block font-mono">
-              Global Infrastructure
+              {t('subtitle')}
             </span>
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
-              Boundless <br /> Coverage
-            </h2>
+            <h2 
+              className="text-4xl md:text-5xl font-serif text-white mb-6"
+              dangerouslySetInnerHTML={{ __html: t.raw('title') }} 
+            />
             <p className="text-gray-400 text-lg leading-relaxed mb-8">
-              From international freight lanes managed by CARRY, to global commodity sourcing via PASARX, our infrastructure operates beyond borders. 
-              Our map provides interactive visibility across all logistics, supply chain, and deployment nodes worldwide.
+              {t('description')}
             </p>
             
             <div className="flex flex-col gap-4">
               <div className="border-l-2 border-gold-500 pl-4 py-1">
                 <div className="text-2xl text-white font-medium mb-1">120+</div>
-                <div className="text-sm text-gray-500 uppercase tracking-wider">Trading Ports Available</div>
+                <div className="text-sm text-gray-500 uppercase tracking-wider">{t('stats.ports')}</div>
               </div>
               <div className="border-l-2 border-blue-500 pl-4 py-1">
                 <div className="text-2xl text-white font-medium mb-1">50+</div>
-                <div className="text-sm text-gray-500 uppercase tracking-wider">Tech Deploys Active</div>
+                <div className="text-sm text-gray-500 uppercase tracking-wider">{t('stats.tech')}</div>
               </div>
             </div>
           </motion.div>

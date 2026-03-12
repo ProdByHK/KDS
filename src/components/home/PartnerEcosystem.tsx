@@ -1,14 +1,17 @@
 'use client';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 export default function PartnerEcosystem() {
+  const t = useTranslations('Partner');
+
   const partners = [
-    { name: "Global Bank Corp", tier: "Strategic" },
-    { name: "Ocean Freight Ltd", tier: "Logistics" },
-    { name: "Tech Innovators", tier: "Technology" },
-    { name: "Luxury Motors", tier: "Transportation" },
-    { name: "AgriTrade Global", tier: "Commodities" },
-    { name: "Premium Hotels", tier: "Hospitality" },
+    { name: "Global Bank Corp", tierKey: "Strategic" },
+    { name: "Ocean Freight Ltd", tierKey: "Logistics" },
+    { name: "Tech Innovators", tierKey: "Technology" },
+    { name: "Luxury Motors", tierKey: "Transportation" },
+    { name: "AgriTrade Global", tierKey: "Commodities" },
+    { name: "Premium Hotels", tierKey: "Hospitality" },
   ];
 
   return (
@@ -22,12 +25,12 @@ export default function PartnerEcosystem() {
             viewport={{ once: true, margin: "-100px" }}
             className="md:w-1/3"
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">Partner Ecosystem</h2>
+            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">{t('title')}</h2>
             <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-              Our network of verified global partners ensures that every service delivered through the King David ecosystem maintains the highest standards of excellence.
+              {t('description')}
             </p>
             <button className="bg-white/5 hover:bg-white/10 border border-white/20 text-white px-6 py-3 rounded font-medium transition-colors text-sm uppercase tracking-wider">
-              Become a Partner
+              {t('cta')}
             </button>
           </motion.div>
 
@@ -45,7 +48,9 @@ export default function PartnerEcosystem() {
                   <span className="text-gold-500 font-serif font-bold">{partner.name[0]}</span>
                 </div>
                 <h4 className="text-white font-medium text-sm mb-1">{partner.name}</h4>
-                <span className="text-gray-500 text-xs font-mono uppercase">{partner.tier}</span>
+                <span className="text-gray-500 text-xs font-mono uppercase">
+                  {t(`tiers.${partner.tierKey}` as Parameters<typeof t>[0])}
+                </span>
               </motion.div>
             ))}
           </div>

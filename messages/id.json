@@ -13,5 +13,142 @@
     "explore": "Jelajahi Ekosistem",
     "partner": "Bermitra Dengan Kami",
     "discover": "Temukan"
+  },
+  "Ecosystem": {
+    "title": "Satu <span className=\"text-gold-500 text-italic\">Visi</span> yang Bersatu",
+    "description": "Ekosistem King David Service dirancang untuk memecahkan tantangan perusahaan yang kompleks melalui jaringan terpadu dari platform khusus. Dari integrasi digital hingga keramahan premium, sinergi kami menciptakan nilai yang tak tertandingi.",
+    "platforms": "Platform Terintegrasi",
+    "reach": "Jangkauan Pasar",
+    "reachValue": "Global"
+  },
+  "Koonang": {
+    "featured": "Platform Utama",
+    "description": "Pusat Integrasi Digital yang mendasari tulang punggung teknologi perusahaan modern.",
+    "features": {
+      "enterprise": {
+        "title": "Sistem Perusahaan",
+        "desc": "Solusi ERP & CRM kustom yang menyederhanakan operasi perusahaan skala besar."
+      },
+      "ai": {
+        "title": "Otomatisasi AI",
+        "desc": "Alur kerja cerdas yang mengurangi beban manual dan meningkatkan produktivitas."
+      },
+      "mobile": {
+        "title": "Seluler & Web",
+        "desc": "Pengembangan aplikasi premium untuk ekosistem konsumen dan internal."
+      }
+    },
+    "discover": "Temukan Platform Koonang &rarr;"
+  },
+  "Platforms": {
+    "title": "Platform Kami",
+    "description": "Jelajahi tujuh divisi khusus yang menggerakkan ekosistem King David.",
+    "viewAll": "Lihat Semua Platform &rarr;",
+    "items": {
+      "koonang": {
+        "sector": "Teknologi & Digital",
+        "description": "Pusat Integrasi Digital yang menyediakan ERP, CRM, POS, aplikasi seluler, dan otomatisasi AI."
+      },
+      "carry": {
+        "sector": "Logistik & Rantai Pasokan",
+        "description": "Agregator logistik multimoda yang menangani kurir, kargo, angkutan laut, dan udara."
+      },
+      "gold-lion": {
+        "sector": "Transportasi",
+        "description": "Transportasi premium yang menyediakan kendaraan mewah dan layanan VIP perusahaan."
+      },
+      "pasarx": {
+        "sector": "Perdagangan Komoditas",
+        "description": "Pasar B2B perdagangan komoditas global untuk kopi, rempah-rempah, dan pertanian."
+      },
+      "gold-miles": {
+        "sector": "Perjalanan & Keramahan",
+        "description": "Perjalanan perusahaan premium, perencanaan acara elit, dan bantuan imigrasi."
+      },
+      "creathinks": {
+        "sector": "Kreatif & Pemasaran",
+        "description": "Layanan pemasaran digital, branding, dan agensi kreatif."
+      },
+      "tala-bhojana": {
+        "sector": "Makanan & Minuman",
+        "description": "Agregator katering makanan dan minuman premium untuk jamuan perusahaan."
+      }
+    }
+  },
+  "Coverage": {
+    "map": "(Integrasi Global Mapbox)",
+    "subtitle": "Infrastruktur Global",
+    "title": "Jangkauan <br /> Tanpa Batas",
+    "description": "Mulai dari jalur pengiriman internasional yang dikelola oleh CARRY, hingga pengadaan komoditas global melalui PASARX, infrastruktur kami beroperasi melampaui batas. Peta kami memberikan visibilitas interaktif di semua simpul logistik, rantai pasokan, dan penerapan di seluruh dunia.",
+    "stats": {
+      "ports": "Pelabuhan Perdagangan Tersedia",
+      "tech": "Penyebaran Teknologi Aktif"
+    }
+  },
+  "Portfolio": {
+    "title": "Portofolio Terpilih",
+    "description": "Proyek kelas dunia yang dieksekusi oleh KOONANG dan CREATHINKS.",
+    "projects": {
+      "p1": { "title": "Pusat Logistik Nasional", "client": "Sektor Pemerintah" },
+      "p2": { "title": "Aplikasi Fintech Premium", "client": "Sektor Perbankan" },
+      "p3": { "title": "Dasbor Sumber Daya Perusahaan", "client": "Korporasi Pertambangan" }
+    }
+  },
+  "Partner": {
+    "title": "Ekosistem Mitra",
+    "description": "Jaringan mitra global terverifikasi kami memastikan bahwa setiap layanan yang diberikan melalui ekosistem King David mempertahankan standar keunggulan tertinggi.",
+    "cta": "Menjadi Mitra",
+    "tiers": {
+      "Strategic": "Strategis",
+      "Logistics": "Logistik",
+      "Technology": "Teknologi",
+      "Transportation": "Transportasi",
+      "Commodities": "Komoditas",
+      "Hospitality": "Perhotelan"
+    }
+  },
+  "Insights": {
+    "subtitle": "Intelijen",
+    "title": "Wawasan Pasar",
+    "readAll": "Baca Semua Intelijen &rarr;",
+    "description": "Analisis dan perspektif strategis dari divisi intelijen kepemilikan King David tentang pergeseran pasar global.",
+    "articles": {
+      "a1": {
+        "category": "Logistik",
+        "title": "Masa Depan Pengangkutan Multi-Moda di Asia Tenggara",
+        "date": "24 Okt 2026"
+      },
+      "a2": {
+        "category": "Teknologi",
+        "title": "Strategi Integrasi AI untuk Perusahaan Warisan",
+        "date": "18 Okt 2026"
+      }
+    }
+  },
+  "Investors": {
+    "title": "Hubungan Investor",
+    "description": "King David Service berkomitmen pada tata kelola yang transparan, pertumbuhan lintas platform yang berkelanjutan, dan memberikan nilai jangka panjang kepada para pemangku kepentingan kami.",
+    "stats": {
+      "growth": { "label": "Pertumbuhan Pendapatan Tahunan", "value": "142%" },
+      "clients": { "label": "Klien Perusahaan Aktif", "value": "450+" },
+      "presence": { "label": "Kehadiran Global", "value": "12 Negara" }
+    },
+    "download": "Unduh Laporan Tahunan",
+    "form": {
+      "title": "Minta Dek Investor",
+      "name": "Nama Lengkap",
+      "institution": "Institusi / Perusahaan",
+      "email": "Email Perusahaan",
+      "submit": "Kirim Permintaan"
+    }
+  },
+  "CTA": {
+    "title": "Siap Meningkatkan <br/> Operasi Anda?",
+    "description": "Terhubung dengan tim eksekutif kami untuk mengeksplorasi bagaimana ekosistem King David dapat berintegrasi dan mengakselerasi bisnis Anda.",
+    "buttons": {
+      "schedule": "Jadwalkan Konsultasi",
+      "or": "atau",
+      "deck": "Lihat Dek Kemampuan"
+    }
   }
 }

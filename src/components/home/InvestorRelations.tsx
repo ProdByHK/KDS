@@ -1,7 +1,10 @@
 'use client';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 export default function InvestorRelations() {
+  const t = useTranslations('Investors');
+
   return (
     <section className="py-32 bg-black relative overflow-hidden">
       {/* Background Graphic */}
@@ -15,16 +18,16 @@ export default function InvestorRelations() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true, margin: "-100px" }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">Investor Relations</h2>
+            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">{t('title')}</h2>
             <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-              King David Service is committed to transparent governance, sustainable cross-platform growth, and delivering long-term value to our stakeholders.
+              {t('description')}
             </p>
             
             <div className="space-y-6 mb-10">
               {[
-                { label: "Annual Revenue Growth", value: "142%" },
-                { label: "Active Enterprise Clients", value: "450+" },
-                { label: "Global Presence", value: "12 Countries" }
+                { label: t('stats.growth.label'), value: t('stats.growth.value') },
+                { label: t('stats.clients.label'), value: t('stats.clients.value') },
+                { label: t('stats.presence.label'), value: t('stats.presence.value') }
               ].map((stat, i) => (
                 <div key={i} className="flex items-center justify-between border-b border-white/10 pb-4">
                   <span className="text-gray-300 font-medium">{stat.label}</span>
@@ -34,7 +37,7 @@ export default function InvestorRelations() {
             </div>
 
             <button className="text-white hover:text-gold-500 transition-colors uppercase tracking-widest text-sm font-medium flex items-center gap-2">
-              Download Annual Report 
+              {t('download')} 
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
             </button>
           </motion.div>
@@ -46,13 +49,13 @@ export default function InvestorRelations() {
             viewport={{ once: true, margin: "-100px" }}
             className="bg-white/5 border border-white/10 p-10 rounded-2xl backdrop-blur-sm"
           >
-            <h3 className="text-2xl font-serif text-white mb-6">Request Investor Deck</h3>
+            <h3 className="text-2xl font-serif text-white mb-6">{t('form.title')}</h3>
             <form className="space-y-4">
-              <input type="text" placeholder="Full Name" className="w-full bg-deepBlue-900/50 border border-white/20 rounded p-4 text-white focus:outline-none focus:border-gold-500 transition-colors" />
-              <input type="text" placeholder="Institution / Firm" className="w-full bg-deepBlue-900/50 border border-white/20 rounded p-4 text-white focus:outline-none focus:border-gold-500 transition-colors" />
-              <input type="email" placeholder="Corporate Email" className="w-full bg-deepBlue-900/50 border border-white/20 rounded p-4 text-white focus:outline-none focus:border-gold-500 transition-colors" />
+              <input type="text" placeholder={t('form.name')} className="w-full bg-deepBlue-900/50 border border-white/20 rounded p-4 text-white focus:outline-none focus:border-gold-500 transition-colors" />
+              <input type="text" placeholder={t('form.institution')} className="w-full bg-deepBlue-900/50 border border-white/20 rounded p-4 text-white focus:outline-none focus:border-gold-500 transition-colors" />
+              <input type="email" placeholder={t('form.email')} className="w-full bg-deepBlue-900/50 border border-white/20 rounded p-4 text-white focus:outline-none focus:border-gold-500 transition-colors" />
               <button type="button" className="w-full bg-gold-600 hover:bg-gold-500 text-deepBlue-900 font-bold py-4 rounded transition-colors uppercase tracking-wider text-sm mt-4">
-                Submit Request
+                {t('form.submit')}
               </button>
             </form>
           </motion.div>

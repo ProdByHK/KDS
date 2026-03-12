@@ -1,10 +1,13 @@
 'use client';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 export default function MarketInsights() {
+  const t = useTranslations('Insights');
+
   const articles = [
-    { category: "Logistics", title: "The Future of Multi-Modal Freight in SE Asia", date: "Oct 24, 2026" },
-    { category: "Technology", title: "AI Integration Strategies for Legacy Enterprise", date: "Oct 18, 2026" }
+    { category: t('articles.a1.category'), title: t('articles.a1.title'), date: t('articles.a1.date') },
+    { category: t('articles.a2.category'), title: t('articles.a2.title'), date: t('articles.a2.date') }
   ];
 
   return (
@@ -19,13 +22,14 @@ export default function MarketInsights() {
         >
           <div>
             <span className="text-gold-500 text-xs tracking-widest uppercase mb-4 block font-mono">
-              Intelligence
+              {t('subtitle')}
             </span>
-            <h2 className="text-4xl md:text-5xl font-serif text-white">Market Insights</h2>
+            <h2 className="text-4xl md:text-5xl font-serif text-white">{t('title')}</h2>
           </div>
-          <button className="hidden md:block text-gold-500 hover:text-white transition-colors uppercase tracking-widest text-sm font-medium border-b border-gold-500 hover:border-white pb-1">
-            Read All Intelligence &rarr;
-          </button>
+          <button 
+            className="hidden md:block text-gold-500 hover:text-white transition-colors uppercase tracking-widest text-sm font-medium border-b border-gold-500 hover:border-white pb-1"
+            dangerouslySetInnerHTML={{ __html: t.raw('readAll') }}
+          />
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -50,7 +54,7 @@ export default function MarketInsights() {
                   {article.title}
                 </h3>
                 <p className="text-gray-400 text-sm line-clamp-2">
-                  Analysis and strategic perspectives from the King David proprietary intelligence division on global market shifts.
+                  {t('description')}
                 </p>
               </div>
             </motion.div>

@@ -1,7 +1,10 @@
 'use client';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 export default function FeaturedKoonang() {
+  const t = useTranslations('Koonang');
+
   return (
     <section className="py-32 bg-black relative border-t border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -13,21 +16,21 @@ export default function FeaturedKoonang() {
           className="text-center mb-20"
         >
           <span className="text-gold-500 text-xs tracking-widest uppercase mb-4 block font-mono">
-            Featured Platform
+            {t('featured')}
           </span>
           <h2 className="text-5xl md:text-7xl font-serif text-white tracking-tight">
             KOONANG
           </h2>
           <p className="mt-6 text-xl text-gray-400 font-light max-w-2xl mx-auto">
-            The Digital Integration Hub powering the technological backbone of modern enterprises.
+            {t('description')}
           </p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
-            { title: "Enterprise Systems", desc: "Custom ERP & CRM solutions streamlining massive corporate operations." },
-            { title: "AI Automation", desc: "Intelligent workflows reducing manual overhead and amplifying productivity." },
-            { title: "Mobile & Web", desc: "Premium application development for consumer and internal ecosystems." }
+            { title: t('features.enterprise.title'), desc: t('features.enterprise.desc') },
+            { title: t('features.ai.title'), desc: t('features.ai.desc') },
+            { title: t('features.mobile.title'), desc: t('features.mobile.desc') }
           ].map((feature, i) => (
             <motion.div
               key={i}
@@ -55,9 +58,10 @@ export default function FeaturedKoonang() {
           viewport={{ once: true, margin: "-100px" }}
           className="mt-16 text-center"
         >
-          <button className="text-white border-b border-gold-500 pb-1 hover:text-gold-500 transition-colors uppercase tracking-widest text-sm font-medium">
-            Discover Koonang Platform &rarr;
-          </button>
+          <button 
+            className="text-white border-b border-gold-500 pb-1 hover:text-gold-500 transition-colors uppercase tracking-widest text-sm font-medium"
+            dangerouslySetInnerHTML={{ __html: t.raw('discover') }} 
+          />
         </motion.div>
       </div>
     </section>

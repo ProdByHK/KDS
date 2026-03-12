@@ -1,11 +1,14 @@
 'use client';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 export default function PortfolioShowcase() {
+  const t = useTranslations('Portfolio');
+
   const projects = [
-    { title: "National Logistics Hub", client: "Gov Sector", img: "bg-gray-800" },
-    { title: "Premium Fintech App", client: "Banking Sector", img: "bg-zinc-800" },
-    { title: "Enterprise Resource Dashboard", client: "Mining Corp", img: "bg-slate-800" }
+    { title: t('projects.p1.title'), client: t('projects.p1.client'), img: "bg-gray-800" },
+    { title: t('projects.p2.title'), client: t('projects.p2.client'), img: "bg-zinc-800" },
+    { title: t('projects.p3.title'), client: t('projects.p3.client'), img: "bg-slate-800" }
   ];
 
   return (
@@ -18,9 +21,9 @@ export default function PortfolioShowcase() {
           viewport={{ once: true, margin: "-100px" }}
           className="text-center mb-20"
         >
-          <h2 className="text-4xl md:text-5xl font-serif text-white mb-4">Selected Portfolio</h2>
+          <h2 className="text-4xl md:text-5xl font-serif text-white mb-4">{t('title')}</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            World-class projects executed by KOONANG and CREATHINKS.
+            {t('description')}
           </p>
         </motion.div>
 

@@ -1,8 +1,11 @@
 'use client';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 import { platforms } from '../../lib/mock-data';
 
 export default function EcosystemExplanation() {
+  const t = useTranslations('Ecosystem');
+
   return (
     <section className="py-32 bg-deepBlue-900 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -13,20 +16,18 @@ export default function EcosystemExplanation() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true, margin: "-100px" }}
           >
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6 leading-tight">
-              One Unified <span className="text-gold-500 text-italic">Vision</span>
-            </h2>
+            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6 leading-tight" dangerouslySetInnerHTML={{ __html: t.raw('title') }} />
             <p className="text-gray-300 text-lg leading-relaxed mb-8 text-balance">
-              The King David Service ecosystem is designed to solve complex corporate challenges through a unified network of specialized platforms. From digital integration to premium hospitality, our synergy creates unmatched value.
+              {t('description')}
             </p>
             <div className="grid grid-cols-2 gap-8">
               <div>
                 <div className="text-4xl text-white font-serif mb-2">7</div>
-                <div className="text-gold-500 text-xs uppercase tracking-widest font-mono">Integrated Platforms</div>
+                <div className="text-gold-500 text-xs uppercase tracking-widest font-mono">{t('platforms')}</div>
               </div>
               <div>
-                <div className="text-4xl text-white font-serif mb-2">Global</div>
-                <div className="text-gold-500 text-xs uppercase tracking-widest font-mono">Market Reach</div>
+                <div className="text-4xl text-white font-serif mb-2">{t('reachValue')}</div>
+                <div className="text-gold-500 text-xs uppercase tracking-widest font-mono">{t('reach')}</div>
               </div>
             </div>
           </motion.div>

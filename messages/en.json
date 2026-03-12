@@ -13,5 +13,142 @@
     "explore": "Explore Ecosystem",
     "partner": "Partner With Us",
     "discover": "Discover"
+  },
+  "Ecosystem": {
+    "title": "One Unified <span className=\"text-gold-500 text-italic\">Vision</span>",
+    "description": "The King David Service ecosystem is designed to solve complex corporate challenges through a unified network of specialized platforms. From digital integration to premium hospitality, our synergy creates unmatched value.",
+    "platforms": "Integrated Platforms",
+    "reach": "Market Reach",
+    "reachValue": "Global"
+  },
+  "Koonang": {
+    "featured": "Featured Platform",
+    "description": "The Digital Integration Hub powering the technological backbone of modern enterprises.",
+    "features": {
+      "enterprise": {
+        "title": "Enterprise Systems",
+        "desc": "Custom ERP & CRM solutions streamlining massive corporate operations."
+      },
+      "ai": {
+        "title": "AI Automation",
+        "desc": "Intelligent workflows reducing manual overhead and amplifying productivity."
+      },
+      "mobile": {
+        "title": "Mobile & Web",
+        "desc": "Premium application development for consumer and internal ecosystems."
+      }
+    },
+    "discover": "Discover Koonang Platform &rarr;"
+  },
+  "Platforms": {
+    "title": "The Platforms",
+    "description": "Explore the seven specialized divisions powering the King David ecosystem.",
+    "viewAll": "View All Platforms &rarr;",
+    "items": {
+      "koonang": {
+        "sector": "Technology & Digital",
+        "description": "Digital Integration Hub providing ERP, CRM, POS, mobile apps, and AI automation."
+      },
+      "carry": {
+        "sector": "Logistics & Supply Chain",
+        "description": "Multi-modal logistics aggregator handling courier, cargo, sea, and air freight."
+      },
+      "gold-lion": {
+        "sector": "Transportation",
+        "description": "Premium transportation locking luxury vehicles and corporate VIP rides."
+      },
+      "pasarx": {
+        "sector": "Commodity Trading",
+        "description": "Global commodity trading B2B marketplace for coffee, spices, and agriculture."
+      },
+      "gold-miles": {
+        "sector": "Travel & Hospitality",
+        "description": "Premium corporate travel, elite events planning, and immigration assistance."
+      },
+      "creathinks": {
+        "sector": "Creative & Marketing",
+        "description": "Digital marketing, branding, and creative agency services."
+      },
+      "tala-bhojana": {
+        "sector": "Food & Beverage",
+        "description": "Premium food and beverage catering aggregator for corporate dining."
+      }
+    }
+  },
+  "Coverage": {
+    "map": "(Mapbox Global Integration)",
+    "subtitle": "Global Infrastructure",
+    "title": "Boundless <br /> Coverage",
+    "description": "From international freight lanes managed by CARRY, to global commodity sourcing via PASARX, our infrastructure operates beyond borders. Our map provides interactive visibility across all logistics, supply chain, and deployment nodes worldwide.",
+    "stats": {
+      "ports": "Trading Ports Available",
+      "tech": "Tech Deploys Active"
+    }
+  },
+  "Portfolio": {
+    "title": "Selected Portfolio",
+    "description": "World-class projects executed by KOONANG and CREATHINKS.",
+    "projects": {
+      "p1": { "title": "National Logistics Hub", "client": "Gov Sector" },
+      "p2": { "title": "Premium Fintech App", "client": "Banking Sector" },
+      "p3": { "title": "Enterprise Resource Dashboard", "client": "Mining Corp" }
+    }
+  },
+  "Partner": {
+    "title": "Partner Ecosystem",
+    "description": "Our network of verified global partners ensures that every service delivered through the King David ecosystem maintains the highest standards of excellence.",
+    "cta": "Become a Partner",
+    "tiers": {
+      "Strategic": "Strategic",
+      "Logistics": "Logistics",
+      "Technology": "Technology",
+      "Transportation": "Transportation",
+      "Commodities": "Commodities",
+      "Hospitality": "Hospitality"
+    }
+  },
+  "Insights": {
+    "subtitle": "Intelligence",
+    "title": "Market Insights",
+    "readAll": "Read All Intelligence &rarr;",
+    "description": "Analysis and strategic perspectives from the King David proprietary intelligence division on global market shifts.",
+    "articles": {
+      "a1": {
+        "category": "Logistics",
+        "title": "The Future of Multi-Modal Freight in SE Asia",
+        "date": "Oct 24, 2026"
+      },
+      "a2": {
+        "category": "Technology",
+        "title": "AI Integration Strategies for Legacy Enterprise",
+        "date": "Oct 18, 2026"
+      }
+    }
+  },
+  "Investors": {
+    "title": "Investor Relations",
+    "description": "King David Service is committed to transparent governance, sustainable cross-platform growth, and delivering long-term value to our stakeholders.",
+    "stats": {
+      "growth": { "label": "Annual Revenue Growth", "value": "142%" },
+      "clients": { "label": "Active Enterprise Clients", "value": "450+" },
+      "presence": { "label": "Global Presence", "value": "12 Countries" }
+    },
+    "download": "Download Annual Report",
+    "form": {
+      "title": "Request Investor Deck",
+      "name": "Full Name",
+      "institution": "Institution / Firm",
+      "email": "Corporate Email",
+      "submit": "Submit Request"
+    }
+  },
+  "CTA": {
+    "title": "Ready to Elevate <br/> Your Operations?",
+    "description": "Connect with our executive team to explore how the King David ecosystem can integrate with and accelerate your business.",
+    "buttons": {
+      "schedule": "Schedule Consultation",
+      "or": "or",
+      "deck": "View Capabilities Deck"
+    }
   }
 }

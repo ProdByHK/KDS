@@ -1,9 +1,12 @@
 'use client';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 import { platforms } from '../../lib/mock-data';
 import { Link } from '../../i18n/navigation';
 
 export default function PlatformGrid() {
+  const t = useTranslations('Platforms');
+
   return (
     <section className="py-32 bg-deepBlue-900 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -15,14 +18,16 @@ export default function PlatformGrid() {
           className="mb-16 md:flex justify-between items-end"
         >
           <div className="max-w-2xl">
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">The Platforms</h2>
+            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">{t('title')}</h2>
             <p className="text-gray-400 text-lg">
-              Explore the seven specialized divisions powering the King David ecosystem.
+              {t('description')}
             </p>
           </div>
-          <Link href="/ecosystem" className="hidden md:inline-flex text-gold-500 border-b border-gold-500 pb-1 hover:text-white hover:border-white transition-colors uppercase tracking-widest text-sm font-medium">
-            View All Platforms &rarr;
-          </Link>
+          <Link 
+            href="/ecosystem" 
+            className="hidden md:inline-flex text-gold-500 border-b border-gold-500 pb-1 hover:text-white hover:border-white transition-colors uppercase tracking-widest text-sm font-medium"
+            dangerouslySetInnerHTML={{ __html: t.raw('viewAll') }}
+          />
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -42,14 +47,14 @@ export default function PlatformGrid() {
 
                 <div className="absolute inset-0 p-8 flex flex-col justify-end z-20">
                   <div className="text-gold-500 text-xs font-mono mb-3 tracking-widest uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">
-                    {platform.sector}
+                    {t(`items.${platform.id}.sector`)}
                   </div>
                   <h3 className="text-2xl font-serif text-white mb-2 group-hover:-translate-y-1 transition-transform duration-300">
                     {platform.name}
                   </h3>
                   <div className="h-0 group-hover:h-auto opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-hidden">
                     <p className="text-gray-300 text-sm line-clamp-2 mt-2">
-                      {platform.description}
+                       {t(`items.${platform.id}.description`)}
                     </p>
                   </div>
                 </div>
