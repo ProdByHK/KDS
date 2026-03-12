@@ -1,20 +1,59 @@
+'use client';
+
 import '../globals.css';
 import { ShieldAlert, LogOut, LayoutDashboard, BarChart3, Users, Bot, Settings } from 'lucide-react';
 import Link from 'next/link';
 import { Inter } from 'next/font/google';
+import { useState, useEffect } from 'react';
+import AdminLogin from '../../src/components/admin/AdminLogin';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata = {
-  title: 'KDS Sentinel Admin | King David Service',
-  description: 'Enterprise Management Console',
-};
+// Moved to page level or separate metadata file since this is now a client component
+// export const metadata = {
+//   title: 'KDS Sentinel Admin | King David Service',
+//   description: 'Enterprise Management Console',
+// };
 
 export default function AdminLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    // Basic persistence via sessionStorage for the demo
+    const authStatus = window.sessionStorage.getItem('kds_admin_auth');
+    if (authStatus === 'true') {
+      setIsAuthenticated(true);
+    }
+    setMounted(true);
+  }, []);
+
+  const handleLogin = () => {
+    window.sessionStorage.setItem('kds_admin_auth', 'true');
+    setIsAuthenticated(true);
+  };
+
+  const handleLogout = () => {
+    window.sessionStorage.removeItem('kds_admin_auth');
+    setIsAuthenticated(false);
+  };
+
+  if (!mounted) return null; // Prevent hydration mismatch
+
+  if (!isAuthenticated) {
+    return (
+      <html lang="en">
+        <body className={`${inter.className} min-h-screen bg-[#0a0f1c] antialiased`}>
+          <AdminLogin onLogin={handleLogin} />
+        </body>
+      </html>
+    );
+  }
+
   return (
     <html lang="en">
       <body className={`${inter.className} min-h-screen bg-[#0a0f1c] text-slate-300 flex antialiased`}>
@@ -49,10 +88,10 @@ export default function AdminLayout({
           </nav>
 
           <div className="p-4 border-t border-[#1f2937]">
-            <Link href="/" className="flex items-center px-3 py-2 text-slate-400 hover:text-white hover:bg-[#1f2937] rounded-lg group transition-colors">
+            <button onClick={handleLogout} className="w-full flex items-center px-3 py-2 text-slate-400 hover:text-white hover:bg-[#1f2937] rounded-lg group transition-colors">
               <LogOut className="w-5 h-5 mr-3" />
               <span className="font-medium text-sm">Exit Console</span>
-            </Link>
+            </button>
           </div>
         </aside>
 

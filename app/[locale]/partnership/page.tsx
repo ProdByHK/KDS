@@ -10,8 +10,13 @@ export default function PartnershipPage({ params: { locale } }: { params: { loca
   const t = useTranslations('Partnership');
 
   return (
-    <div className="min-h-screen bg-deepBlue-900 pt-32 pb-16">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 animate-in fade-in slide-in-from-bottom-8 duration-700">
+    <div className="min-h-screen relative pt-32 pb-16 bg-deepBlue-900">
+      <div 
+        className="absolute inset-0 opacity-20 bg-cover bg-center mix-blend-screen pointer-events-none"
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2000&auto=format&fit=crop')" }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-deepBlue-900/40 via-deepBlue-900/80 to-deepBlue-900 pointer-events-none" />
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 animate-in fade-in slide-in-from-bottom-8 duration-700">
         <h1 className="text-5xl md:text-7xl font-serif text-white mb-8 text-center">{t('title')}</h1>
         <p className="text-xl text-gray-300 leading-relaxed text-center mb-16">
           {t('description')}

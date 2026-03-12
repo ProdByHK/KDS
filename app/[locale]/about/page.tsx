@@ -10,8 +10,13 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
   const t = useTranslations('About');
 
   return (
-    <div className="min-h-screen bg-deepBlue-900 pt-32 pb-16">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-in fade-in slide-in-from-bottom-8 duration-700">
+    <div className="min-h-screen relative pt-32 pb-16 bg-deepBlue-900 flex items-center justify-center">
+      <div 
+        className="absolute inset-0 opacity-20 bg-cover bg-center mix-blend-screen pointer-events-none"
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop')" }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-deepBlue-900/50 to-deepBlue-900 pointer-events-none" />
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-in fade-in slide-in-from-bottom-8 duration-700">
         <h1 className="text-5xl md:text-7xl font-serif text-white mb-8">{t('title')}</h1>
         <p className="text-xl text-gray-300 leading-relaxed text-balance">
           {t('description')}
