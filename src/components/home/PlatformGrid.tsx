@@ -1,14 +1,107 @@
 'use client';
-import { motion } from 'framer-motion';
+import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { platforms } from '../../lib/mock-data';
 import { Link } from '../../i18n/navigation';
+import { useRef, useState, useEffect } from 'react';
+
+function PlatformCard({ platform, index, t }: { platform: any; index: number; t: any }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    setPrefersReducedMotion(mediaQuery.matches);
+  }, []);
+
+  const mouseXSpring = useSpring(x, { stiffness: 300, damping: 30 });
+  const mouseYSpring = useSpring(y, { stiffness: 300, damping: 30 });
+
+  const rotateX = useTransform(mouseYSpring, [-0.5, 0.5], [10, -10]);
+  const rotateY = useTransform(mouseXSpring, [-0.5, 0.5], [-10, 10]);
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (!ref.current || prefersReducedMotion) return;
+
+    const rect = ref.current.getBoundingClientRect();
+    const width = rect.width;
+    const height = rect.height;
+
+    const mouseX = e.clientX - rect.left;
+    const mouseY = e.clientY - rect.top;
+
+    const xPct = mouseX / width - 0.5;
+    const yPct = mouseY / height - 0.5;
+
+    x.set(xPct);
+    y.set(yPct);
+  };
+
+  const handleMouseLeave = () => {
+    if (prefersReducedMotion) return;
+    x.set(0);
+    y.set(0);
+  };
+
+  return (
+    <motion.div
+      ref={ref}
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+      initial={{ opacity: 0, scale: 0.95 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5, delay: index * 0.1 }}
+      viewport={{ once: true, margin: "-50px" }}
+      style={{
+        rotateX: prefersReducedMotion ? 0 : rotateX,
+        rotateY: prefersReducedMotion ? 0 : rotateY,
+        transformStyle: "preserve-3d",
+      }}
+      className="h-80"
+    >
+      <Link href={`/ecosystem/${platform.slug}`} className="block h-full cursor-pointer">
+        <div 
+          className="relative h-full bg-black/50 border border-white/10 rounded-2xl overflow-hidden shadow-2xl transition-colors duration-300 group hover:border-gold-500/30"
+          style={{ transform: "translateZ(0px)" }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent z-10" />
+          
+          {/* Image Placeholder */}
+          <div className="absolute inset-0 bg-gray-800 group-hover:scale-110 transition-transform duration-700 ease-in-out opacity-40 group-hover:opacity-60" />
+
+          <div 
+            className="absolute inset-0 p-8 flex flex-col justify-end z-20"
+            style={{ transform: "translateZ(40px)" }}
+          >
+            <div className="text-gold-500 text-xs font-mono mb-3 tracking-widest uppercase transform transition-all duration-300">
+              {t(`items.${platform.id}.sector`)}
+            </div>
+            <h3 className="text-2xl font-serif text-white mb-2">
+              {platform.name}
+            </h3>
+            <div className="opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-2 group-hover:translate-y-0">
+              <p className="text-gray-300 text-sm line-clamp-2 mt-2">
+                {t(`items.${platform.id}.description`)}
+              </p>
+            </div>
+          </div>
+          
+          {/* Shine effect */}
+          <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
+        </div>
+      </Link>
+    </motion.div>
+  );
+}
 
 export default function PlatformGrid() {
   const t = useTranslations('Platforms');
 
   return (
-    <section className="py-32 bg-deepBlue-900 relative">
+    <section className="py-32 bg-deepBlue-900 relative Perspective-1000">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -30,39 +123,13 @@ export default function PlatformGrid() {
           />
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {platforms.filter(p => p.slug !== 'koonang').map((platform, i) => (
-            <Link key={platform.id} href={`/ecosystem/${platform.slug}`}>
-              <motion.div
-                initial={{ opacity: 0, scale: 0.95 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5, delay: i * 0.1 }}
-                viewport={{ once: true, margin: "-50px" }}
-                className="group relative h-80 bg-black/50 border border-white/10 rounded-2xl overflow-hidden cursor-pointer"
-              >
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent z-10" />
-                
-                {/* Image Placeholder */}
-                <div className="absolute inset-0 bg-gray-800 group-hover:scale-110 transition-transform duration-700 ease-in-out opacity-40 group-hover:opacity-60" />
-
-                <div className="absolute inset-0 p-8 flex flex-col justify-end z-20">
-                  <div className="text-gold-500 text-xs font-mono mb-3 tracking-widest uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">
-                    {t(`items.${platform.id}.sector`)}
-                  </div>
-                  <h3 className="text-2xl font-serif text-white mb-2 group-hover:-translate-y-1 transition-transform duration-300">
-                    {platform.name}
-                  </h3>
-                  <div className="h-0 group-hover:h-auto opacity-0 group-hover:opacity-100 transition-all duration-300 overflow-hidden">
-                    <p className="text-gray-300 text-sm line-clamp-2 mt-2">
-                       {t(`items.${platform.id}.description`)}
-                    </p>
-                  </div>
-                </div>
-              </motion.div>
-            </Link>
+            <PlatformCard key={platform.id} platform={platform} index={i} t={t} />
           ))}
         </div>
       </div>
     </section>
   );
 }
+
