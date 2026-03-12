@@ -4,10 +4,6 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Check, Loader2, Send } from 'lucide-react';
 
-export function generateStaticParams() {
-  return [{ locale: 'en' }, { locale: 'id' }];
-}
-
 interface FormErrors {
   name?: string;
   email?: string;
