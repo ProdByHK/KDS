@@ -1,6 +1,9 @@
 import { Link } from '../../i18n/navigation';
+import { useTranslations } from 'next-intl';
 
 export default function Footer() {
+  const t = useTranslations('Footer');
+
   return (
     <footer className="bg-deepBlue-900 border-t border-white/10 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -10,12 +13,12 @@ export default function Footer() {
               KING DAVID SERVICE
             </Link>
             <p className="text-gray-400 max-w-sm text-sm leading-relaxed">
-              Elevating corporate standards through an integrated ecosystem of luxury services, logistics, digital innovation, and commodity trading.
+              {t('description')}
             </p>
           </div>
           
           <div>
-            <h4 className="text-white font-semibold mb-4 tracking-wider uppercase text-sm">Ecosystem</h4>
+            <h4 className="text-white font-semibold mb-4 tracking-wider uppercase text-sm">{t('ecosystem')}</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li><Link href="/ecosystem/koonang" className="hover:text-gold-500 transition-colors">Koonang Digital</Link></li>
               <li><Link href="/ecosystem/carry" className="hover:text-gold-500 transition-colors">Carry Logistics</Link></li>
@@ -25,23 +28,23 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="text-white font-semibold mb-4 tracking-wider uppercase text-sm">Company</h4>
+            <h4 className="text-white font-semibold mb-4 tracking-wider uppercase text-sm">{t('company')}</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><Link href="/about" className="hover:text-gold-500 transition-colors">About Us</Link></li>
-              <li><Link href="/insights" className="hover:text-gold-500 transition-colors">Insights & News</Link></li>
-              <li><Link href="/partnership" className="hover:text-gold-500 transition-colors">Partner With Us</Link></li>
-              <li><Link href="/contact" className="hover:text-gold-500 transition-colors">Contact</Link></li>
+              <li><Link href="/about" className="hover:text-gold-500 transition-colors">{t('links.about')}</Link></li>
+              <li><Link href="/insights" className="hover:text-gold-500 transition-colors">{t('links.insights')}</Link></li>
+              <li><Link href="/partnership" className="hover:text-gold-500 transition-colors">{t('links.partnership')}</Link></li>
+              <li><Link href="/contact" className="hover:text-gold-500 transition-colors">{t('links.contact')}</Link></li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-xs">
-            &copy; {new Date().getFullYear()} King David Service. All rights reserved.
+            &copy; {new Date().getFullYear()} King David Service. {t('rights')}
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0 text-gray-500 text-xs text-center">
-            <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
+            <Link href="/privacy" className="hover:text-white transition-colors">{t('links.privacy')}</Link>
+            <Link href="/terms" className="hover:text-white transition-colors">{t('links.terms')}</Link>
           </div>
         </div>
       </div>

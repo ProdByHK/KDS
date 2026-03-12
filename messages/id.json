@@ -180,5 +180,19 @@
       "platform": "Platform yang Diminati",
       "submit": "Kirim Pertanyaan"
     }
+  },
+  "Footer": {
+    "description": "Meningkatkan standar perusahaan melalui ekosistem terintegrasi dari layanan mewah, logistik, inovasi digital, dan perdagangan komoditas.",
+    "ecosystem": "Ekosistem",
+    "company": "Perusahaan",
+    "links": {
+      "about": "Tentang Kami",
+      "insights": "Wawasan & Berita",
+      "partnership": "Bermitra Dengan Kami",
+      "contact": "Kontak",
+      "privacy": "Kebijakan Privasi",
+      "terms": "Ketentuan Layanan"
+    },
+    "rights": "Seluruh hak cipta dilindungi."
   }
 }

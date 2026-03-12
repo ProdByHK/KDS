@@ -59,14 +59,14 @@ export default function HeroSection() {
         </motion.div>
       </div>
 
-      <div className="absolute bottom-4 sm:bottom-10 w-full flex justify-center pointer-events-none">
+      <div className="absolute bottom-6 sm:bottom-12 w-full flex justify-center pointer-events-none">
         <motion.div 
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
           className="text-gray-500 flex flex-col items-center"
         >
           <span className="text-[10px] sm:text-xs tracking-widest uppercase mb-2">{t('discover')}</span>
-          <div className="w-[1px] h-8 sm:h-12 bg-gradient-to-b from-gray-500 to-transparent" />
+          <div className="w-[1px] h-6 sm:h-12 bg-gradient-to-b from-gray-500 to-transparent" />
         </motion.div>
       </div>
     </section>

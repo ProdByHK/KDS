@@ -180,5 +180,19 @@
       "platform": "Platform of Interest",
       "submit": "Submit Inquiry"
     }
+  },
+  "Footer": {
+    "description": "Elevating corporate standards through an integrated ecosystem of luxury services, logistics, digital innovation, and commodity trading.",
+    "ecosystem": "Ecosystem",
+    "company": "Company",
+    "links": {
+      "about": "About Us",
+      "insights": "Insights & News",
+      "partnership": "Partner With Us",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "rights": "All rights reserved."
   }
 }
