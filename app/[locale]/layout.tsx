@@ -2,7 +2,6 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, unstable_setRequestLocale } from 'next-intl/server';
 import Navbar from '../../src/components/layout/Navbar';
 import Footer from '../../src/components/layout/Footer';
-import '../globals.css';
 
 export function generateStaticParams() {
   return [{ locale: 'en' }, { locale: 'id' }];
@@ -19,16 +18,15 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
-      <body className="antialiased font-sans bg-deepBlue-900 text-white min-h-screen flex flex-col">
-        <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          <main className="flex-grow pt-20">
-            {children}
-          </main>
-          <Footer />
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider messages={messages}>
+      <div className="flex flex-col min-h-screen">
+        <Navbar />
+        <main className="flex-grow pt-20">
+          {children}
+        </main>
+        <Footer />
+      </div>
+    </NextIntlClientProvider>
   );
 }
+
