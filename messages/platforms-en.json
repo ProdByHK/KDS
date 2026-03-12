@@ -1,0 +1,149 @@
+{
+  "koonang": {
+    "title": "Welcome to KOONANG",
+    "description": "Digital Integration Hub providing ERP, CRM, POS, mobile apps, and AI automation.",
+    "servicesTitle": "Featured Services",
+    "services": [
+      {
+         "name": "Enterprise Systems",
+         "description": "Custom ERP & CRM solutions streamlining massive corporate operations."
+      },
+      {
+         "name": "AI Automation",
+         "description": "Intelligent workflows reducing manual overhead and amplifying productivity."
+      },
+      {
+         "name": "Mobile & Web",
+         "description": "Premium application development for consumer and internal ecosystems."
+      }
+    ],
+    "ctaTitle": "Start Your Digital Transformation",
+    "ctaDesc": "Consult with our experts for your next integration."
+  },
+  "carry": {
+    "title": "Welcome to CARRY",
+    "description": "Multi-modal logistics aggregator handling courier, cargo, sea, and air freight.",
+    "servicesTitle": "Logistics Services",
+    "services": [
+      {
+         "name": "Real-time Tracking",
+         "description": "Global shipment visibility and milestone monitoring."
+      },
+      {
+         "name": "Multi-modal Freight",
+         "description": "Seamless transition between sea, air, and land transport."
+      },
+      {
+         "name": "Dynamic Rate Calculator",
+         "description": "Up-to-the-minute pricing comparisons across carriers."
+      }
+    ],
+    "ctaTitle": "Optimize Your Supply Chain",
+    "ctaDesc": "Get a customized logistics quote today."
+  },
+  "gold-lion": {
+     "title": "Welcome to GOLD LION",
+     "description": "Premium transportation locking luxury vehicles and corporate VIP rides.",
+     "servicesTitle": "Premium Fleet",
+     "services": [
+      {
+         "name": "Luxury Sedans",
+         "description": "Executive cars for city transfers and VIP transport."
+      },
+      {
+         "name": "Corporate Vans",
+         "description": "Spacious and comfortable travel for corporate teams."
+      },
+      {
+         "name": "Fixed Pricing",
+         "description": "Transparent corporate accounts and billing."
+      }
+     ],
+     "ctaTitle": "Book Your Executive Ride",
+     "ctaDesc": "Experience comfort and reliability with Gold Lion."
+  },
+  "pasarx": {
+     "title": "Welcome to PASARX",
+     "description": "Global commodity trading B2B marketplace for coffee, spices, and agriculture.",
+     "servicesTitle": "Trade Features",
+     "services": [
+      {
+         "name": "Verified Sellers",
+         "description": "Strict vetting process for global market access."
+      },
+      {
+         "name": "Global Reach",
+         "description": "International buyers across 50+ countries."
+      },
+      {
+         "name": "Secure Escrow",
+         "description": "Protected B2B financial transactions and compliance."
+      }
+     ],
+     "ctaTitle": "Join the Global Trading Network",
+     "ctaDesc": "Access premium commodities securely."
+  },
+  "gold-miles": {
+     "title": "Welcome to GOLD MILES",
+     "description": "Premium corporate travel, elite events planning, and immigration assistance.",
+     "servicesTitle": "Travel & Concierge",
+     "services": [
+      {
+         "name": "Corporate Travel",
+         "description": "End-to-end management of executive business trips."
+      },
+      {
+         "name": "Elite Events",
+         "description": "Curated corporate offsites and premium gatherings."
+      },
+      {
+         "name": "Immigration Aid",
+         "description": "Processing and securing global travel documents."
+      }
+     ],
+     "ctaTitle": "Plan Your Corporate Journey",
+     "ctaDesc": "Consult with our premium travel specialists."
+  },
+  "creathinks": {
+     "title": "Welcome to CREATHINKS",
+     "description": "Digital marketing, branding, and creative agency services.",
+     "servicesTitle": "Creative Services",
+     "services": [
+      {
+         "name": "Brand Strategy",
+         "description": "Comprehensive identity and positioning architectures."
+      },
+      {
+         "name": "Content Production",
+         "description": "High-fidelity video and photography for corporate marketing."
+      },
+      {
+         "name": "Performance Marketing",
+         "description": "Data-driven ad campaigns focused on ROI."
+      }
+     ],
+     "ctaTitle": "Elevate Your Brand Profile",
+     "ctaDesc": "Review our creative portfolio and case studies."
+  },
+  "tala-bhojana": {
+     "title": "Welcome to TALA BHOJANA",
+     "description": "Premium food and beverage catering aggregator for corporate dining.",
+     "servicesTitle": "Catering Solutions",
+     "services": [
+       {
+         "name": "Event Catering",
+         "description": "Full-service F&B management for large scale corporate events."
+       },
+       {
+         "name": "Corporate Lunches",
+         "description": "Daily premium meal deliveries tailored to executive teams."
+       },
+       {
+         "name": "Menu Customization",
+         "description": "Bespoke culinary experiences shaped by global chefs."
+       }
+     ],
+     "ctaTitle": "Curate Your Next Event",
+     "ctaDesc": "Explore our premium menu options."
+  }
+}

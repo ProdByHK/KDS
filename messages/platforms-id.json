@@ -1,0 +1,149 @@
+{
+  "koonang": {
+    "title": "Selamat datang di KOONANG",
+    "description": "Pusat Integrasi Digital yang menyediakan ERP, CRM, POS, aplikasi seluler, dan otomatisasi AI.",
+    "servicesTitle": "Layanan Unggulan",
+    "services": [
+      {
+         "name": "Sistem Perusahaan",
+         "description": "Solusi ERP & CRM kustom untuk menyederhanakan operasi perusahaan skala besar."
+      },
+      {
+         "name": "Otomatisasi AI",
+         "description": "Alur kerja cerdas yang mengurangi proses manual dan meningkatkan produktivitas."
+      },
+      {
+         "name": "Seluler & Web",
+         "description": "Pengembangan aplikasi premium untuk ekosistem konsumen dan internal."
+      }
+    ],
+    "ctaTitle": "Mulai Transformasi Digital Anda",
+    "ctaDesc": "Konsultasikan integrasi Anda berikutnya dengan para ahli kami."
+  },
+  "carry": {
+    "title": "Selamat datang di CARRY",
+    "description": "Agregator logistik multimoda yang menangani angkutan kurir, kargo, laut, dan udara.",
+    "servicesTitle": "Layanan Logistik",
+    "services": [
+      {
+         "name": "Pelacakan Waktu Nyata",
+         "description": "Visibilitas pengiriman global dan pemantauan pencapaian."
+      },
+      {
+         "name": "Angkutan Multimoda",
+         "description": "Transisi mulus antara transportasi laut, udara, dan darat."
+      },
+      {
+         "name": "Kalkulator Tarif Dinamis",
+         "description": "Perbandingan harga terkini di berbagai operator."
+      }
+    ],
+    "ctaTitle": "Optimalkan Rantai Pasokan Anda",
+    "ctaDesc": "Dapatkan penawaran logistik sesuai kebutuhan hari ini."
+  },
+  "gold-lion": {
+     "title": "Selamat datang di GOLD LION",
+     "description": "Transportasi premium yang mengunci kendaraan mewah dan tumpangan VIP perusahaan.",
+     "servicesTitle": "Armada Premium",
+     "services": [
+      {
+         "name": "Sedan Mewah",
+         "description": "Mobil eksekutif untuk transfer kota dan transportasi VIP."
+      },
+      {
+         "name": "Van Perusahaan",
+         "description": "Perjalanan yang luas dan nyaman untuk tim perusahaan."
+      },
+      {
+         "name": "Harga Tetap",
+         "description": "Akun perusahaan dan penagihan yang transparan."
+      }
+     ],
+     "ctaTitle": "Pesan Kendaraan Eksekutif Anda",
+     "ctaDesc": "Rasakan kenyamanan dan keandalan bersama Gold Lion."
+  },
+  "pasarx": {
+     "title": "Selamat datang di PASARX",
+     "description": "Pasar B2B perdagangan komoditas global untuk kopi, rempah-rempah, dan pertanian.",
+     "servicesTitle": "Fitur Perdagangan",
+     "services": [
+      {
+         "name": "Penjual Terverifikasi",
+         "description": "Proses pemeriksaan ketat untuk akses pasar global."
+      },
+      {
+         "name": "Jangkauan Global",
+         "description": "Pembeli internasional di lebih dari 50 negara."
+      },
+      {
+         "name": "Eskro Aman",
+         "description": "Transaksi keuangan B2B yang dilindungi dan kepatuhan."
+      }
+     ],
+     "ctaTitle": "Bergabung dengan Jaringan Perdagangan Global",
+     "ctaDesc": "Akses komoditas premium dengan aman."
+  },
+  "gold-miles": {
+     "title": "Selamat datang di GOLD MILES",
+     "description": "Perjalanan perusahaan premium, perencanaan acara elit, dan bantuan imigrasi.",
+     "servicesTitle": "Perjalanan & Konsier",
+     "services": [
+      {
+         "name": "Perjalanan Perusahaan",
+         "description": "Manajemen menyeluruh dari perjalanan bisnis eksekutif."
+      },
+      {
+         "name": "Acara Elit",
+         "description": "Kunjungan perusahaan dan pertemuan premium yang dikurasi."
+      },
+      {
+         "name": "Bantuan Imigrasi",
+         "description": "Memproses dan mengamankan dokumen perjalanan global."
+      }
+     ],
+     "ctaTitle": "Rencanakan Perjalanan Perusahaan Anda",
+     "ctaDesc": "Konsultasikan dengan spesialis perjalanan premium kami."
+  },
+  "creathinks": {
+     "title": "Selamat datang di CREATHINKS",
+     "description": "Layanan agensi pemasaran digital, branding, dan kreatif.",
+     "servicesTitle": "Layanan Kreatif",
+     "services": [
+      {
+         "name": "Strategi Merek",
+         "description": "Identitas komprehensif dan arsitektur posisi."
+      },
+      {
+         "name": "Produksi Konten",
+         "description": "Video dan fotografi fidelitas tinggi untuk pemasaran perusahaan."
+      },
+      {
+         "name": "Pemasaran Performa",
+         "description": "Kampanye iklan berbasis data yang berfokus pada ROI."
+      }
+     ],
+     "ctaTitle": "Tingkatkan Profil Merek Anda",
+     "ctaDesc": "Tinjau portofolio kreatif dan studi kasus kami."
+  },
+  "tala-bhojana": {
+     "title": "Selamat datang di TALA BHOJANA",
+     "description": "Agregator katering makanan dan minuman premium untuk bersantap di perusahaan.",
+     "servicesTitle": "Solusi Katering",
+     "services": [
+       {
+         "name": "Katering Acara",
+         "description": "Manajemen F&B layanan penuh untuk acara perusahaan skala besar."
+       },
+       {
+         "name": "Makan Siang Perusahaan",
+         "description": "Pengiriman makanan premium harian yang disesuaikan untuk tim eksekutif."
+       },
+       {
+         "name": "Kustomisasi Menu",
+         "description": "Pengalaman kuliner yang dibuat khusus oleh koki global."
+       }
+     ],
+     "ctaTitle": "Kurasi Acara Anda Berikutnya",
+     "ctaDesc": "Jelajahi opsi menu premium kami."
+  }
+}
