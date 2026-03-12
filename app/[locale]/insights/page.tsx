@@ -2,7 +2,10 @@ export function generateStaticParams() {
   return [{ locale: 'en' }, { locale: 'id' }];
 }
 
-export default function InsightsPage() {
+import { unstable_setRequestLocale } from "next-intl/server";
+
+export default function InsightsPage({ params: { locale } }: { params: { locale: string } }) {
+  unstable_setRequestLocale(locale);
   return (
     <div className="min-h-screen bg-deepBlue-900 pt-32 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

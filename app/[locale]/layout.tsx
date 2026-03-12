@@ -1,8 +1,12 @@
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, unstable_setRequestLocale } from 'next-intl/server';
 import Navbar from '../../src/components/layout/Navbar';
 import Footer from '../../src/components/layout/Footer';
 import '../globals.css';
+
+export function generateStaticParams() {
+  return [{ locale: 'en' }, { locale: 'id' }];
+}
 
 export default async function LocaleLayout({
   children,
@@ -11,6 +15,7 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  unstable_setRequestLocale(locale);
   const messages = await getMessages();
 
   return (

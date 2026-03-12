@@ -2,7 +2,10 @@ export function generateStaticParams() {
   return [{ locale: 'en' }, { locale: 'id' }];
 }
 
-export default function PartnershipPage() {
+import { unstable_setRequestLocale } from "next-intl/server";
+
+export default function PartnershipPage({ params: { locale } }: { params: { locale: string } }) {
+  unstable_setRequestLocale(locale);
   return (
     <div className="min-h-screen bg-deepBlue-900 pt-32 pb-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 animate-in fade-in slide-in-from-bottom-8 duration-700">

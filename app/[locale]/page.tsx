@@ -13,7 +13,10 @@ import MarketInsights from '../../src/components/home/MarketInsights';
 import InvestorRelations from '../../src/components/home/InvestorRelations';
 import CallToAction from '../../src/components/home/CallToAction';
 
-export default function Home() {
+import { unstable_setRequestLocale } from "next-intl/server";
+
+export default function Home({ params: { locale } }: { params: { locale: string } }) {
+  unstable_setRequestLocale(locale);
   return (
     <div className="flex flex-col min-h-screen bg-deepBlue-900 overflow-hidden">
       <HeroSection />

@@ -1,0 +1,1785 @@
+
+> kds1@1.0.0 build
+> next build
+
+  ▲ Next.js 14.2.35
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/29) ...
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+
+Error occurred prerendering page "/id/contact". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+
+Error occurred prerendering page "/en/contact". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+
+Error occurred prerendering page "/id/partnership". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+
+Error occurred prerendering page "/en/partnership". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+   Generating static pages (7/29) 
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+
+Error occurred prerendering page "/en/ecosystem". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055) {
+  digest: '2792225450'
+}
+
+Error occurred prerendering page "/id/ecosystem". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at h (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:73703)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:76956
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:74492
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+    at e (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:138055)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+
+Error occurred prerendering page "/en/insights". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+
+Error occurred prerendering page "/en". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+
+Error occurred prerendering page "/id/insights". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+
+Error occurred prerendering page "/id". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+
+Error occurred prerendering page "/en/ecosystem/carry". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+   Generating static pages (14/29) 
+
+Error occurred prerendering page "/en/ecosystem/koonang". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+
+Error occurred prerendering page "/en/ecosystem/gold-lion". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+
+Error occurred prerendering page "/en/ecosystem/pasarx". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+
+Error occurred prerendering page "/en/ecosystem/gold-miles". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+
+Error occurred prerendering page "/en/ecosystem/creathinks". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+
+Error occurred prerendering page "/en/ecosystem/tala-bhojana". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+
+Error occurred prerendering page "/id/ecosystem/koonang". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+
+Error occurred prerendering page "/id/ecosystem/carry". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+   Generating static pages (21/29) 
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+
+Error occurred prerendering page "/id/ecosystem/pasarx". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+
+Error occurred prerendering page "/id/ecosystem/gold-lion". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+
+Error occurred prerendering page "/id/ecosystem/gold-miles". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+
+Error occurred prerendering page "/id/ecosystem/creathinks". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '3022125387'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '1762055652'
+}
+
+Error occurred prerendering page "/en/about". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/about/page.js:1:7671)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808) {
+  digest: '4084287567'
+}
+
+Error occurred prerendering page "/id/about". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at x (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/contact/page.js:1:8889)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+
+Error occurred prerendering page "/id/ecosystem/tala-bhojana". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Couldn't find next-intl config file. Please follow the instructions at https://next-intl.dev/docs/getting-started/app-router
+    at t.Z (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81686)
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:80465
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81253
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at /home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81589
+    at /home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:186465
+    at a (/home/napoleon/AntiGravity/kds1/.next/server/chunks/727.js:1:81623)
+    at m (/home/napoleon/AntiGravity/kds1/.next/server/app/[locale]/ecosystem/[platform]/page.js:1:8750)
+    at em (/home/napoleon/AntiGravity/kds1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:134808)
+ ✓ Generating static pages (29/29)
+
+> Export encountered errors on following paths:
+	/[locale]/about/page: /en/about
+	/[locale]/about/page: /id/about
+	/[locale]/contact/page: /en/contact
+	/[locale]/contact/page: /id/contact
+	/[locale]/ecosystem/[platform]/page: /en/ecosystem/carry
+	/[locale]/ecosystem/[platform]/page: /en/ecosystem/creathinks
+	/[locale]/ecosystem/[platform]/page: /en/ecosystem/gold-lion
+	/[locale]/ecosystem/[platform]/page: /en/ecosystem/gold-miles
+	/[locale]/ecosystem/[platform]/page: /en/ecosystem/koonang
+	/[locale]/ecosystem/[platform]/page: /en/ecosystem/pasarx
+	/[locale]/ecosystem/[platform]/page: /en/ecosystem/tala-bhojana
+	/[locale]/ecosystem/[platform]/page: /id/ecosystem/carry
+	/[locale]/ecosystem/[platform]/page: /id/ecosystem/creathinks
+	/[locale]/ecosystem/[platform]/page: /id/ecosystem/gold-lion
+	/[locale]/ecosystem/[platform]/page: /id/ecosystem/gold-miles
+	/[locale]/ecosystem/[platform]/page: /id/ecosystem/koonang
+	/[locale]/ecosystem/[platform]/page: /id/ecosystem/pasarx
+	/[locale]/ecosystem/[platform]/page: /id/ecosystem/tala-bhojana
+	/[locale]/ecosystem/page: /en/ecosystem
+	/[locale]/ecosystem/page: /id/ecosystem
+	/[locale]/insights/page: /en/insights
+	/[locale]/insights/page: /id/insights
+	/[locale]/page: /en
+	/[locale]/page: /id
+	/[locale]/partnership/page: /en/partnership
+	/[locale]/partnership/page: /id/partnership
