@@ -5,6 +5,18 @@ import { useTranslations } from 'next-intl';
 import { Platform } from '../../lib/mock-data';
 import { useEffect, useState } from 'react';
 
+const platformThemes: Record<string, { image: string; accent: string }> = {
+  koonang:      { image: 'https://images.unsplash.com/photo-1655720033654-a4239dd42d10?q=80&w=2000&auto=format&fit=crop', accent: 'bg-blue-500/15' },
+  carry:        { image: 'https://images.unsplash.com/photo-1586528116311-ad8ed7c80a30?q=80&w=2000&auto=format&fit=crop', accent: 'bg-indigo-500/15' },
+  'gold-lion':  { image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2000&auto=format&fit=crop', accent: 'bg-gold-500/10' },
+  pasarx:       { image: 'https://images.unsplash.com/photo-1461360370896-922624d12aa1?q=80&w=2000&auto=format&fit=crop', accent: 'bg-amber-500/15' },
+  'gold-miles': { image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2000&auto=format&fit=crop', accent: 'bg-gold-500/10' },
+  creathinks:   { image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2000&auto=format&fit=crop', accent: 'bg-purple-500/15' },
+  'tala-bhojana': { image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2000&auto=format&fit=crop', accent: 'bg-orange-500/15' },
+};
+
+const defaultTheme = { image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=2000&auto=format&fit=crop', accent: 'bg-blue-500/10' };
+
 interface PlatformHeroProps {
   platform: Platform;
 }
@@ -12,6 +24,7 @@ interface PlatformHeroProps {
 export default function PlatformHero({ platform }: PlatformHeroProps) {
   const tp = useTranslations('Platforms');
   const tPlatform = useTranslations(platform.slug);
+  const theme = platformThemes[platform.slug] ?? defaultTheme;
   
   // Parallax on scroll
   const { scrollY } = useScroll();
@@ -76,8 +89,8 @@ export default function PlatformHero({ platform }: PlatformHeroProps) {
       <div className="absolute inset-0 z-0 bg-deepBlue-900 overflow-hidden">
         {/* Background Image Overlay */}
         <div 
-          className="absolute inset-0 opacity-20 bg-cover bg-center mix-blend-screen transition-opacity duration-1000"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1586528116311-ad8ed7c80a30?q=80&w=2000&auto=format&fit=crop')" }}
+          className="absolute inset-0 opacity-25 bg-cover bg-center mix-blend-screen transition-opacity duration-1000"
+          style={{ backgroundImage: `url('${theme.image}')` }}
         />
         {/* Animated Background Layers */}
         <motion.div 
@@ -86,7 +99,7 @@ export default function PlatformHero({ platform }: PlatformHeroProps) {
             x: prefersReducedMotion ? 0 : translateX1,
             translateY: prefersReducedMotion ? 0 : translateY1,
           }}
-          className="absolute top-1/4 -left-1/4 w-[600px] h-[600px] bg-gold-500/10 rounded-full blur-3xl opacity-50 mix-blend-screen"
+          className={`absolute top-1/4 -left-1/4 w-[600px] h-[600px] ${theme.accent} rounded-full blur-3xl opacity-50 mix-blend-screen`}
         />
         <motion.div 
           style={{ 

@@ -1,9 +1,21 @@
 'use client';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslations } from 'next-intl';
+import { useState } from 'react';
+import { useLiveData } from '../../hooks/useLiveData';
 
 export default function CoverageMap() {
   const t = useTranslations('Coverage');
+  const { metrics, formatters } = useLiveData();
+  const [hoveredNode, setHoveredNode] = useState<number | null>(null);
+
+  const nodes = [
+    { id: 1, top: '50%', left: '33%', color: 'bg-gold-500', city: 'Jakarta Hub', data: `Vol: ${formatters.formatCompactNumber(metrics.transactions)}` },
+    { id: 2, top: '33%', left: '75%', color: 'bg-blue-500', city: 'Singapore Node', data: `Latency: 45ms` },
+    { id: 3, top: '25%', left: '48%', color: 'bg-green-500', city: 'Euro Freight', data: `Status: Optimal` },
+    { id: 4, top: '65%', left: '20%', color: 'bg-gold-500', city: 'LatAm Route', data: `Vol: 4.2M Tons` },
+    { id: 5, top: '45%', left: '60%', color: 'bg-purple-500', city: 'Middle East', data: `Secure: 100%` }
+  ];
 
   return (
     <section className="py-32 bg-black relative">
@@ -19,14 +31,34 @@ export default function CoverageMap() {
             {/* Interactive map placeholder */}
             <div className="absolute inset-0 opacity-20 bg-[url('https://upload.wikimedia.org/wikipedia/commons/e/ec/World_map_blank_without_borders.svg')] bg-no-repeat bg-center bg-contain mix-blend-screen" />
             
-            {/* Ping points */}
-            <div className="absolute top-1/2 left-1/3 w-3 h-3 bg-gold-500 rounded-full animate-ping" />
-            <div className="absolute top-1/2 left-1/3 w-3 h-3 bg-gold-500 rounded-full" />
-            
-            <div className="absolute top-1/3 right-1/4 w-2 h-2 bg-blue-500 rounded-full animate-ping delay-1000" />
-            <div className="absolute top-1/3 right-1/4 w-2 h-2 bg-blue-500 rounded-full" />
-
-            <div className="relative text-gray-500 font-mono text-sm">{t('map')}</div>
+            {/* Interactive Nodes */}
+            {nodes.map(node => (
+              <div 
+                key={node.id}
+                className="absolute w-4 h-4 cursor-pointer"
+                style={{ top: node.top, left: node.left }}
+                onMouseEnter={() => setHoveredNode(node.id)}
+                onMouseLeave={() => setHoveredNode(null)}
+              >
+                <div className={`absolute inset-0 ${node.color} rounded-full animate-ping opacity-75`} />
+                <div className={`absolute inset-1 ${node.color} rounded-full`} />
+                
+                <AnimatePresence>
+                  {hoveredNode === node.id && (
+                    <motion.div 
+                      initial={{ opacity: 0, y: 10, scale: 0.9 }}
+                      animate={{ opacity: 1, y: 0, scale: 1 }}
+                      exit={{ opacity: 0, y: 5, scale: 0.95 }}
+                      className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 bg-[#111827] border border-[#1f2937] p-3 rounded-lg shadow-xl shadow-black/50 z-20 whitespace-nowrap"
+                    >
+                      <div className="absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-3 h-3 bg-[#111827] border-b border-r border-[#1f2937] rotate-45" />
+                      <div className="text-white font-serif text-sm relative z-10">{node.city}</div>
+                      <div className="text-gold-500 font-mono text-xs mt-1 relative z-10">{node.data}</div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+            ))}
           </motion.div>
 
           <motion.div

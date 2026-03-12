@@ -1,6 +1,7 @@
 'use client';
 
 import { Activity, Users, Box, TrendingUp, Ship, Zap, ArrowUpRight, ArrowDownRight, Server, Terminal, Shield } from 'lucide-react';
+import { useLiveData } from '../../../hooks/useLiveData';
 
 const platforms = [
   { name: 'Koonang', metric: '1,245', label: 'Active Sellers', status: 'optimal', icon: Users },
@@ -20,6 +21,8 @@ const mockClients = [
 ];
 
 export default function AdminDashboard() {
+  const { metrics, formatters } = useLiveData();
+
   return (
     <div className="space-y-6">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
@@ -46,7 +49,9 @@ export default function AdminDashboard() {
               <ArrowUpRight className="w-3 h-3 mr-1" /> 12.5%
             </span>
           </div>
-          <h3 className="text-3xl font-bold text-white mb-1">245.8k</h3>
+          <h3 className="text-3xl font-bold text-white mb-1 transition-all">
+            {formatters.formatCompactNumber(metrics.transactions)}
+          </h3>
           <p className="text-sm text-slate-400">Total System Transactions</p>
         </div>
         
@@ -57,7 +62,9 @@ export default function AdminDashboard() {
               <ArrowUpRight className="w-3 h-3 mr-1" /> 4.2%
             </span>
           </div>
-          <h3 className="text-3xl font-bold text-white mb-1">12,490</h3>
+          <h3 className="text-3xl font-bold text-white mb-1 transition-all">
+            {formatters.formatNumberLocale(metrics.users)}
+          </h3>
           <p className="text-sm text-slate-400">Active Enterprise Users</p>
         </div>
         
@@ -68,7 +75,9 @@ export default function AdminDashboard() {
               <ArrowDownRight className="w-3 h-3 mr-1" /> 1.8%
             </span>
           </div>
-          <h3 className="text-3xl font-bold text-white mb-1">$84.2M</h3>
+          <h3 className="text-3xl font-bold text-white mb-1 transition-all">
+            {formatters.formatCurrency(metrics.volume)}
+          </h3>
           <p className="text-sm text-slate-400">Commodity Volume (24h)</p>
         </div>
         
@@ -79,7 +88,7 @@ export default function AdminDashboard() {
               Stable
             </span>
           </div>
-          <h3 className="text-3xl font-bold text-white mb-1">99.99%</h3>
+          <h3 className="text-3xl font-bold text-white mb-1">{metrics.uptime}%</h3>
           <p className="text-sm text-slate-400">System Uptime</p>
         </div>
       </div>

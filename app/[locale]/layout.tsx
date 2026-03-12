@@ -3,6 +3,7 @@ import { getMessages, unstable_setRequestLocale } from 'next-intl/server';
 import Navbar from '../../src/components/layout/Navbar';
 import Footer from '../../src/components/layout/Footer';
 import SentinelAI from '../../src/components/layout/SentinelAI';
+import SentinelChatWidget from '../../src/components/layout/SentinelChatWidget';
 
 export function generateStaticParams() {
   return [{ locale: 'en' }, { locale: 'id' }];
@@ -27,6 +28,7 @@ export default async function LocaleLayout({
         </main>
         <Footer />
         <SentinelAI />
+        <SentinelChatWidget />
       </div>
     </NextIntlClientProvider>
   );

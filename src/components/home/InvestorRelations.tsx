@@ -1,9 +1,21 @@
 'use client';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslations } from 'next-intl';
+import { useState } from 'react';
+import { Loader2, Check } from 'lucide-react';
 
 export default function InvestorRelations() {
   const t = useTranslations('Investors');
+  const [formData, setFormData] = useState({ name: '', institution: '', email: '' });
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'loading' | 'success'>('idle');
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!formData.name || !formData.email) return;
+    setSubmitStatus('loading');
+    await new Promise(r => setTimeout(r, 1400));
+    setSubmitStatus('success');
+  };
 
   return (
     <section className="py-32 bg-black relative overflow-hidden">
@@ -50,14 +62,57 @@ export default function InvestorRelations() {
             className="bg-white/5 border border-white/10 p-10 rounded-2xl backdrop-blur-sm"
           >
             <h3 className="text-2xl font-serif text-white mb-6">{t('form.title')}</h3>
-            <form className="space-y-4">
-              <input type="text" placeholder={t('form.name')} className="w-full bg-deepBlue-900/50 border border-white/20 rounded p-4 text-white focus:outline-none focus:border-gold-500 transition-colors" />
-              <input type="text" placeholder={t('form.institution')} className="w-full bg-deepBlue-900/50 border border-white/20 rounded p-4 text-white focus:outline-none focus:border-gold-500 transition-colors" />
-              <input type="email" placeholder={t('form.email')} className="w-full bg-deepBlue-900/50 border border-white/20 rounded p-4 text-white focus:outline-none focus:border-gold-500 transition-colors" />
-              <button type="button" className="w-full bg-gold-600 hover:bg-gold-500 text-deepBlue-900 font-bold py-4 rounded transition-colors uppercase tracking-wider text-sm mt-4">
-                {t('form.submit')}
-              </button>
-            </form>
+            <AnimatePresence mode="wait">
+              {submitStatus === 'success' ? (
+                <motion.div
+                  key="success"
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  className="flex flex-col items-center py-10 text-center"
+                >
+                  <div className="w-16 h-16 rounded-full bg-green-500/10 border border-green-500/30 flex items-center justify-center mb-4">
+                    <Check className="w-8 h-8 text-green-400" />
+                  </div>
+                  <p className="text-white font-serif text-xl mb-2">Request Received</p>
+                  <p className="text-gray-400 text-sm">Our IR team will reach out within 48 hours.</p>
+                </motion.div>
+              ) : (
+                <motion.form key="form" onSubmit={handleSubmit} className="space-y-4">
+                  <input
+                    type="text"
+                    required
+                    placeholder={t('form.name')}
+                    value={formData.name}
+                    onChange={e => setFormData({ ...formData, name: e.target.value })}
+                    className="w-full bg-deepBlue-900/50 border border-white/20 rounded p-4 text-white focus:outline-none focus:border-gold-500 transition-colors"
+                  />
+                  <input
+                    type="text"
+                    placeholder={t('form.institution')}
+                    value={formData.institution}
+                    onChange={e => setFormData({ ...formData, institution: e.target.value })}
+                    className="w-full bg-deepBlue-900/50 border border-white/20 rounded p-4 text-white focus:outline-none focus:border-gold-500 transition-colors"
+                  />
+                  <input
+                    type="email"
+                    required
+                    placeholder={t('form.email')}
+                    value={formData.email}
+                    onChange={e => setFormData({ ...formData, email: e.target.value })}
+                    className="w-full bg-deepBlue-900/50 border border-white/20 rounded p-4 text-white focus:outline-none focus:border-gold-500 transition-colors"
+                  />
+                  <button
+                    type="submit"
+                    disabled={submitStatus === 'loading'}
+                    className="w-full bg-gold-600 hover:bg-gold-500 text-deepBlue-900 font-bold py-4 rounded transition-colors uppercase tracking-wider text-sm mt-4 flex items-center justify-center gap-2 disabled:opacity-80"
+                  >
+                    {submitStatus === 'loading' ? (
+                      <><Loader2 className="w-4 h-4 animate-spin" /> Processing...</>
+                    ) : t('form.submit')}
+                  </button>
+                </motion.form>
+              )}
+            </AnimatePresence>
           </motion.div>
         </div>
       </div>

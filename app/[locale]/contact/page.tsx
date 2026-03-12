@@ -1,45 +1,138 @@
+'use client';
+
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Check, Loader2, Send } from 'lucide-react';
+
 export function generateStaticParams() {
   return [{ locale: 'en' }, { locale: 'id' }];
 }
 
-import { unstable_setRequestLocale } from "next-intl/server";
+interface FormErrors {
+  name?: string;
+  email?: string;
+  message?: string;
+}
 
-export default function ContactPage({ params: { locale } }: { params: { locale: string } }) {
-  unstable_setRequestLocale(locale);
+export default function ContactPage() {
+  const [form, setForm] = useState({ name: '', email: '', message: '' });
+  const [errors, setErrors] = useState<FormErrors>({});
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success'>('idle');
+
+  const validate = () => {
+    const newErrors: FormErrors = {};
+    if (!form.name.trim()) newErrors.name = 'Name is required.';
+    if (!form.email.trim() || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(form.email)) newErrors.email = 'Valid email is required.';
+    if (!form.message.trim() || form.message.length < 10) newErrors.message = 'Message must be at least 10 characters.';
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!validate()) return;
+    setStatus('loading');
+    await new Promise(r => setTimeout(r, 1600));
+    setStatus('success');
+  };
+
   return (
     <div className="min-h-screen relative pt-32 pb-16 bg-deepBlue-900">
-      <div 
+      <div
         className="absolute inset-0 opacity-20 bg-cover bg-center mix-blend-screen pointer-events-none"
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=2000&auto=format&fit=crop')" }}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-deepBlue-900 via-deepBlue-900/80 to-transparent pointer-events-none" />
-      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 animate-in fade-in slide-in-from-bottom-8 duration-700">
-        <h1 className="text-5xl md:text-7xl font-serif text-white mb-8 text-center">Contact Us</h1>
-        <p className="text-xl text-gray-300 leading-relaxed text-center mb-16">
-          Reach out to King David Service for general inquiries, support, or direct communication with our executive team.
-        </p>
-        
-        <div className="bg-white/5 border border-white/10 p-8 rounded-2xl">
-          <form className="space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <label className="block text-sm font-medium text-gray-300 mb-2">Name</label>
-                <input type="text" className="w-full bg-deepBlue-900/50 border border-white/20 rounded p-3 text-white focus:outline-none focus:border-gold-500 transition-colors" />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-300 mb-2">Email</label>
-                <input type="email" className="w-full bg-deepBlue-900/50 border border-white/20 rounded p-3 text-white focus:outline-none focus:border-gold-500 transition-colors" />
-              </div>
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-300 mb-2">Message</label>
-              <textarea rows={5} className="w-full bg-deepBlue-900/50 border border-white/20 rounded p-3 text-white focus:outline-none focus:border-gold-500 transition-colors"></textarea>
-            </div>
-            <button type="button" className="w-full bg-white hover:bg-gray-200 text-deepBlue-900 font-bold py-4 rounded transition-colors text-lg tracking-wide">
-              Send Message
-            </button>
-          </form>
-        </div>
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
+          <h1 className="text-5xl md:text-7xl font-serif text-white mb-8 text-center">Contact Us</h1>
+          <p className="text-xl text-gray-300 leading-relaxed text-center mb-16">
+            Reach out to King David Service for general inquiries, support, or direct communication with our executive team.
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.2 }}
+          className="bg-white/5 border border-white/10 p-8 rounded-2xl backdrop-blur-sm"
+        >
+          <AnimatePresence mode="wait">
+            {status === 'success' ? (
+              <motion.div
+                key="success"
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                className="flex flex-col items-center justify-center py-16 text-center"
+              >
+                <div className="w-20 h-20 bg-green-500/10 border border-green-500/30 rounded-full flex items-center justify-center mb-6">
+                  <Check className="w-10 h-10 text-green-400" />
+                </div>
+                <h2 className="text-3xl font-serif text-white mb-3">Message Received</h2>
+                <p className="text-gray-400 mb-8">Our team will respond within 24 business hours.</p>
+                <button
+                  onClick={() => { setForm({ name: '', email: '', message: '' }); setStatus('idle'); }}
+                  className="text-gold-500 hover:text-white transition-colors border-b border-gold-500 hover:border-white pb-1 text-sm uppercase tracking-widest"
+                >
+                  Send Another Message
+                </button>
+              </motion.div>
+            ) : (
+              <motion.form key="form" onSubmit={handleSubmit} className="space-y-6" noValidate>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label className="block text-sm font-medium text-gray-300 mb-2">Full Name</label>
+                    <input
+                      type="text"
+                      value={form.name}
+                      onChange={e => setForm({ ...form, name: e.target.value })}
+                      className={`w-full bg-deepBlue-900/50 border rounded p-3 text-white focus:outline-none focus:border-gold-500 transition-colors ${errors.name ? 'border-red-500/60' : 'border-white/20'}`}
+                      placeholder="David Kingsley"
+                    />
+                    {errors.name && <p className="text-red-400 text-xs mt-1">{errors.name}</p>}
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-300 mb-2">Email Address</label>
+                    <input
+                      type="email"
+                      value={form.email}
+                      onChange={e => setForm({ ...form, email: e.target.value })}
+                      className={`w-full bg-deepBlue-900/50 border rounded p-3 text-white focus:outline-none focus:border-gold-500 transition-colors ${errors.email ? 'border-red-500/60' : 'border-white/20'}`}
+                      placeholder="contact@companyname.com"
+                    />
+                    {errors.email && <p className="text-red-400 text-xs mt-1">{errors.email}</p>}
+                  </div>
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-300 mb-2">Message</label>
+                  <textarea
+                    rows={5}
+                    value={form.message}
+                    onChange={e => setForm({ ...form, message: e.target.value })}
+                    className={`w-full bg-deepBlue-900/50 border rounded p-3 text-white focus:outline-none focus:border-gold-500 transition-colors resize-none ${errors.message ? 'border-red-500/60' : 'border-white/20'}`}
+                    placeholder="Tell us about your business needs..."
+                  />
+                  {errors.message && <p className="text-red-400 text-xs mt-1">{errors.message}</p>}
+                </div>
+                <button
+                  type="submit"
+                  disabled={status === 'loading'}
+                  className="w-full bg-white hover:bg-gray-200 text-deepBlue-900 font-bold py-4 rounded transition-all text-lg tracking-wide flex items-center justify-center gap-3 disabled:opacity-80"
+                >
+                  {status === 'loading' ? (
+                    <>
+                      <Loader2 className="w-5 h-5 animate-spin" />
+                      <span>Sending...</span>
+                    </>
+                  ) : (
+                    <>
+                      <Send className="w-5 h-5" />
+                      <span>Send Message</span>
+                    </>
+                  )}
+                </button>
+              </motion.form>
+            )}
+          </AnimatePresence>
+        </motion.div>
       </div>
     </div>
   );
