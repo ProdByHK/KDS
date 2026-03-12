@@ -1,6 +1,17 @@
 {
-  "Index": {
-    "title": "Layanan King David",
-    "description": "Estetika Teknologi Mewah Korporat"
+  "Navbar": {
+    "about": "Tentang Kami",
+    "ecosystem": "Ekosistem",
+    "insights": "Wawasan",
+    "partnership": "Kemitraan",
+    "contact": "Hubungi Kami"
+  },
+  "Hero": {
+    "welcome": "Selamat Datang di Masa Depan Perusahaan",
+    "title": "Meningkatkan <br /> <span>Standar Perusahaan</span>",
+    "description": "Ekosistem layanan mewah yang terintegrasi, teknologi perusahaan, logistik global, dan perdagangan komoditas yang disesuaikan untuk klien cerdas.",
+    "explore": "Jelajahi Ekosistem",
+    "partner": "Bermitra Dengan Kami",
+    "discover": "Temukan"
   }
 }

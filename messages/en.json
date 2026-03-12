@@ -1,6 +1,17 @@
 {
-  "Index": {
-    "title": "King David Service",
-    "description": "Corporate Luxury Technology Aesthetic"
+  "Navbar": {
+    "about": "About",
+    "ecosystem": "Ecosystem",
+    "insights": "Insights",
+    "partnership": "Partnership",
+    "contact": "Contact Us"
+  },
+  "Hero": {
+    "welcome": "Welcome to the Future of Enterprise",
+    "title": "Elevating <br /> <span>Corporate Standards</span>",
+    "description": "An integrated ecosystem of luxury services, enterprise technology, global logistics, and commodity trading tailored for discerning clientele.",
+    "explore": "Explore Ecosystem",
+    "partner": "Partner With Us",
+    "discover": "Discover"
   }
 }

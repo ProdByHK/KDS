@@ -1,10 +1,13 @@
 'use client';
+
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 export default function HeroSection() {
+  const t = useTranslations('Hero');
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Dynamic Background Elements */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-deepBlue-900" />
         <motion.div 
@@ -33,36 +36,35 @@ export default function HeroSection() {
           viewport={{ once: true }}
         >
           <span className="text-gold-500 text-sm md:text-base tracking-[0.3em] uppercase mb-6 block font-mono">
-            Welcome to the Future of Enterprise
+            {t('welcome')}
           </span>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-white mb-8 leading-tight">
-            Elevating <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-500 to-yellow-200">
-              Corporate Standards
-            </span>
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-white mb-8 leading-tight text-balance">
+            {t.rich('title', {
+              span: (chunks) => <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-500 to-yellow-200">{chunks}</span>,
+              br: () => <br />
+            })}
           </h1>
           <p className="mt-6 text-xl text-gray-300 max-w-3xl mx-auto font-light leading-relaxed text-balance">
-            An integrated ecosystem of luxury services, enterprise technology, global logistics, and commodity trading tailored for discerning clientele.
+            {t('description')}
           </p>
           
           <div className="mt-12 flex flex-col sm:flex-row gap-6 justify-center">
             <button className="bg-gold-600 hover:bg-gold-500 text-deepBlue-900 px-8 py-4 rounded font-bold transition-all hover:scale-105 active:scale-95 uppercase tracking-wider text-sm">
-              Explore Ecosystem
+              {t('explore')}
             </button>
             <button className="bg-white/5 border border-white/20 hover:bg-white/10 text-white px-8 py-4 rounded font-medium transition-all hover:border-gold-500 uppercase tracking-wider text-sm backdrop-blur-sm">
-              Partner With Us
+              {t('partner')}
             </button>
           </div>
         </motion.div>
       </div>
 
-      {/* Scroll indicator */}
       <motion.div 
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 text-gray-500 flex flex-col items-center"
       >
-        <span className="text-xs tracking-widest uppercase mb-2">Discover</span>
+        <span className="text-xs tracking-widest uppercase mb-2">{t('discover')}</span>
         <div className="w-[1px] h-12 bg-gradient-to-b from-gray-500 to-transparent" />
       </motion.div>
     </section>
