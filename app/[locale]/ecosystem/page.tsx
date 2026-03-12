@@ -1,3 +1,7 @@
+export function generateStaticParams() {
+  return [{ locale: 'en' }, { locale: 'id' }];
+}
+
 import { platforms } from '../../../src/lib/mock-data';
 import { Link } from '../../../src/i18n/navigation';
 

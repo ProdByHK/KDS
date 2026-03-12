@@ -1,3 +1,7 @@
+export function generateStaticParams() {
+  return [{ locale: 'en' }, { locale: 'id' }];
+}
+
 export default function PartnershipPage() {
   return (
     <div className="min-h-screen bg-deepBlue-900 pt-32 pb-16">

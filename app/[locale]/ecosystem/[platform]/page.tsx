@@ -1,10 +1,15 @@
 import { notFound } from 'next/navigation';
 import { getPlatformBySlug, platforms } from '../../../../src/lib/mock-data';
 
+const locales = ['en', 'id'];
+
 export async function generateStaticParams() {
-  return platforms.map((platform) => ({
-    platform: platform.slug,
-  }));
+  return locales.flatMap((locale) =>
+    platforms.map((platform) => ({
+      locale,
+      platform: platform.slug,
+    }))
+  );
 }
 
 export default function PlatformPage({ params }: { params: { platform: string } }) {

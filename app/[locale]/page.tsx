@@ -1,3 +1,7 @@
+export function generateStaticParams() {
+  return [{ locale: 'en' }, { locale: 'id' }];
+}
+
 import HeroSection from '../../src/components/home/HeroSection';
 import EcosystemExplanation from '../../src/components/home/EcosystemExplanation';
 import FeaturedKoonang from '../../src/components/home/FeaturedKoonang';
