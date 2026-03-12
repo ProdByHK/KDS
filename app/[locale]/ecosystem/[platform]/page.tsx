@@ -1,5 +1,7 @@
 import { notFound } from 'next/navigation';
 import { getPlatformBySlug, platforms } from '../../../../src/lib/mock-data';
+import { unstable_setRequestLocale } from "next-intl/server";
+import { useTranslations } from "next-intl";
 
 const locales = ['en', 'id'];
 
@@ -12,8 +14,11 @@ export async function generateStaticParams() {
   );
 }
 
-export default function PlatformPage({ params }: { params: { platform: string } }) {
-  const platform = getPlatformBySlug(params.platform);
+export default function PlatformPage({ params: { locale, platform: slug } }: { params: { locale: string, platform: string } }) {
+  unstable_setRequestLocale(locale);
+  const platform = getPlatformBySlug(slug);
+  const t = useTranslations('PlatformDetail');
+  const tp = useTranslations('Platforms');
 
   if (!platform) {
     notFound();
@@ -24,19 +29,19 @@ export default function PlatformPage({ params }: { params: { platform: string } 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="animate-in fade-in slide-in-from-bottom-8 duration-700">
           <div className="mb-8 p-1 inline-block bg-white/5 border border-white/10 rounded-full px-4 py-1 text-xs tracking-widest text-gold-500 uppercase font-medium">
-            {platform.sector}
+            {tp(`items.${platform.id}.sector`)}
           </div>
           <h1 className="text-5xl md:text-7xl font-serif text-white mb-6">
             {platform.name}
           </h1>
           <p className="text-2xl text-gray-300 font-light max-w-3xl leading-relaxed">
-            {platform.description}
+            {tp(`items.${platform.id}.description`)}
           </p>
         </div>
 
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="bg-white/5 border border-white/10 p-8 rounded-2xl animate-in fade-in slide-in-from-bottom-8 duration-700 delay-150">
-            <h2 className="text-2xl font-serif text-gold-500 mb-6">Core Features</h2>
+            <h2 className="text-2xl font-serif text-gold-500 mb-6">{t('featuresTitle')}</h2>
             <ul className="space-y-4">
               {platform.features.map((feature, i) => (
                 <li key={i} className="flex items-center text-gray-300">
@@ -47,7 +52,7 @@ export default function PlatformPage({ params }: { params: { platform: string } 
             </ul>
           </div>
           <div className="bg-white/5 border border-white/10 p-8 rounded-2xl flex items-center justify-center min-h-[300px] animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
-            <span className="text-gray-500 font-mono text-sm">(Interactive Component Placeholder)</span>
+            <span className="text-gray-500 font-mono text-sm">{t('componentPlaceholder')}</span>
           </div>
         </div>
       </div>

@@ -150,5 +150,35 @@
       "or": "atau",
       "deck": "Lihat Dek Kemampuan"
     }
+  },
+  "About": {
+    "title": "Tentang King David",
+    "description": "King David Service adalah ekosistem utama layanan mewah, teknologi perusahaan, dan logistik global, yang terintegrasi secara mulus untuk meningkatkan standar korporat dan memberikan nilai yang tak tertandingi."
+  },
+  "EcosystemPage": {
+    "title": "Ekosistem KDS",
+    "description": "Tujuh platform yang saling terhubung yang menggerakkan masa depan operasi perusahaan global, gaya hidup, dan perdagangan.",
+    "coverageTitle": "Cakupan Global",
+    "mapPlaceholder": "[Komponen Peta Mapbox GL JS]"
+  },
+  "PlatformDetail": {
+    "featuresTitle": "Fitur Utama",
+    "componentPlaceholder": "(Placeholder Komponen Interaktif)"
+  },
+  "InsightsPage": {
+    "title": "Wawasan & Berita",
+    "category": "Korporat",
+    "articleTitle": "Memperluas Jaringan Logistik Global",
+    "articleDescription": "Analisis dan perspektif strategis dari divisi intelijen kepemilikan King David tentang pergeseran pasar global."
+  },
+  "Partnership": {
+    "title": "Bermitra Dengan Kami",
+    "description": "Bergabunglah dengan Ekosistem Mitra King David untuk mendapatkan akses eksklusif ke klien yang cerdas dan solusi yang terintegrasi.",
+    "form": {
+      "company": "Nama Perusahaan",
+      "email": "Email Kerja",
+      "platform": "Platform yang Diminati",
+      "submit": "Kirim Pertanyaan"
+    }
   }
 }

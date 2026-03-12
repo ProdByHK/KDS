@@ -150,5 +150,35 @@
       "or": "or",
       "deck": "View Capabilities Deck"
     }
+  },
+  "About": {
+    "title": "About King David",
+    "description": "King David Service is a premier ecosystem of luxury services, enterprise technology, and global logistics, integrated seamlessly to elevate corporate standards and deliver unparalleled value."
+  },
+  "EcosystemPage": {
+    "title": "The KDS Ecosystem",
+    "description": "Seven interconnected platforms powering the future of global enterprise operations, lifestyle, and trade.",
+    "coverageTitle": "Global Coverage",
+    "mapPlaceholder": "[Mapbox GL JS Map Component]"
+  },
+  "PlatformDetail": {
+    "featuresTitle": "Core Features",
+    "componentPlaceholder": "(Interactive Component Placeholder)"
+  },
+  "InsightsPage": {
+    "title": "Insights & News",
+    "category": "Corporate",
+    "articleTitle": "Expanding the Global Logistics Network",
+    "articleDescription": "Analysis and strategic perspectives from the King David proprietary intelligence division on global market shifts."
+  },
+  "Partnership": {
+    "title": "Partner With Us",
+    "description": "Join the King David Partner Ecosystem to gain exclusive access to discerning clientele and integrated solutions.",
+    "form": {
+      "company": "Company Name",
+      "email": "Work Email",
+      "platform": "Platform of Interest",
+      "submit": "Submit Inquiry"
+    }
   }
 }
