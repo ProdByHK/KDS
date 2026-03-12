@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { Activity, Users, Box, TrendingUp, Ship, Zap, ArrowUpRight, ArrowDownRight, Server, Terminal, Shield } from 'lucide-react';
 
 const platforms = [
@@ -168,10 +167,10 @@ export default function AdminDashboard() {
                 <h4 className="text-xs font-medium text-slate-400 uppercase tracking-wider mb-3">Recent Queries</h4>
                 <div className="space-y-3">
                   <div className="text-sm text-slate-300 bg-[#0a0f1c] p-2 rounded border border-[#1f2937]">
-                    "Status of Container X192 arriving in Jakarta?"
+                    &quot;Status of Container X192 arriving in Jakarta?&quot;
                   </div>
                   <div className="text-sm text-slate-300 bg-[#0a0f1c] p-2 rounded border border-[#1f2937]">
-                    "Current coffee export volume comparison Q1 vs Q2"
+                    &quot;Current coffee export volume comparison Q1 vs Q2&quot;
                   </div>
                 </div>
               </div>

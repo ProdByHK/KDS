@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageSquare, X, Activity, TrendingUp, Box, Loader2, BarChart3, LineChart } from 'lucide-react';
+import { MessageSquare, X, Activity, TrendingUp, Box } from 'lucide-react';
 
 type Message = {
   id: string;
