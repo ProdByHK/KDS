@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
+import { Link } from '../../i18n/navigation';
 
 export default function FeaturedKoonang() {
   const t = useTranslations('Koonang');
@@ -63,10 +64,12 @@ export default function FeaturedKoonang() {
           viewport={{ once: true, margin: "-100px" }}
           className="mt-16 text-center"
         >
-          <button 
-            className="text-white border-b border-gold-500 pb-1 hover:text-gold-500 transition-colors uppercase tracking-widest text-sm font-medium"
-            dangerouslySetInnerHTML={{ __html: t.raw('discover') }} 
-          />
+          <Link href="/ecosystem/koonang">
+            <button 
+              className="text-white border-b border-gold-500 pb-1 hover:text-gold-500 transition-colors uppercase tracking-widest text-sm font-medium"
+              dangerouslySetInnerHTML={{ __html: t.raw('discover') }} 
+            />
+          </Link>
         </motion.div>
       </div>
     </section>

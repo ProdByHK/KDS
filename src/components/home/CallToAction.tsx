@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
+import { Link } from '../../i18n/navigation';
 
 export default function CallToAction() {
   const t = useTranslations('CTA');
@@ -34,13 +35,17 @@ export default function CallToAction() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <button className="w-full sm:w-auto bg-white hover:bg-gray-200 text-deepBlue-900 px-10 py-5 rounded font-bold transition-all hover:scale-105 active:scale-95 uppercase tracking-wider text-sm">
-              {t('buttons.schedule')}
-            </button>
+            <Link href="/contact">
+              <button className="w-full sm:w-auto bg-white hover:bg-gray-200 text-deepBlue-900 px-10 py-5 rounded font-bold transition-all hover:scale-105 active:scale-95 uppercase tracking-wider text-sm">
+                {t('buttons.schedule')}
+              </button>
+            </Link>
             <span className="text-gray-500 font-serif italic">{t('buttons.or')}</span>
-            <button className="w-full sm:w-auto bg-transparent border border-white/20 hover:bg-white/5 text-white px-10 py-5 rounded font-medium transition-all hover:border-gold-500 uppercase tracking-wider text-sm">
-              {t('buttons.deck')}
-            </button>
+            <Link href="/ecosystem">
+              <button className="w-full sm:w-auto bg-transparent border border-white/20 hover:bg-white/5 text-white px-10 py-5 rounded font-medium transition-all hover:border-gold-500 uppercase tracking-wider text-sm">
+                {t('buttons.deck')}
+              </button>
+            </Link>
           </div>
         </motion.div>
       </div>

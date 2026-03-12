@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
+import { Link } from '../../i18n/navigation';
 
 export default function PartnerEcosystem() {
   const t = useTranslations('Partner');
@@ -29,9 +30,11 @@ export default function PartnerEcosystem() {
             <p className="text-gray-400 text-lg mb-8 leading-relaxed">
               {t('description')}
             </p>
-            <button className="bg-white/5 hover:bg-white/10 border border-white/20 text-white px-6 py-3 rounded font-medium transition-colors text-sm uppercase tracking-wider">
-              {t('cta')}
-            </button>
+            <Link href="/partnership">
+              <button className="bg-white/5 hover:bg-white/10 border border-white/20 text-white px-6 py-3 rounded font-medium transition-colors text-sm uppercase tracking-wider mt-4 inline-block">
+                {t('cta')}
+              </button>
+            </Link>
           </motion.div>
 
           <div className="md:w-2/3 grid grid-cols-2 lg:grid-cols-3 gap-6">
