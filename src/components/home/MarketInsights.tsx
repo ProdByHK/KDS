@@ -6,8 +6,8 @@ export default function MarketInsights() {
   const t = useTranslations('Insights');
 
   const articles = [
-    { category: t('articles.a1.category'), title: t('articles.a1.title'), date: t('articles.a1.date') },
-    { category: t('articles.a2.category'), title: t('articles.a2.title'), date: t('articles.a2.date') }
+    { category: t('articles.a1.category'), title: t('articles.a1.title'), date: t('articles.a1.date'), img: "bg-[url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=800&auto=format&fit=crop')] bg-cover bg-center" },
+    { category: t('articles.a2.category'), title: t('articles.a2.title'), date: t('articles.a2.date'), img: "bg-[url('https://images.unsplash.com/photo-1621252179027-94459d278660?q=80&w=800&auto=format&fit=crop')] bg-cover bg-center" }
   ];
 
   return (
@@ -42,8 +42,8 @@ export default function MarketInsights() {
               viewport={{ once: true, margin: "-50px" }}
               className="group cursor-pointer flex flex-col sm:flex-row gap-6 bg-black/30 p-6 rounded-2xl border border-white/5 hover:border-gold-500/30 transition-colors"
             >
-              <div className="w-full sm:w-48 h-48 sm:h-auto bg-gray-800 rounded-xl overflow-hidden shrink-0">
-                <div className="w-full h-full bg-white/5 group-hover:scale-110 transition-transform duration-700" />
+              <div className={`w-full sm:w-48 h-48 sm:h-auto rounded-xl overflow-hidden shrink-0 ${article.img}`}>
+                <div className="w-full h-full bg-black/20 group-hover:bg-transparent group-hover:scale-110 transition-all duration-700" />
               </div>
               <div className="flex flex-col justify-center py-4">
                 <div className="flex items-center gap-4 mb-4">

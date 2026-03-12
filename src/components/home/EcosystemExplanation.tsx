@@ -40,6 +40,10 @@ export default function EcosystemExplanation() {
             className="relative h-[600px] bg-white/5 border border-white/10 rounded-3xl overflow-hidden p-8 flex items-center justify-center group"
           >
             {/* Abstract visualization of the 7 platforms orbiting */}
+            <div 
+              className="absolute inset-0 bg-cover bg-center opacity-30 mix-blend-screen transition-opacity group-hover:opacity-50 duration-700" 
+              style={{ backgroundImage: "url('/KDS/images/ecosystem.png')" }}
+            />
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gold-500/10 via-transparent to-transparent opacity-50 transition-opacity group-hover:opacity-100 duration-1000" />
             
             <div className="relative w-full aspect-square max-w-md">

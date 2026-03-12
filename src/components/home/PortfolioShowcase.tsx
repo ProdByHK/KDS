@@ -6,9 +6,9 @@ export default function PortfolioShowcase() {
   const t = useTranslations('Portfolio');
 
   const projects = [
-    { title: t('projects.p1.title'), client: t('projects.p1.client'), img: "bg-gray-800" },
-    { title: t('projects.p2.title'), client: t('projects.p2.client'), img: "bg-zinc-800" },
-    { title: t('projects.p3.title'), client: t('projects.p3.client'), img: "bg-slate-800" }
+    { title: t('projects.p1.title'), client: t('projects.p1.client'), img: "bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop')] bg-cover bg-center" },
+    { title: t('projects.p2.title'), client: t('projects.p2.client'), img: "bg-[url('https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=800&auto=format&fit=crop')] bg-cover bg-center" },
+    { title: t('projects.p3.title'), client: t('projects.p3.client'), img: "bg-[url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop')] bg-cover bg-center" }
   ];
 
   return (
