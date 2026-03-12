@@ -8,8 +8,8 @@ export default getRequestConfig(async ({ locale }) => {
     notFound();
   }
 
-  const messages = (await import(`../messages/${locale}.json`)).default;
-  const platformMessages = (await import(`../messages/platforms-${locale}.json`)).default;
+  const messages = (await import(`../../messages/${locale}.json`)).default;
+  const platformMessages = (await import(`../../messages/platforms-${locale}.json`)).default;
 
   return {
     messages: {
@@ -18,4 +18,3 @@ export default getRequestConfig(async ({ locale }) => {
     }
   };
 });
-
