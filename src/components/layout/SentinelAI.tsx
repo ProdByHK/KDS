@@ -223,7 +223,7 @@ export default function SentinelAI() {
           {isOpen ? (
             <X className="w-6 h-6 text-gold-400 relative z-10" />
           ) : (
-            <MessageSquare className="w-6 h-6 text-gold-400 relative z-10 group-hover:animate-pulse" />
+            <MessageSquare className="w-6 h-6 text-gold-400 relative z-10" />
           )}
         </div>
       </motion.button>

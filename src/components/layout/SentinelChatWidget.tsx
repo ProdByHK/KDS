@@ -72,7 +72,7 @@ export default function SentinelChatWidget() {
         className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#0a1628] border border-blue-500/40 hover:border-blue-400 rounded-full flex items-center justify-center shadow-2xl shadow-blue-500/20 transition-all hover:scale-110 group"
         aria-label="Open Sentinel AI"
       >
-        <div className="absolute inset-0 rounded-full bg-blue-500/10 animate-pulse" />
+        <div className="absolute inset-0 rounded-full bg-blue-500/10" />
         {open ? (
           <X className="w-5 h-5 text-blue-400 relative z-10" />
         ) : (
@@ -92,7 +92,7 @@ export default function SentinelChatWidget() {
           >
             {/* Header */}
             <div className="p-4 border-b border-[#1f2937] flex items-center gap-3 bg-[#0a1628]">
-              <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+              <div className="w-2 h-2 rounded-full bg-green-400" />
               <div>
                 <div className="text-white font-semibold text-sm">Sentinel AI</div>
                 <div className="text-green-400 text-xs font-mono">System Online · 7 Platforms Active</div>

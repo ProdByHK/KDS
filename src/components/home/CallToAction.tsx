@@ -26,7 +26,7 @@ export default function CallToAction() {
 
           <div className="relative z-10">
             <div className="w-14 h-14 mx-auto glass-card-sm flex items-center justify-center mb-8">
-              <div className="w-2 h-2 rounded-full bg-gold-400 animate-pulse shadow-[0_0_8px_rgba(212,175,55,0.8)]" />
+              <div className="w-2 h-2 rounded-full bg-gold-400 shadow-[0_0_8px_rgba(212,175,55,0.8)]" />
             </div>
             <h2
               className="text-5xl md:text-7xl font-serif text-white mb-8 leading-tight"
