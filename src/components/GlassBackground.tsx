@@ -16,13 +16,13 @@ export function GlassBackground() {
         className="absolute bottom-[-20%] right-[-10%] w-[500px] h-[500px]
                    rounded-full opacity-[0.15] blur-[100px] animate-pulse
                    bg-gradient-to-br from-blue-800 to-indigo-600"
-        style={{ animationDelay: '2s' }}
+        style={{ animationDelay: '6s' }}
       />
       <div
         className="absolute top-[40%] left-[50%] w-[400px] h-[400px]
                    rounded-full opacity-10 blur-[80px] animate-pulse
                    bg-gradient-to-br from-amber-400 to-orange-600"
-        style={{ animationDelay: '4s' }}
+        style={{ animationDelay: '12s' }}
       />
     </div>
   );

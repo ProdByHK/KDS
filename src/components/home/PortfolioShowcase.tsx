@@ -27,7 +27,7 @@ export default function PortfolioShowcase() {
   const projects = [
     { title: t('projects.p1.title'), client: t('projects.p1.client'), description: t('projects.p1.description'), link: '/ecosystem/gold-lion' },
     { title: t('projects.p2.title'), client: t('projects.p2.client'), description: t('projects.p2.description'), link: '/ecosystem/carry' },
-    { title: t('projects.p3.title'), client: t('projects.p3.client'), description: t('projects.p3.description'), link: '/ecosystem/pasarx' },
+    { title: t('projects.p3.title'), client: t('projects.p3.client'), description: t('projects.p3.description'), link: '/ecosystem/pasareu' },
   ];
 
   return (

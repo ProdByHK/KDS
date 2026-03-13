@@ -62,26 +62,26 @@
      "ctaTitle": "Book Your Executive Ride",
      "ctaDesc": "Experience comfort and reliability with Gold Lion."
   },
-  "pasarx": {
-     "title": "Welcome to PASARX",
-     "description": "Global commodity trading B2B marketplace for coffee, spices, and agriculture.",
-     "servicesTitle": "Trade Features",
+  "pasareu": {
+     "title": "Welcome to PASAREU",
+     "description": "Export aggregator facilitating seamless trade from Indonesia to the European market.",
+     "servicesTitle": "Export Services",
      "services": [
       {
-         "name": "Verified Sellers",
-         "description": "Strict vetting process for global market access."
+         "name": "European Compliance",
+         "description": "Ensuring all exports meet stringent EU standards and regulations."
       },
       {
-         "name": "Global Reach",
-         "description": "International buyers across 50+ countries."
+         "name": "Trade Facilitation",
+         "description": "Streamlining the export process from documentation to delivery."
       },
       {
-         "name": "Secure Escrow",
-         "description": "Protected B2B financial transactions and compliance."
+         "name": "Market access",
+         "description": "Connecting Indonesian producers with established European buyers."
       }
      ],
-     "ctaTitle": "Join the Global Trading Network",
-     "ctaDesc": "Access premium commodities securely."
+     "ctaTitle": "Start Exporting to Europe",
+     "ctaDesc": "Leverage our expertise to expand your market reach."
   },
   "gold-miles": {
      "title": "Welcome to GOLD MILES",
@@ -104,10 +104,10 @@
      "ctaTitle": "Plan Your Corporate Journey",
      "ctaDesc": "Consult with our premium travel specialists."
   },
-  "creathinks": {
-     "title": "Welcome to CREATHINKS",
-     "description": "Digital marketing, branding, and creative agency services.",
-     "servicesTitle": "Creative Services",
+  "customized-service": {
+     "title": "Welcome to CUSTOMIZED SERVICE",
+     "description": "Creative agency services including branding, marketing, and bespoke corporate solutions.",
+     "servicesTitle": "Creative & Design",
      "services": [
       {
          "name": "Brand Strategy",
@@ -118,32 +118,32 @@
          "description": "High-fidelity video and photography for corporate marketing."
       },
       {
-         "name": "Performance Marketing",
-         "description": "Data-driven ad campaigns focused on ROI."
+         "name": "Bespoke Consulting",
+         "description": "Tailored business solutions for unique enterprise challenges."
       }
      ],
-     "ctaTitle": "Elevate Your Brand Profile",
-     "ctaDesc": "Review our creative portfolio and case studies."
+     "ctaTitle": "Elevate Your Corporate Image",
+     "ctaDesc": "Partner with our creative team for tailored solutions."
   },
-  "tala-bhojana": {
-     "title": "Welcome to TALA BHOJANA",
-     "description": "Premium food and beverage catering aggregator for corporate dining.",
-     "servicesTitle": "Catering Solutions",
+  "kds-kitchen": {
+     "title": "Welcome to KDS KITCHEN",
+     "description": "Premium catering and culinary services for corporate events and fine dining.",
+     "servicesTitle": "Culinary Excellence",
      "services": [
        {
-         "name": "Event Catering",
-         "description": "Full-service F&B management for large scale corporate events."
+         "name": "Corporate Catering",
+         "description": "Exquisite menus tailored for business meetings and office events."
        },
        {
-         "name": "Corporate Lunches",
-         "description": "Daily premium meal deliveries tailored to executive teams."
+         "name": "Event Dining",
+         "description": "Full-service culinary management for large-scale corporate gatherings."
        },
        {
-         "name": "Menu Customization",
-         "description": "Bespoke culinary experiences shaped by global chefs."
+         "name": "Menu Curation",
+         "description": "Personalized dining experiences crafted by master chefs."
        }
      ],
-     "ctaTitle": "Curate Your Next Event",
-     "ctaDesc": "Explore our premium menu options."
+     "ctaTitle": "Taste the Excellence",
+     "ctaDesc": "Book KDS Kitchen for your next corporate event."
   }
 }

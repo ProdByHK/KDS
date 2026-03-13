@@ -35,10 +35,13 @@ export default function PartnershipPage({ params: { locale } }: { params: { loca
             <div>
               <label className="block text-sm font-medium text-white/60 mb-2">{t('form.platform')}</label>
               <select className="w-full glass-card-sm rounded-xl px-4 py-3 text-white focus:outline-none focus:border-gold-500/50 transition-colors text-sm bg-transparent">
-                <option className="bg-[#05080f]">KOONANG</option>
-                <option className="bg-[#05080f]">CARRY</option>
-                <option className="bg-[#05080f]">GOLD LION</option>
-                <option className="bg-[#05080f]">PASARX</option>
+                <option className="bg-[#05080f]">KOONANG DIGITAL</option>
+                <option className="bg-[#05080f]">CARRY LOGISTICS</option>
+                <option className="bg-[#05080f]">GOLD LION PREMIUM</option>
+                <option className="bg-[#05080f]">PASAREU EXPORT</option>
+                <option className="bg-[#05080f]">GOLD MILES TRAVEL</option>
+                <option className="bg-[#05080f]">CUSTOMIZED SERVICE</option>
+                <option className="bg-[#05080f]">KDS KITCHEN</option>
               </select>
             </div>
             <button type="button" className="w-full bg-gradient-to-r from-gold-600 to-gold-400 hover:from-gold-500 hover:to-gold-300 text-deepBlue-950 font-bold py-4 rounded-xl transition-all text-lg tracking-wide shadow-[0_0_20px_rgba(212,175,55,0.2)]">

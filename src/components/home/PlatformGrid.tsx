@@ -21,19 +21,19 @@ const platformImages: Record<string, { src: string; alt: string }> = {
     src: 'https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80',
     alt: 'Luxury black sedan for VIP corporate transportation',
   },
-  pasarx: {
+  pasareu: {
     src: 'https://images.unsplash.com/photo-1595665593673-bf1ad72905c0?auto=format&fit=crop&w=800&q=80',
-    alt: 'Coffee and spice commodities representing global trading marketplace',
+    alt: 'Export hub facilitating trade from Indonesia to Europe',
   },
   'gold-miles': {
     src: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80',
     alt: 'Premium airport lounge for business travel and hospitality',
   },
-  creathinks: {
+  'customized-service': {
     src: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800&q=80',
     alt: 'Creative design studio with branding and marketing workspace',
   },
-  'tala-bhojana': {
+  'kds-kitchen': {
     src: 'https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=800&q=80',
     alt: 'Premium corporate catering and fine dining setup',
   },

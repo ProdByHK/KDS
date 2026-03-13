@@ -23,10 +23,10 @@ export default function Footer() {
               <li><Link href="/ecosystem/koonang" className="hover:text-gold-500 transition-colors">Koonang Digital</Link></li>
               <li><Link href="/ecosystem/carry" className="hover:text-gold-500 transition-colors">Carry Logistics</Link></li>
               <li><Link href="/ecosystem/gold-lion" className="hover:text-gold-500 transition-colors">Gold Lion Premium</Link></li>
-              <li><Link href="/ecosystem/pasarx" className="hover:text-gold-500 transition-colors">PasarX Commodities</Link></li>
+              <li><Link href="/ecosystem/pasareu" className="hover:text-gold-500 transition-colors">Pasareu Export</Link></li>
               <li><Link href="/ecosystem/gold-miles" className="hover:text-gold-500 transition-colors">Gold Miles Travel</Link></li>
-              <li><Link href="/ecosystem/creathinks" className="hover:text-gold-500 transition-colors">Creathinks Creative</Link></li>
-              <li><Link href="/ecosystem/tala-bhojana" className="hover:text-gold-500 transition-colors">Tala Bhojana F&amp;B</Link></li>
+              <li><Link href="/ecosystem/customized-service" className="hover:text-gold-500 transition-colors">Customized Service</Link></li>
+              <li><Link href="/ecosystem/kds-kitchen" className="hover:text-gold-500 transition-colors">KDS Kitchen</Link></li>
             </ul>
           </div>
 

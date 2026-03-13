@@ -57,21 +57,21 @@
         "sector": "Transportasi",
         "description": "Transportasi premium yang menyediakan kendaraan mewah dan layanan VIP perusahaan."
       },
-      "pasarx": {
-        "sector": "Perdagangan Komoditas",
-        "description": "Pasar B2B perdagangan komoditas global untuk kopi, rempah-rempah, dan pertanian."
+      "pasareu": {
+        "sector": "Ekspor & Perdagangan",
+        "description": "Agregator ekspor yang memfasilitasi perdagangan tanpa hambatan dari Indonesia ke pasar Eropa."
       },
       "gold-miles": {
         "sector": "Perjalanan & Keramahan",
         "description": "Perjalanan perusahaan premium, perencanaan acara elit, dan bantuan imigrasi."
       },
-      "creathinks": {
-        "sector": "Kreatif & Pemasaran",
-        "description": "Layanan pemasaran digital, branding, dan agensi kreatif."
+      "customized-service": {
+        "sector": "Layanan Kreatif & Profesional",
+        "description": "Layanan agensi kreatif termasuk branding, pemasaran, dan solusi perusahaan yang disesuaikan."
       },
-      "tala-bhojana": {
-        "sector": "Makanan & Minuman",
-        "description": "Agregator katering makanan dan minuman premium untuk jamuan perusahaan."
+      "kds-kitchen": {
+        "sector": "F&B & Perhotelan",
+        "description": "Layanan katering dan kuliner premium untuk acara perusahaan dan jamuan makan malam."
       }
     }
   },
@@ -79,7 +79,7 @@
     "map": "(Integrasi Global Mapbox)",
     "subtitle": "Infrastruktur Global",
     "title": "Jangkauan <br /> Tanpa Batas",
-    "description": "Mulai dari jalur pengiriman internasional yang dikelola oleh CARRY, hingga pengadaan komoditas global melalui PASARX, infrastruktur kami beroperasi melampaui batas. Peta kami memberikan visibilitas interaktif di semua simpul logistik, rantai pasokan, dan penerapan di seluruh dunia.",
+    "description": "Mulai dari jalur pengiriman internasional yang dikelola oleh CARRY, hingga fasilitasi ekspor global melalui PASAREU, infrastruktur kami beroperasi melampaui batas. Peta kami memberikan visibilitas interaktif di semua simpul logistik, rantai pasokan, dan penerapan di seluruh dunia.",
     "stats": {
       "ports": "Pelabuhan Perdagangan Tersedia",
       "tech": "Penyebaran Teknologi Aktif"
@@ -87,7 +87,7 @@
   },
   "Portfolio": {
     "title": "Portofolio Terpilih",
-    "description": "Proyek kelas dunia yang dieksekusi oleh KOONANG dan CREATHINKS.",
+    "description": "Proyek kelas dunia yang dieksekusi oleh KOONANG dan CUSTOMIZED SERVICE.",
     "projects": {
       "p1": { 
         "title": "Pusat Logistik Nasional", 
@@ -170,21 +170,21 @@
   "About": {
     "title": "Tentang King David",
     "description": "Dibangun untuk Mereka yang Menuntut Lebih",
-    "heroDesc": "King David Service adalah ekosistem utama layanan mewah, teknologi perusahaan, logistik global, dan perdagangan komoditas yang terintegrasi — dirancang untuk klien perusahaan yang cerdik.",
+    "heroDesc": "KING DAVID SERVICE adalah kombinasi tepat dari pilihan mitra ekosistem bisnis, untuk fokus pada target penjualan dan meningkatkan level bisnis dengan layanan satu pengiriman di platform kami.",
     "badge": "Tentang King David Service",
     "storySubtitle": "Kisah Kami",
-    "storyTitle": "Dari Jakarta ke Dunia",
-    "storyP1": "King David Service didirikan pada tahun 2018 dengan satu keyakinan: bahwa perusahaan-perusahaan Indonesia yang paling mumpuni layak mendapatkan mitra yang dapat menandingi ambisi mereka di setiap titik sentuh — mulai dari koridor logistik hingga meja ruang rapat.",
-    "storyP2": "Apa yang dimulai sebagai konsultan logistik berkembang pesat menjadi ekosistem multi-platform setelah pendiri kami menemui celah kritis di pasar. Klien perusahaan mengelola portofolio pemasok yang terfragmentasi, masing-masing berbicara dalam bahasa yang berbeda dan beroperasi dengan standar yang berbeda. KDS dirancang untuk menyelesaikan masalah tersebut dalam skala besar.",
-    "storyP3": "Hari ini, tujuh platform terintegrasi kami melayani lebih dari 450 klien perusahaan aktif di 12 negara, memproses nilai miliaran setahun melalui logistik, teknologi, komoditas, dan layanan premium.",
+    "storyTitle": "Make Things Happen",
+    "storyP1": "King David Service didirikan pada tahun 2016 dengan satu keyakinan: bahwa perusahaan-perusahaan Indonesia yang paling mumpuni layak mendapatkan mitra yang dapat menandingi ambisi mereka di setiap titik sentuh — mulai dari koridor logistik hingga meja ruang rapat.",
+    "storyP2": "KING DAVID SERVICE menyediakan penyewaan transportasi (GOLD LION), logistik (CARRY), ekspor dari Indonesia ke Eropa (PASAREU), tur dan perjalanan (GOLD MILES), katering (KDS KITCHEN) dan industri kreatif (CUSTOMIZED SERVICE) melalui platform terintegrasi.",
+    "storyP3": "Hari ini, tujuh platform terintegrasi kami melayani ratusan klien perusahaan aktif, memberikan layanan profesional dengan fokus pada kerja tim dan bantuan cerdas.",
     "purposeSubtitle": "Tujuan",
     "purposeTitle": "Misi & Visi",
     "missionTitle": "Misi Kami",
     "missionDesc": "Untuk memberikan nilai terintegrasi yang tak tertandingi kepada klien perusahaan dengan mengoperasikan ekosistem layanan premium, platform teknologi, dan logistik global yang paling kohesif di Asia Tenggara — memungkinkan mitra kami untuk bersaing dan memimpin di panggung dunia.",
     "visionTitle": "Visi Kami",
     "visionDesc": "Menjadi mitra perusahaan terintegrasi yang menentukan bagi organisasi paling cerdik di dunia — nama yang identik dengan keunggulan di setiap lapisan operasi perusahaan, mulai dari infrastruktur digital hingga pasar komoditas global.",
-    "leadershipSubtitle": "Kepemimpinan",
-    "leadershipTitle": "Tim Eksekutif",
+    "leadershipSubtitle": "Leadership",
+    "leadershipTitle": "David Zaman, Co-Founder & CEO",
     "valuesSubtitle": "Apa yang Kami Perjuangkan",
     "valuesTitle": "Nilai-Nilai Inti",
     "valuesItems": {
@@ -196,10 +196,10 @@
     "journeySubtitle": "Perjalanan Kami",
     "journeyTitle": "Pencapaian Utama",
     "milestones": {
-      "m1": { "year": "2018", "event": "King David Service didirikan di Jakarta, Indonesia dengan visi untuk keunggulan perusahaan yang terintegrasi." },
-      "m2": { "year": "2019", "event": "CARRY Logistics diluncurkan, melayani 20 klien perusahaan di kuartal pertama." },
-      "m3": { "year": "2021", "event": "Koonang Digital dan PASARX Commodities beroperasi; ekosistem mencapai 6 platform terintegrasi." },
-      "m4": { "year": "2023", "event": "Ekspansi global ke 12 negara dengan 450+ klien perusahaan aktif." }
+      "m1": { "year": "2016", "event": "King David Service didirikan di Jakarta, Indonesia dengan visi untuk keunggulan perusahaan yang terintegrasi." },
+      "m2": { "year": "2019", "event": "CARRY Logistics diluncurkan, memberikan solusi multi-moda untuk klien perusahaan." },
+      "m3": { "year": "2021", "event": "Koonang Digital dan PASAREU Export beroperasi; ekosistem mencapai kapasitas terintegrasi penuh." },
+      "m4": { "year": "2024", "event": "Melanjutkan ekspansi sebagai platform layanan 'one submission' utama untuk industri profesional." }
     }
   },
   "EcosystemPage": {

@@ -62,26 +62,26 @@
      "ctaTitle": "Pesan Kendaraan Eksekutif Anda",
      "ctaDesc": "Rasakan kenyamanan dan keandalan bersama Gold Lion."
   },
-  "pasarx": {
-     "title": "Selamat datang di PASARX",
-     "description": "Pasar B2B perdagangan komoditas global untuk kopi, rempah-rempah, dan pertanian.",
-     "servicesTitle": "Fitur Perdagangan",
+  "pasareu": {
+     "title": "Selamat datang di PASAREU",
+     "description": "Agregator ekspor yang memfasilitasi perdagangan tanpa hambatan dari Indonesia ke pasar Eropa.",
+     "servicesTitle": "Layanan Ekspor",
      "services": [
       {
-         "name": "Penjual Terverifikasi",
-         "description": "Proses pemeriksaan ketat untuk akses pasar global."
+         "name": "Kepatuhan Eropa",
+         "description": "Memastikan semua ekspor memenuhi standar dan regulasi Uni Eropa yang ketat."
       },
       {
-         "name": "Jangkauan Global",
-         "description": "Pembeli internasional di lebih dari 50 negara."
+         "name": "Fasilitasi Perdagangan",
+         "description": "Menyederhanakan proses ekspor mulai dari dokumentasi hingga pengiriman."
       },
       {
-         "name": "Eskro Aman",
-         "description": "Transaksi keuangan B2B yang dilindungi dan kepatuhan."
+         "name": "Akses Pasar",
+         "description": "Menghubungkan produsen Indonesia dengan pembeli Eropa yang mapan."
       }
      ],
-     "ctaTitle": "Bergabung dengan Jaringan Perdagangan Global",
-     "ctaDesc": "Akses komoditas premium dengan aman."
+     "ctaTitle": "Mulai Ekspor ke Eropa",
+     "ctaDesc": "Manfaatkan keahlian kami untuk memperluas jangkauan pasar Anda."
   },
   "gold-miles": {
      "title": "Selamat datang di GOLD MILES",
@@ -104,46 +104,46 @@
      "ctaTitle": "Rencanakan Perjalanan Perusahaan Anda",
      "ctaDesc": "Konsultasikan dengan spesialis perjalanan premium kami."
   },
-  "creathinks": {
-     "title": "Selamat datang di CREATHINKS",
-     "description": "Layanan agensi pemasaran digital, branding, dan kreatif.",
-     "servicesTitle": "Layanan Kreatif",
+  "customized-service": {
+     "title": "Selamat datang di CUSTOMIZED SERVICE",
+     "description": "Layanan agensi kreatif termasuk branding, pemasaran, dan solusi perusahaan kustom.",
+     "servicesTitle": "Kreatif & Desain",
      "services": [
       {
          "name": "Strategi Merek",
-         "description": "Identitas komprehensif dan arsitektur posisi."
+         "description": "Identitas komprehensif dan arsitektur posisi merek."
       },
       {
          "name": "Produksi Konten",
          "description": "Video dan fotografi fidelitas tinggi untuk pemasaran perusahaan."
       },
       {
-         "name": "Pemasaran Performa",
-         "description": "Kampanye iklan berbasis data yang berfokus pada ROI."
+         "name": "Konsultasi Kustom",
+         "description": "Solusi bisnis yang disesuaikan untuk tantangan perusahaan yang unik."
       }
      ],
-     "ctaTitle": "Tingkatkan Profil Merek Anda",
-     "ctaDesc": "Tinjau portofolio kreatif dan studi kasus kami."
+     "ctaTitle": "Tingkatkan Citra Perusahaan Anda",
+     "ctaDesc": "Bermitra dengan tim kreatif kami untuk solusi yang disesuaikan."
   },
-  "tala-bhojana": {
-     "title": "Selamat datang di TALA BHOJANA",
-     "description": "Agregator katering makanan dan minuman premium untuk bersantap di perusahaan.",
-     "servicesTitle": "Solusi Katering",
+  "kds-kitchen": {
+     "title": "Selamat datang di KDS KITCHEN",
+     "description": "Layanan katering dan kuliner premium untuk acara perusahaan dan santapan mewah.",
+     "servicesTitle": "Keunggulan Kuliner",
      "services": [
        {
-         "name": "Katering Acara",
-         "description": "Manajemen F&B layanan penuh untuk acara perusahaan skala besar."
+         "name": "Katering Perusahaan",
+         "description": "Menu eksklusif yang disesuaikan untuk rapat bisnis dan acara kantor."
        },
        {
-         "name": "Makan Siang Perusahaan",
-         "description": "Pengiriman makanan premium harian yang disesuaikan untuk tim eksekutif."
+         "name": "Perjamuan Acara",
+         "description": "Manajemen kuliner layanan lengkap untuk pertemuan perusahaan skala besar."
        },
        {
-         "name": "Kustomisasi Menu",
-         "description": "Pengalaman kuliner yang dibuat khusus oleh koki global."
+         "name": "Kurasi Menu",
+         "description": "Pengalaman bersantap pribadi yang dibuat oleh koki ahli."
        }
      ],
-     "ctaTitle": "Kurasi Acara Anda Berikutnya",
-     "ctaDesc": "Jelajahi opsi menu premium kami."
+     "ctaTitle": "Rasakan Keunggulannya",
+     "ctaDesc": "Pesan KDS Kitchen untuk acara perusahaan Anda berikutnya."
   }
 }

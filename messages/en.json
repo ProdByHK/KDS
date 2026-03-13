@@ -57,21 +57,21 @@
         "sector": "Transportation",
         "description": "Premium transportation locking luxury vehicles and corporate VIP rides."
       },
-      "pasarx": {
-        "sector": "Commodity Trading",
-        "description": "Global commodity trading B2B marketplace for coffee, spices, and agriculture."
+      "pasareu": {
+        "sector": "Export & Trade",
+        "description": "Export aggregator facilitating seamless trade from Indonesia to the European market."
       },
       "gold-miles": {
         "sector": "Travel & Hospitality",
         "description": "Premium corporate travel, elite events planning, and immigration assistance."
       },
-      "creathinks": {
-        "sector": "Creative & Marketing",
-        "description": "Digital marketing, branding, and creative agency services."
+      "customized-service": {
+        "sector": "Creative & Professional Services",
+        "description": "Creative agency services including branding, marketing, and bespoke corporate solutions."
       },
-      "tala-bhojana": {
-        "sector": "Food & Beverage",
-        "description": "Premium food and beverage catering aggregator for corporate dining."
+      "kds-kitchen": {
+        "sector": "F&B & Hospitality",
+        "description": "Premium catering and culinary services for corporate events and fine dining."
       }
     }
   },
@@ -79,7 +79,7 @@
     "map": "(Mapbox Global Integration)",
     "subtitle": "Global Infrastructure",
     "title": "Boundless <br /> Coverage",
-    "description": "From international freight lanes managed by CARRY, to global commodity sourcing via PASARX, our infrastructure operates beyond borders. Our map provides interactive visibility across all logistics, supply chain, and deployment nodes worldwide.",
+    "description": "From international freight lanes managed by CARRY, to global export facilitation via PASAREU, our infrastructure operates beyond borders. Our map provides interactive visibility across all logistics, supply chain, and deployment nodes worldwide.",
     "stats": {
       "ports": "Trading Ports Available",
       "tech": "Tech Deploys Active"
@@ -87,7 +87,7 @@
   },
   "Portfolio": {
     "title": "Selected Portfolio",
-    "description": "World-class projects executed by KOONANG and CREATHINKS.",
+    "description": "World-class projects executed by KOONANG and CUSTOMIZED SERVICE.",
     "projects": {
       "p1": {
         "title": "National Logistics Hub",
@@ -170,13 +170,13 @@
   "About": {
     "title": "About King David",
     "description": "Built for Those Who Demand More",
-    "heroDesc": "King David Service is a premier integrated ecosystem of luxury services, enterprise technology, global logistics, and commodity trading — engineered for discerning corporate clientele.",
+    "heroDesc": "KING DAVID SERVICE is the right combination of business ecosystem partners choice, to focus on sales target and level up the business with one submission services in our platform.",
     "badge": "About King David Service",
     "storySubtitle": "Our Story",
-    "storyTitle": "From Jakarta to the World",
-    "storyP1": "King David Service was founded in 2018 with a singular conviction: that Indonesia's most capable enterprises deserved a partner that could match their ambition at every touchpoint — from the logistics corridor to the boardroom table.",
-    "storyP2": "What began as a logistics consultancy rapidly evolved into a multi-platform ecosystem after our founders identified a critical gap in the market. Corporate clients were managing a fragmented portfolio of suppliers, each speaking a different language and operating to different standards. KDS was designed to solve that problem at scale.",
-    "storyP3": "Today, our seven integrated platforms serve over 450 active enterprise clients across 12 countries, processing billions in annual value through logistics, technology, commodities, and premium services.",
+    "storyTitle": "Make Things Happen",
+    "storyP1": "King David Service was founded in 2016 with a singular conviction: that Indonesia's most capable enterprises deserved a partner that could match their ambition at every touchpoint — from the logistics corridor to the boardroom table.",
+    "storyP2": "KING DAVID SERVICE provides transportation rental (GOLD LION), logistics (CARRY), export from Indonesia to Europe (PASAREU), tour and travel (GOLD MILES), catering (KDS KITCHEN) and creative (CUSTOMIZED SERVICE) industries through an integrated platform.",
+    "storyP3": "Today, our seven integrated platforms serve hundreds of active enterprise clients, providing professional services with a focus on teamwork and smart assistance.",
     "purposeSubtitle": "Purpose",
     "purposeTitle": "Mission & Vision",
     "missionTitle": "Our Mission",
@@ -184,7 +184,7 @@
     "visionTitle": "Our Vision",
     "visionDesc": "To become the defining integrated enterprise partner for the world's most discerning organisations — the name synonymous with excellence at every layer of corporate operations, from digital infrastructure to global commodity markets.",
     "leadershipSubtitle": "Leadership",
-    "leadershipTitle": "The Executive Team",
+    "leadershipTitle": "David Zaman, Co-Founder & CEO",
     "valuesSubtitle": "What We Stand For",
     "valuesTitle": "Core Values",
     "valuesItems": {
@@ -196,10 +196,10 @@
     "journeySubtitle": "Our Journey",
     "journeyTitle": "Key Milestones",
     "milestones": {
-      "m1": { "year": "2018", "event": "King David Service founded in Jakarta, Indonesia with a vision for integrated corporate excellence." },
-      "m2": { "year": "2019", "event": "CARRY Logistics launched, onboarding 20 corporate clients in the first quarter." },
-      "m3": { "year": "2021", "event": "Koonang Digital and PASARX Commodities operational; ecosystem reaches 6 integrated platforms." },
-      "m4": { "year": "2023", "event": "Global expansion into 12 countries with 450+ active enterprise clients." }
+      "m1": { "year": "2016", "event": "King David Service founded in Jakarta, Indonesia with a vision for integrated corporate excellence." },
+      "m2": { "year": "2019", "event": "CARRY Logistics launched, providing multi-modal solutions for enterprise clients." },
+      "m3": { "year": "2021", "event": "Koonang Digital and PASAREU Export operational; ecosystem reaches full integrated capacity." },
+      "m4": { "year": "2024", "event": "Continued expansion as the premier 'one submission' service platform for professional industries." }
     }
   },
   "EcosystemPage": {
