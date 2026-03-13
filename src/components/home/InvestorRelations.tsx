@@ -1,7 +1,23 @@
 'use client';
-import { motion, AnimatePresence } from 'framer-motion';
+import { useState, useEffect, useRef } from 'react';
+import { motion, useInView, useSpring, useTransform, AnimatePresence } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { useState } from 'react';
+
+function Counter({ value, suffix = "" }: { value: string, suffix?: string }) {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+  const num = parseInt(value.replace(/[^0-9]/g, ''));
+  const spring = useSpring(0, { stiffness: 40, damping: 20 });
+  const display = useTransform(spring, (current) => Math.floor(current).toLocaleString() + suffix);
+
+  useEffect(() => {
+    if (isInView) {
+      spring.set(num);
+    }
+  }, [isInView, num, spring]);
+
+  return <motion.span ref={ref}>{display}</motion.span>;
+}
 import { Loader2, Check } from 'lucide-react';
 
 export default function InvestorRelations() {
@@ -13,6 +29,14 @@ export default function InvestorRelations() {
     e.preventDefault();
     if (!formData.name || !formData.email) return;
     setSubmitStatus('loading');
+    
+    // Simulate CRM / Email Trigger (FR-22)
+    console.log("[CRM Simulation] Received Investor Deck Request:", {
+      timestamp: new Date().toISOString(),
+      payload: formData,
+      source: "Web Frontend - Investor Relations"
+    });
+
     await new Promise(r => setTimeout(r, 1400));
     setSubmitStatus('success');
   };
@@ -32,19 +56,27 @@ export default function InvestorRelations() {
           >
             <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">{t('title')}</h2>
             <p className="text-white/50 text-lg mb-8 leading-relaxed">{t('description')}</p>
-            <div className="space-y-4 mb-10">
-              {[
-                { label: t('stats.growth.label'), value: t('stats.growth.value') },
-                { label: t('stats.clients.label'), value: t('stats.clients.value') },
-                { label: t('stats.presence.label'), value: t('stats.presence.value') },
-              ].map((stat, i) => (
-                <div key={i} className="flex items-center justify-between glass-card-sm px-5 py-4">
-                  <span className="text-white/60 font-medium">{stat.label}</span>
-                  <span className="text-gold-400 font-mono text-xl">{stat.value}</span>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-12">
+              <div className="group">
+                <div className="text-4xl font-serif text-white mb-1 group-hover:text-gold-400 transition-colors">
+                  <Counter value="142" suffix="%" />
                 </div>
-              ))}
+                <div className="text-xs text-white/30 uppercase tracking-widest font-mono">{t('stats.growth.label')}</div>
+              </div>
+              <div className="group border-y sm:border-y-0 sm:border-x border-white/10 py-8 sm:py-0">
+                <div className="text-4xl font-serif text-white mb-1 group-hover:text-gold-400 transition-colors">
+                  <Counter value="450" suffix="+" />
+                </div>
+                <div className="text-xs text-white/30 uppercase tracking-widest font-mono">{t('stats.clients.label')}</div>
+              </div>
+              <div className="group">
+                <div className="text-4xl font-serif text-white mb-1 group-hover:text-gold-400 transition-colors">
+                  <Counter value="12" />
+                </div>
+                <div className="text-xs text-white/30 uppercase tracking-widest font-mono">{t('stats.presence.label')}</div>
+              </div>
             </div>
-            <a href="/KDS_Investor_Presentation.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex text-white/70 hover:text-gold-400 transition-colors uppercase tracking-widest text-sm font-medium items-center gap-2">
+            <a href="/KDS_Annual_Report_2025.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex text-white/70 hover:text-gold-400 transition-colors uppercase tracking-widest text-sm font-medium items-center gap-2">
               {t('download')}
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
             </a>

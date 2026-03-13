@@ -11,7 +11,7 @@ interface FormErrors {
 }
 
 export default function ContactPage() {
-  const [form, setForm] = useState({ name: '', email: '', message: '' });
+  const [form, setForm] = useState({ name: '', company: '', email: '', message: '' });
   const [errors, setErrors] = useState<FormErrors>({});
   const [status, setStatus] = useState<'idle' | 'loading' | 'success'>('idle');
 
@@ -41,9 +41,29 @@ export default function ContactPage() {
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
           <h1 className="text-5xl md:text-7xl font-serif text-white mb-8 text-center">Contact Us</h1>
-          <p className="text-xl text-white/50 leading-relaxed text-center mb-16">
+          <p className="text-xl text-white/50 leading-relaxed text-center mb-12">
             Reach out to King David Service for general inquiries, support, or direct communication with our executive team.
           </p>
+        </motion.div>
+
+        {/* FR-20: Direct contact details */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.1 }}
+          className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12"
+        >
+          {[
+            { icon: '📞', label: 'Phone', value: '+62 21 3000 7788' },
+            { icon: '✉️', label: 'Email', value: 'enquiries@kingdavidservice.com' },
+            { icon: '📍', label: 'Office', value: 'Sudirman Central Business District, Jakarta 12930' },
+          ].map((item, i) => (
+            <div key={i} className="glass-card-sm p-5 flex items-start gap-4">
+              <span className="text-xl mt-0.5">{item.icon}</span>
+              <div>
+                <p className="text-white/40 text-xs font-mono uppercase tracking-widest mb-1">{item.label}</p>
+                <p className="text-white/80 text-sm">{item.value}</p>
+              </div>
+            </div>
+          ))}
         </motion.div>
 
         <motion.div
@@ -62,7 +82,7 @@ export default function ContactPage() {
                 <h2 className="text-3xl font-serif text-white mb-3">Message Received</h2>
                 <p className="text-white/40 mb-8">Our team will respond within 24 business hours.</p>
                 <button
-                  onClick={() => { setForm({ name: '', email: '', message: '' }); setStatus('idle'); }}
+                  onClick={() => { setForm({ name: '', company: '', email: '', message: '' }); setStatus('idle'); }}
                   className="text-gold-400 hover:text-white transition-colors border-b border-gold-500/50 hover:border-white/50 pb-1 text-sm uppercase tracking-widest"
                 >
                   Send Another Message
@@ -91,6 +111,16 @@ export default function ContactPage() {
                     />
                     {errors.email && <p className="text-red-400 text-xs mt-1">{errors.email}</p>}
                   </div>
+                </div>
+                {/* FR-17: Company Name field */}
+                <div>
+                  <label className="block text-sm font-medium text-white/60 mb-2">Company Name</label>
+                  <input
+                    type="text" value={form.company}
+                    onChange={e => setForm({ ...form, company: e.target.value })}
+                    className="w-full glass-card-sm rounded-xl px-4 py-3 text-white placeholder-white/20 focus:outline-none focus:border-gold-500/50 transition-colors text-sm border-white/[0.09]"
+                    placeholder="Your Organisation"
+                  />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-white/60 mb-2">Message</label>

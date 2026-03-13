@@ -36,10 +36,12 @@ export default function CoverageMap() {
             {nodes.map(node => (
               <div
                 key={node.id}
-                className="absolute w-5 h-5 cursor-pointer"
+                className="absolute w-5 h-5 cursor-pointer group/node"
                 style={{ top: node.top, left: node.left }}
                 onMouseEnter={() => setHoveredNode(node.id)}
                 onMouseLeave={() => setHoveredNode(null)}
+                onClick={() => setHoveredNode(hoveredNode === node.id ? null : node.id)}
+                aria-label={node.city}
               >
                 <div className={`absolute inset-0 ${node.color} rounded-full animate-ping opacity-40`} />
                 <div className={`absolute inset-1 ${node.color} rounded-full shadow-lg`} style={{ boxShadow: `0 0 12px ${node.glow}` }} />

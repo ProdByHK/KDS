@@ -89,9 +89,21 @@
     "title": "Portofolio Terpilih",
     "description": "Proyek kelas dunia yang dieksekusi oleh KOONANG dan CREATHINKS.",
     "projects": {
-      "p1": { "title": "Pusat Logistik Nasional", "client": "Sektor Pemerintah" },
-      "p2": { "title": "Aplikasi Fintech Premium", "client": "Sektor Perbankan" },
-      "p3": { "title": "Dasbor Sumber Daya Perusahaan", "client": "Korporasi Pertambangan" }
+      "p1": { 
+        "title": "Pusat Logistik Nasional", 
+        "client": "Sektor Pemerintah",
+        "description": "Digitalisasi komprehensif koridor logistik utama nasional menggunakan kerangka agregator CARRY."
+      },
+      "p2": { 
+        "title": "Aplikasi Fintech Premium", 
+        "client": "Sektor Perbankan",
+        "description": "Antarmuka manajemen kekayaan dengan keamanan tinggi yang dibangun di atas arsitektur perusahaan KOONANG."
+      },
+      "p3": { 
+        "title": "Dasbor Sumber Daya Perusahaan", 
+        "client": "Korporasi Pertambangan",
+        "description": "Pelacakan sumber daya real-time dan platform visibilitas rantai pasokan untuk operasi pertambangan global."
+      }
     }
   },
   "Partner": {
@@ -116,12 +128,16 @@
       "a1": {
         "category": "Logistik",
         "title": "Masa Depan Pengangkutan Multi-Moda di Asia Tenggara",
-        "date": "24 Okt 2026"
+        "date": "5 Mar 2025",
+        "slug": "multimodal-freight-se-asia",
+        "description": "Bagaimana pergeseran angin perdagangan dan investasi infrastruktur pelabuhan membentuk ulang koridor multi-moda di sektor logistik Asia Tenggara senilai $2,4 triliun."
       },
       "a2": {
         "category": "Teknologi",
         "title": "Strategi Integrasi AI untuk Perusahaan Warisan",
-        "date": "18 Okt 2026"
+        "date": "18 Feb 2025",
+        "slug": "ai-integration-legacy-enterprise",
+        "description": "Sistem ERP warisan mewakili 60% pengeluaran perangkat lunak perusahaan. Kami memeriksa kerangka migrasi yang terbukti untuk menyematkan AI tanpa mengganggu operasi."
       }
     }
   },
@@ -153,7 +169,38 @@
   },
   "About": {
     "title": "Tentang King David",
-    "description": "King David Service adalah ekosistem utama layanan mewah, teknologi perusahaan, dan logistik global, yang terintegrasi secara mulus untuk meningkatkan standar korporat dan memberikan nilai yang tak tertandingi."
+    "description": "Dibangun untuk Mereka yang Menuntut Lebih",
+    "heroDesc": "King David Service adalah ekosistem utama layanan mewah, teknologi perusahaan, logistik global, dan perdagangan komoditas yang terintegrasi — dirancang untuk klien perusahaan yang cerdik.",
+    "badge": "Tentang King David Service",
+    "storySubtitle": "Kisah Kami",
+    "storyTitle": "Dari Jakarta ke Dunia",
+    "storyP1": "King David Service didirikan pada tahun 2018 dengan satu keyakinan: bahwa perusahaan-perusahaan Indonesia yang paling mumpuni layak mendapatkan mitra yang dapat menandingi ambisi mereka di setiap titik sentuh — mulai dari koridor logistik hingga meja ruang rapat.",
+    "storyP2": "Apa yang dimulai sebagai konsultan logistik berkembang pesat menjadi ekosistem multi-platform setelah pendiri kami menemui celah kritis di pasar. Klien perusahaan mengelola portofolio pemasok yang terfragmentasi, masing-masing berbicara dalam bahasa yang berbeda dan beroperasi dengan standar yang berbeda. KDS dirancang untuk menyelesaikan masalah tersebut dalam skala besar.",
+    "storyP3": "Hari ini, tujuh platform terintegrasi kami melayani lebih dari 450 klien perusahaan aktif di 12 negara, memproses nilai miliaran setahun melalui logistik, teknologi, komoditas, dan layanan premium.",
+    "purposeSubtitle": "Tujuan",
+    "purposeTitle": "Misi & Visi",
+    "missionTitle": "Misi Kami",
+    "missionDesc": "Untuk memberikan nilai terintegrasi yang tak tertandingi kepada klien perusahaan dengan mengoperasikan ekosistem layanan premium, platform teknologi, dan logistik global yang paling kohesif di Asia Tenggara — memungkinkan mitra kami untuk bersaing dan memimpin di panggung dunia.",
+    "visionTitle": "Visi Kami",
+    "visionDesc": "Menjadi mitra perusahaan terintegrasi yang menentukan bagi organisasi paling cerdik di dunia — nama yang identik dengan keunggulan di setiap lapisan operasi perusahaan, mulai dari infrastruktur digital hingga pasar komoditas global.",
+    "leadershipSubtitle": "Kepemimpinan",
+    "leadershipTitle": "Tim Eksekutif",
+    "valuesSubtitle": "Apa yang Kami Perjuangkan",
+    "valuesTitle": "Nilai-Nilai Inti",
+    "valuesItems": {
+      "excellence": { "label": "Keunggulan", "desc": "Kami menetapkan standar kualitas tanpa kompromi di setiap platform dan setiap interaksi klien." },
+      "integrity": { "label": "Integritas", "desc": "Kepercayaan adalah fondasi dari setiap kemitraan — kami beroperasi dengan transparansi dalam semua transaksi." },
+      "innovation": { "label": "Inovasi", "desc": "Peningkatan berkelanjutan dan pemikiran garis depan mendorong setiap produk dan layanan yang kami berikan." },
+      "partnership": { "label": "Kemitraan", "desc": "Kesuksesan kami tidak terlepas dari kesuksesan klien, mitra, dan komunitas kami." }
+    },
+    "journeySubtitle": "Perjalanan Kami",
+    "journeyTitle": "Pencapaian Utama",
+    "milestones": {
+      "m1": { "year": "2018", "event": "King David Service didirikan di Jakarta, Indonesia dengan visi untuk keunggulan perusahaan yang terintegrasi." },
+      "m2": { "year": "2019", "event": "CARRY Logistics diluncurkan, melayani 20 klien perusahaan di kuartal pertama." },
+      "m3": { "year": "2021", "event": "Koonang Digital dan PASARX Commodities beroperasi; ekosistem mencapai 6 platform terintegrasi." },
+      "m4": { "year": "2023", "event": "Ekspansi global ke 12 negara dengan 450+ klien perusahaan aktif." }
+    }
   },
   "EcosystemPage": {
     "title": "Ekosistem KDS",
@@ -167,9 +214,69 @@
   },
   "InsightsPage": {
     "title": "Wawasan & Berita",
-    "category": "Korporat",
-    "articleTitle": "Memperluas Jaringan Logistik Global",
-    "articleDescription": "Analisis dan perspektif strategis dari divisi intelijen kepemilikan King David tentang pergeseran pasar global."
+    "subtitle": "Intelijen & Analisis",
+    "articles": [
+      {
+        "slug": "multimodal-freight-se-asia",
+        "category": "Logistik",
+        "title": "Masa Depan Pengangkutan Multi-Moda di Asia Tenggara",
+        "date": "5 Mar 2025",
+        "author": "Divisi Intelijen KDS",
+        "description": "Bagaimana pergeseran angin perdagangan dan investasi infrastruktur pelabuhan membentuk ulang koridor multi-moda di sektor logistik Asia Tenggara.",
+        "body": "Lanskap logistik Asia Tenggara sedang mengalami transformasi mendasar. Pertumbuhan e-commerce, dikombinasikan dengan investasi infrastruktur besar dari Rencana Konektivitas ASEAN, menciptakan koridor angkutan multi-moda baru.\n\nKing David CARRY telah menjadi yang terdepan dalam pergeseran ini, mengintegrasikan angkutan laut, udara, dan darat di bawah satu dasbor operasional tunggal.\n\nTren utama yang mendorong transformasi ini mencakup ekspansi pesat logistik rantai dingin untuk ekspor pertanian, digitalisasi prosedur bea cukai di pelabuhan utama, dan munculnya depo peti kemas inland yang mengurangi kemacetan pelabuhan.",
+        "related": ["commodity-trading-2025", "supply-chain-resilience"]
+      },
+      {
+        "slug": "ai-integration-legacy-enterprise",
+        "category": "Teknologi",
+        "title": "Strategi Integrasi AI untuk Perusahaan Warisan",
+        "date": "18 Feb 2025",
+        "author": "Divisi Intelijen KDS",
+        "description": "Sistem ERP warisan mewakili 60% pengeluaran perangkat lunak perusahaan. Kami memeriksa kerangka migrasi yang terbukti untuk menyematkan AI.",
+        "body": "Janji AI dalam operasi perusahaan telah didiskusikan selama bertahun-tahun, tetapi sebagian besar organisasi masih menjalankan alur kerja misi-kritis pada sistem yang dibangun di awal tahun 2000-an.\n\nPendekatan Koonang adalah mengembangkan lapisan AI middleware yang berada di antara ERP warisan dan antarmuka modern. Ini memungkinkan otomatisasi cerdas pesanan pembelian, pencocokan faktur, dan perkiraan permintaan.\n\nKasus bisnis ini menarik: klien yang menerapkan pendekatan ini melaporkan pengurangan 35% dalam kesalahan entri data manual dan pengurangan rata-rata 22 hari dalam siklus piutang usaha.",
+        "related": ["multimodal-freight-se-asia", "luxury-travel-corporate"]
+      },
+      {
+        "slug": "commodity-trading-2025",
+        "category": "Komoditas",
+        "title": "Prospek Perdagangan Komoditas Global 2025",
+        "date": "22 Jan 2025",
+        "author": "Divisi Intelijen KDS",
+        "description": "Tinjauan mendalam tentang dinamika harga komoditas kopi, rempah-rempah, dan pertanian menjelang 2025.",
+        "body": "Pasar komoditas global memasuki 2025 dengan ketidakpastian signifikan setelah dua tahun berturut-turut gangguan pasokan akibat iklim. Bagi pembeli kopi, rempah-rempah, dan produk pertanian, era penetapan harga spot yang dapat diprediksi sudah berakhir.\n\nPASARX, platform perdagangan komoditas B2B King David Service, telah mengamati peningkatan 40% dalam kontrak pasokan jangka panjang saat pembeli berupaya mengurangi eksposur terhadap volatilitas pasar spot.\n\nBagi eksportir kopi Indonesia dan rempah-rempah Sumatera, permintaan kepastian kontrak ini adalah peluang. Produsen dengan sertifikasi, kontrol kualitas yang konsisten, dan keterlacakan digital mendapatkan premi harga 18-24% dibandingkan produk yang tidak bersertifikat.",
+        "related": ["multimodal-freight-se-asia", "supply-chain-resilience"]
+      },
+      {
+        "slug": "luxury-travel-corporate",
+        "category": "Perjalanan",
+        "title": "Kebangkitan Bleisure: Perjalanan Bisnis Didefinisikan Ulang",
+        "date": "8 Jan 2025",
+        "author": "Divisi Intelijen KDS",
+        "description": "Saat para eksekutif menuntut lebih banyak dari perjalanan bisnis, batas antara bisnis dan rekreasi semakin kabur.",
+        "body": "Pelancong perusahaan pasca-pandemi bukanlah orang yang sama yang menghabiskan tiga hari di Marriott bandara. Eksekutif C-suite hari ini mengharapkan perjalanan bisnis menjadi perpanjangan dari merek pribadi mereka.\n\nGold Miles telah merespons dengan mendesain ulang program perjalanan perusahaannya di sekitar konsep 'bleisure' — itinerari berbasis kecerdasan yang memadukan jadwal pertemuan produktivitas tinggi dengan pengalaman gaya hidup yang dikurasi.\n\nArgumen ROI untuk perjalanan perusahaan premium bergeser. Perusahaan yang memposisikan perjalanan eksekutif sebagai investasi dalam kualitas hubungan melaporkan tingkat penutupan yang lebih tinggi.",
+        "related": ["ai-integration-legacy-enterprise", "vip-transport-expansion"]
+      },
+      {
+        "slug": "supply-chain-resilience",
+        "category": "Logistik",
+        "title": "Membangun Rantai Pasokan yang Tangguh di Masa Sulit",
+        "date": "12 Des 2024",
+        "author": "Divisi Intelijen KDS",
+        "description": "Volatilitas geopolitik dan gangguan iklim memaksa perusahaan untuk memikirkan ulang ketergantungan pasokan tunggal.",
+        "body": "Frasa 'ketahanan rantai pasokan' telah menjadi bahan pembicaraan ruang rapat sejak 2020, tetapi sebagian besar perusahaan masih jauh dari mencapainya. Ketahanan sejati membutuhkan lebih dari sekadar stok pengaman.\n\nPlatform kecerdasan jaringan King David CARRY mengumpulkan data kinerja rute di seluruh angkutan laut, udara, dan darat secara real time.\n\nBagi tim pengadaan perusahaan, pelajaran dari gangguan terkini adalah bahwa ketahanan adalah investasi infrastruktur, bukan polis asuransi.",
+        "related": ["multimodal-freight-se-asia", "commodity-trading-2025"]
+      },
+      {
+        "slug": "vip-transport-expansion",
+        "category": "Transportasi",
+        "title": "Gold Lion Perluas Armada VIP ke 5 Pasar Baru",
+        "date": "28 Nov 2024",
+        "author": "Divisi Intelijen KDS",
+        "description": "Sayap transportasi premium King David mengumumkan ekspansi ke Singapura, Kuala Lumpur, Bangkok, Manila, dan Ho Chi Minh City.",
+        "body": "Gold Lion Premium Transportation telah menyelesaikan ekspansi operasional yang signifikan, mendirikan armada khusus di lima ibu kota bisnis utama Asia Tenggara.\n\nArmada ekspansi mencakup Mercedes-Benz S-Class terbaru, BMW 7 Series, dan konfigurasi Lexus LM MPV, semuanya dioperasikan oleh pengemudi terlatih profesional dengan pelatihan protokol korporat.\n\nBagi klien perusahaan yang beroperasi di beberapa pasar ASEAN, ekspansi ini berarti satu penyedia kontrak tunggal kini dapat menangani transportasi darat eksekutif di seluruh jejak regional mereka.",
+        "related": ["luxury-travel-corporate", "supply-chain-resilience"]
+      }
+    ]
   },
   "Partnership": {
     "title": "Bermitra Dengan Kami",
@@ -186,6 +293,7 @@
     "ecosystem": "Ekosistem",
     "company": "Perusahaan",
     "links": {
+      "ecosystem": "Kembali ke Ekosistem",
       "about": "Tentang Kami",
       "insights": "Wawasan & Berita",
       "partnership": "Bermitra Dengan Kami",

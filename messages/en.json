@@ -89,9 +89,21 @@
     "title": "Selected Portfolio",
     "description": "World-class projects executed by KOONANG and CREATHINKS.",
     "projects": {
-      "p1": { "title": "National Logistics Hub", "client": "Gov Sector" },
-      "p2": { "title": "Premium Fintech App", "client": "Banking Sector" },
-      "p3": { "title": "Enterprise Resource Dashboard", "client": "Mining Corp" }
+      "p1": {
+        "title": "National Logistics Hub",
+        "client": "Government Sector",
+        "description": "A comprehensive digitisation of national primary logistics corridors using the CARRY aggregator framework."
+      },
+      "p2": {
+        "title": "Premium Fintech App",
+        "client": "Banking Sector",
+        "description": "High-security wealth management interface built on KOONANG's enterprise architecture."
+      },
+      "p3": {
+        "title": "Enterprise Resource Dashboard",
+        "client": "Mining Corp",
+        "description": "Real-time resource tracking and supply chain visibility platform for global mining operations."
+      }
     }
   },
   "Partner": {
@@ -116,12 +128,16 @@
       "a1": {
         "category": "Logistics",
         "title": "The Future of Multi-Modal Freight in SE Asia",
-        "date": "Oct 24, 2026"
+        "date": "Mar 5, 2025",
+        "slug": "multimodal-freight-se-asia",
+        "description": "How shifting trade winds and port infrastructure investment are reshaping multi-modal corridors across Southeast Asia's $2.4 trillion logistics sector."
       },
       "a2": {
         "category": "Technology",
         "title": "AI Integration Strategies for Legacy Enterprise",
-        "date": "Oct 18, 2026"
+        "date": "Feb 18, 2025",
+        "slug": "ai-integration-legacy-enterprise",
+        "description": "Legacy ERP systems represent 60% of enterprise software spend. We examine proven migration frameworks for embedding AI without disrupting operations."
       }
     }
   },
@@ -153,7 +169,38 @@
   },
   "About": {
     "title": "About King David",
-    "description": "King David Service is a premier ecosystem of luxury services, enterprise technology, and global logistics, integrated seamlessly to elevate corporate standards and deliver unparalleled value."
+    "description": "Built for Those Who Demand More",
+    "heroDesc": "King David Service is a premier integrated ecosystem of luxury services, enterprise technology, global logistics, and commodity trading — engineered for discerning corporate clientele.",
+    "badge": "About King David Service",
+    "storySubtitle": "Our Story",
+    "storyTitle": "From Jakarta to the World",
+    "storyP1": "King David Service was founded in 2018 with a singular conviction: that Indonesia's most capable enterprises deserved a partner that could match their ambition at every touchpoint — from the logistics corridor to the boardroom table.",
+    "storyP2": "What began as a logistics consultancy rapidly evolved into a multi-platform ecosystem after our founders identified a critical gap in the market. Corporate clients were managing a fragmented portfolio of suppliers, each speaking a different language and operating to different standards. KDS was designed to solve that problem at scale.",
+    "storyP3": "Today, our seven integrated platforms serve over 450 active enterprise clients across 12 countries, processing billions in annual value through logistics, technology, commodities, and premium services.",
+    "purposeSubtitle": "Purpose",
+    "purposeTitle": "Mission & Vision",
+    "missionTitle": "Our Mission",
+    "missionDesc": "To deliver unmatched integrated value to enterprise clients by operating the most cohesive ecosystem of premium services, technology platforms, and global logistics in Southeast Asia — enabling our partners to compete and lead on the world stage.",
+    "visionTitle": "Our Vision",
+    "visionDesc": "To become the defining integrated enterprise partner for the world's most discerning organisations — the name synonymous with excellence at every layer of corporate operations, from digital infrastructure to global commodity markets.",
+    "leadershipSubtitle": "Leadership",
+    "leadershipTitle": "The Executive Team",
+    "valuesSubtitle": "What We Stand For",
+    "valuesTitle": "Core Values",
+    "valuesItems": {
+      "excellence": { "label": "Excellence", "desc": "We set uncompromising quality standards across every platform and every client interaction." },
+      "integrity": { "label": "Integrity", "desc": "Trust is the foundation of every partnership — we operate with transparency in all dealings." },
+      "innovation": { "label": "Innovation", "desc": "Continuous improvement and frontier thinking drive every product and service we deliver." },
+      "partnership": { "label": "Partnership", "desc": "Our success is inseparable from the success of our clients, partners, and communities." }
+    },
+    "journeySubtitle": "Our Journey",
+    "journeyTitle": "Key Milestones",
+    "milestones": {
+      "m1": { "year": "2018", "event": "King David Service founded in Jakarta, Indonesia with a vision for integrated corporate excellence." },
+      "m2": { "year": "2019", "event": "CARRY Logistics launched, onboarding 20 corporate clients in the first quarter." },
+      "m3": { "year": "2021", "event": "Koonang Digital and PASARX Commodities operational; ecosystem reaches 6 integrated platforms." },
+      "m4": { "year": "2023", "event": "Global expansion into 12 countries with 450+ active enterprise clients." }
+    }
   },
   "EcosystemPage": {
     "title": "The KDS Ecosystem",
@@ -167,9 +214,69 @@
   },
   "InsightsPage": {
     "title": "Insights & News",
-    "category": "Corporate",
-    "articleTitle": "Expanding the Global Logistics Network",
-    "articleDescription": "Analysis and strategic perspectives from the King David proprietary intelligence division on global market shifts."
+    "subtitle": "Intelligence & Analysis",
+    "articles": [
+      {
+        "slug": "multimodal-freight-se-asia",
+        "category": "Logistics",
+        "title": "The Future of Multi-Modal Freight in SE Asia",
+        "date": "Mar 5, 2025",
+        "author": "KDS Intelligence Division",
+        "description": "How shifting trade winds and port infrastructure investment are reshaping multi-modal corridors across Southeast Asia's $2.4 trillion logistics sector.",
+        "body": "Southeast Asia's logistics landscape is undergoing a fundamental transformation. The growth of e-commerce, combined with major infrastructure investments from the ASEAN Connectivity Master Plan, is creating new multi-modal freight corridors that bypass traditional bottlenecks.\n\nKing David CARRY has been at the forefront of this shift, integrating sea, air, and road freight under a single operational dashboard. This unified visibility allows corporate clients to dynamically route shipments based on real-time cost and speed data.\n\nKey trends driving this transformation include the rapid expansion of cold-chain logistics for agricultural exports, the digitisation of customs procedures at major ports, and the emergence of inland container depots reducing port congestion. For enterprise shippers, the winners will be those who invest in multi-modal visibility now, before the market fully matures.",
+        "related": ["commodity-trading-2025", "supply-chain-resilience"]
+      },
+      {
+        "slug": "ai-integration-legacy-enterprise",
+        "category": "Technology",
+        "title": "AI Integration Strategies for Legacy Enterprise",
+        "date": "Feb 18, 2025",
+        "author": "KDS Intelligence Division",
+        "description": "Legacy ERP systems represent 60% of enterprise software spend. We examine proven migration frameworks for embedding AI without disrupting operations.",
+        "body": "The promise of AI in enterprise operations has been discussed for years, but most organisations still run mission-critical workflows on systems built in the early 2000s. The challenge is not whether to integrate AI — it is how to do so without destabilising the systems entire supply chains depend on.\n\nKoonang's approach has been to develop middleware AI layers that sit between legacy ERPs and modern interfaces. This allows intelligent automation of purchase orders, invoice matching, and demand forecasting without requiring a full system replacement.\n\nThe business case is compelling: clients implementing this approach have reported a 35% reduction in manual data entry errors and an average 22-day reduction in accounts receivable cycles. The key lesson is that AI adoption does not have to be revolutionary — it can be evolutionary, building capability incrementally while protecting operational continuity.",
+        "related": ["multimodal-freight-se-asia", "luxury-travel-corporate"]
+      },
+      {
+        "slug": "commodity-trading-2025",
+        "category": "Commodities",
+        "title": "Global Commodity Trading Outlook 2025",
+        "date": "Jan 22, 2025",
+        "author": "KDS Intelligence Division",
+        "description": "An in-depth look at coffee, spice, and agricultural commodity pricing dynamics heading into 2025, and what enterprise buyers need to know.",
+        "body": "The global commodity markets entered 2025 with significant uncertainty following two consecutive years of climate-driven supply disruptions. For buyers of coffee, spices, and agricultural products, the era of predictable spot pricing is over.\n\nPASARX, King David Service's B2B commodity trading platform, has observed a 40% increase in long-term supply contracts as buyers seek to reduce exposure to spot market volatility. The shift represents a fundamental change in procurement strategy across the food and beverage, hospitality, and manufacturing sectors.\n\nFor Indonesian coffee and Sumatran spice exporters, this demand for contract certainty is an opportunity. Producers with certification, consistent quality control, and digital traceability are commanding 18-24% price premiums over uncertified equivalents. The message is clear: invest in quality assurance infrastructure now to capture premium pricing in an increasingly risk-averse global market.",
+        "related": ["multimodal-freight-se-asia", "supply-chain-resilience"]
+      },
+      {
+        "slug": "luxury-travel-corporate",
+        "category": "Travel",
+        "title": "The Rise of Bleisure: Corporate Travel Reimagined",
+        "date": "Jan 8, 2025",
+        "author": "KDS Intelligence Division",
+        "description": "As executives demand more from business travel, the line between business and leisure is dissolving. How Gold Miles is redefining corporate travel programmes.",
+        "body": "The post-pandemic enterprise traveller is not the same person who spent three days in an airport Marriott attending back-to-back meetings. Today's C-suite executive expects business travel to be an extension of their personal brand — and they are willing to allocate budget accordingly.\n\nGold Miles has responded by redesigning its corporate travel programmes around the concept of 'bleisure' — intelligence-driven itineraries that blend high-productivity meeting schedules with curated lifestyle experiences. This includes private airport transfers, access to premium lounges, personalised hotel recommendations, and post-meeting cultural programming.\n\nThe ROI argument for premium corporate travel is shifting. Companies that position executive travel as an investment in relationship quality — rather than a cost to be minimised — report higher close rates on enterprise deals that involve in-person negotiation. In a world of commoditised video calls, the executive who shows up in style makes a different impression.",
+        "related": ["ai-integration-legacy-enterprise", "vip-transport-expansion"]
+      },
+      {
+        "slug": "supply-chain-resilience",
+        "category": "Logistics",
+        "title": "Building Resilient Supply Chains in Uncertain Times",
+        "date": "Dec 12, 2024",
+        "author": "KDS Intelligence Division",
+        "description": "Geopolitical volatility and climate disruption are forcing enterprises to rethink single-source supply dependencies. A framework for building anti-fragile supply chains.",
+        "body": "The phrase 'supply chain resilience' has become a boardroom staple since 2020, but most enterprises are still far from achieving it. True resilience requires more than safety stock — it demands structural diversification of supply sources, real-time visibility across multi-tier supplier networks, and the organisational agility to re-route shipments within hours, not days.\n\nKing David CARRY's network intelligence platform aggregates route performance data across sea, air, and road freight in real time. When disruptions occur — whether from weather events, port congestion, or customs delays — the system automatically surfaces alternative routing options with cost-to-delay trade-off analysis.\n\nFor enterprise procurement teams, the lesson from recent disruptions is that resilience is an infrastructure investment, not an insurance policy. The companies that built multi-source supplier relationships and invested in logistics visibility before disruptions hit outperformed their peers by an average of 34% in delivery reliability during peak disruption periods.",
+        "related": ["multimodal-freight-se-asia", "commodity-trading-2025"]
+      },
+      {
+        "slug": "vip-transport-expansion",
+        "category": "Transportation",
+        "title": "Gold Lion Expands VIP Fleet to 5 New Markets",
+        "date": "Nov 28, 2024",
+        "author": "KDS Intelligence Division",
+        "description": "King David's premium transportation arm announces expansion into Singapore, Kuala Lumpur, Bangkok, Manila, and Ho Chi Minh City with an all-new luxury fleet.",
+        "body": "Gold Lion Premium Transportation has completed a significant operational expansion, establishing dedicated fleets in five major Southeast Asian business capitals. The move positions King David Service to offer seamless VIP ground transportation across the region's highest-value corporate corridors.\n\nThe expansion fleet includes the latest Mercedes-Benz S-Class, BMW 7 Series, and Lexus LM MPV configurations, all operated by professionally trained chauffeurs with corporate protocol training. Every vehicle is equipped with in-car Wi-Fi, privacy screens, and integrated booking interfaces for real-time route optimisation.\n\nFor corporate clients operating across multiple ASEAN markets, the expansion means a single contracted provider can now handle executive ground transportation across their entire regional footprint. The logistics coordination benefit — a unified billing system, consistent service standards, and 24/7 regional dispatch support — has already attracted three Fortune 500 companies to regional framework agreements in the first quarter of operations.",
+        "related": ["luxury-travel-corporate", "supply-chain-resilience"]
+      }
+    ]
   },
   "Partnership": {
     "title": "Partner With Us",
@@ -186,6 +293,7 @@
     "ecosystem": "Ecosystem",
     "company": "Company",
     "links": {
+      "ecosystem": "Back to Ecosystem",
       "about": "About Us",
       "insights": "Insights & News",
       "partnership": "Partner With Us",

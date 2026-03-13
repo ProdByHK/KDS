@@ -24,8 +24,12 @@ export default function Footer() {
               <li><Link href="/ecosystem/carry" className="hover:text-gold-500 transition-colors">Carry Logistics</Link></li>
               <li><Link href="/ecosystem/gold-lion" className="hover:text-gold-500 transition-colors">Gold Lion Premium</Link></li>
               <li><Link href="/ecosystem/pasarx" className="hover:text-gold-500 transition-colors">PasarX Commodities</Link></li>
+              <li><Link href="/ecosystem/gold-miles" className="hover:text-gold-500 transition-colors">Gold Miles Travel</Link></li>
+              <li><Link href="/ecosystem/creathinks" className="hover:text-gold-500 transition-colors">Creathinks Creative</Link></li>
+              <li><Link href="/ecosystem/tala-bhojana" className="hover:text-gold-500 transition-colors">Tala Bhojana F&amp;B</Link></li>
             </ul>
           </div>
+
           
           <div>
             <h4 className="text-white font-semibold mb-4 tracking-wider uppercase text-sm">{t('company')}</h4>

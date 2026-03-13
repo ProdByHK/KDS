@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform, useMotionValue, useSpring } from 'fram
 import { useTranslations } from 'next-intl';
 import { Platform } from '../../lib/mock-data';
 import { useEffect, useState } from 'react';
+import { Link } from '../../i18n/navigation';
 
 interface PlatformHeroProps {
   platform: Platform;
@@ -68,6 +69,11 @@ export default function PlatformHero({ platform }: PlatformHeroProps) {
         className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-24 preserve-3d"
         style={{ rotateX: prefersReducedMotion ? 0 : rotateX, rotateY: prefersReducedMotion ? 0 : rotateY }}
       >
+        <div className="absolute top-10 left-1/2 -translate-x-1/2 z-20">
+          <Link href="/ecosystem" className="text-white/30 hover:text-gold-400 transition-colors text-xs font-mono uppercase tracking-widest flex items-center gap-2">
+            <span>←</span> {useTranslations('Footer')('links.ecosystem' as never) || 'Back to Ecosystem'}
+          </Link>
+        </div>
         <motion.div
           initial={{ opacity: 0, y: 30, scale: 0.95 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}

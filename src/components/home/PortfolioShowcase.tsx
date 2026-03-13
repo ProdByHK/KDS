@@ -1,14 +1,15 @@
 'use client';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
+import { Link } from '../../i18n/navigation';
 
 export default function PortfolioShowcase() {
   const t = useTranslations('Portfolio');
 
   const projects = [
-    { title: t('projects.p1.title'), client: t('projects.p1.client') },
-    { title: t('projects.p2.title'), client: t('projects.p2.client') },
-    { title: t('projects.p3.title'), client: t('projects.p3.client') },
+    { title: t('projects.p1.title'), client: t('projects.p1.client'), description: t('projects.p1.description'), link: '/ecosystem/gold-lion' },
+    { title: t('projects.p2.title'), client: t('projects.p2.client'), description: t('projects.p2.description'), link: '/ecosystem/carry' },
+    { title: t('projects.p3.title'), client: t('projects.p3.client'), description: t('projects.p3.description'), link: '/ecosystem/pasarx' },
   ];
 
   const glows = [
@@ -35,24 +36,32 @@ export default function PortfolioShowcase() {
 
         <div className="flex flex-col md:flex-row gap-6 items-stretch justify-center">
           {projects.map((p, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: i * 0.15 }}
-              viewport={{ once: true, margin: '-100px' }}
-              className={`flex-1 group cursor-pointer ${i === 1 ? 'md:-translate-y-10' : ''}`}
-            >
-              {/* Glass card thumbnail with gradient glow */}
-              <div className="w-full aspect-[4/5] glass-card mb-6 overflow-hidden relative flex items-end">
-                <div className={`absolute inset-0 bg-gradient-to-t ${glows[i]} to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-700`} />
-                <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-40 h-40 rounded-full blur-3xl bg-gold-500/20 opacity-0 group-hover:opacity-60 transition-opacity duration-700" />
-              </div>
-              <div className="px-2 border-l border-gold-500/0 group-hover:border-gold-500/60 pl-4 transition-all duration-300">
-                <div className="text-gold-400 text-xs font-mono mb-2 tracking-widest uppercase">{p.client}</div>
-                <h3 className="text-xl text-white font-serif">{p.title}</h3>
-              </div>
-            </motion.div>
+            <Link href={p.link} key={i} className={`flex-1 group cursor-pointer ${i === 1 ? 'md:-translate-y-10' : ''}`}>
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: i * 0.15 }}
+                viewport={{ once: true, margin: '-100px' }}
+                className="h-full"
+              >
+                {/* Glass card thumbnail with gradient glow */}
+                <div className="w-full aspect-[4/5] glass-card mb-6 overflow-hidden relative flex items-end">
+                  <div className={`absolute inset-0 bg-gradient-to-t ${glows[i]} to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-700`} />
+                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-40 h-40 rounded-full blur-3xl bg-gold-500/20 opacity-0 group-hover:opacity-60 transition-opacity duration-700" />
+                </div>
+                <div className="px-2 border-l border-gold-500/0 group-hover:border-gold-500/60 pl-4 transition-all duration-300">
+                  <div className="text-gold-400 text-xs font-mono mb-2 tracking-widest uppercase">{p.client}</div>
+                  <h3 className="text-2xl text-white font-serif mb-3 group-hover:text-gold-300 transition-colors">{p.title}</h3>
+                  <p className="text-white/40 text-sm leading-relaxed mb-6 line-clamp-2 group-hover:text-white/60 transition-colors">
+                    {p.description}
+                  </p>
+                  <div className="flex items-center gap-2 text-gold-500/60 text-xs font-mono uppercase tracking-widest group-hover:text-gold-400 transition-colors">
+                    <span>View Project</span>
+                    <span className="transform group-hover:translate-x-1 transition-transform">→</span>
+                  </div>
+                </div>
+              </motion.div>
+            </Link>
           ))}
         </div>
       </div>

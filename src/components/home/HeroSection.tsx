@@ -90,15 +90,20 @@ export default function HeroSection() {
         </motion.div>
       </motion.div>
 
-      <div className="absolute bottom-6 sm:bottom-12 w-full flex justify-center pointer-events-none z-10">
-        <motion.div
+      <div className="absolute bottom-6 sm:bottom-12 w-full flex justify-center z-10">
+        <motion.button
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className="text-white/30 flex flex-col items-center"
+          className="text-white/30 flex flex-col items-center hover:text-white/60 transition-colors cursor-pointer group"
+          aria-label="Scroll to next section"
+          onClick={() => {
+            const next = document.querySelector('section:nth-of-type(2)') as HTMLElement | null;
+            if (next) next.scrollIntoView({ behavior: 'smooth' });
+          }}
         >
           <span className="text-[10px] sm:text-xs tracking-widest uppercase mb-2">{t('discover')}</span>
-          <div className="w-[1px] h-6 sm:h-12 bg-gradient-to-b from-white/30 to-transparent" />
-        </motion.div>
+          <div className="w-[1px] h-6 sm:h-12 bg-gradient-to-b from-white/30 group-hover:from-white/60 to-transparent transition-colors" />
+        </motion.button>
       </div>
     </section>
   );

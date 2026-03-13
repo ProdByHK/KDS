@@ -7,8 +7,8 @@ export default function MarketInsights() {
   const t = useTranslations('Insights');
 
   const articles = [
-    { category: t('articles.a1.category'), title: t('articles.a1.title'), date: t('articles.a1.date') },
-    { category: t('articles.a2.category'), title: t('articles.a2.title'), date: t('articles.a2.date') },
+    { category: t('articles.a1.category'), title: t('articles.a1.title'), date: t('articles.a1.date'), slug: t('articles.a1.slug'), description: t('articles.a1.description') },
+    { category: t('articles.a2.category'), title: t('articles.a2.title'), date: t('articles.a2.date'), slug: t('articles.a2.slug'), description: t('articles.a2.description') },
   ];
 
   const glows = ['from-gold-500/15', 'from-blue-500/15'];
@@ -39,7 +39,7 @@ export default function MarketInsights() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {articles.map((article, i) => (
-            <Link href="/insights" key={i} className="block group">
+            <Link href={`/insights/${article.slug}`} key={i} className="block group">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -60,7 +60,7 @@ export default function MarketInsights() {
                   <h3 className="text-2xl text-white font-serif mb-4 group-hover:text-gold-300 transition-colors line-clamp-2">
                     {article.title}
                   </h3>
-                  <p className="text-white/40 text-sm line-clamp-2">{t('description')}</p>
+                  <p className="text-white/40 text-sm line-clamp-2">{article.description}</p>
                 </div>
               </motion.div>
             </Link>
