@@ -35,7 +35,7 @@ export async function updateContent(filename: string, content: Record<string, un
   try {
     const filePath = path.join(MESSAGES_DIR, filename);
     await fs.writeFile(filePath, JSON.stringify(content, null, 2), 'utf-8');
-    
+
     // Revalidate paths to reflect changes
     revalidatePath('/');
     return { success: true };

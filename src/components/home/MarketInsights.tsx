@@ -1,7 +1,20 @@
 'use client';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '../../i18n/navigation';
+
+// Article images: TODO: Replace with real brand photography
+const articleImages = [
+  {
+    src: 'https://images.unsplash.com/photo-1605745341112-85968b19335b?auto=format&fit=crop&w=800&q=80',
+    alt: 'Container ships at a Southeast Asian port at dusk',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=800&q=80',
+    alt: 'Abstract AI neural network visualization on dark background',
+  },
+];
 
 export default function MarketInsights() {
   const t = useTranslations('Insights');
@@ -10,8 +23,6 @@ export default function MarketInsights() {
     { category: t('articles.a1.category'), title: t('articles.a1.title'), date: t('articles.a1.date'), slug: t('articles.a1.slug'), description: t('articles.a1.description') },
     { category: t('articles.a2.category'), title: t('articles.a2.title'), date: t('articles.a2.date'), slug: t('articles.a2.slug'), description: t('articles.a2.description') },
   ];
-
-  const glows = ['from-gold-500/15', 'from-blue-500/15'];
 
   return (
     <section className="py-32 bg-[#05080f] border-t border-white/[0.04] relative overflow-hidden">
@@ -37,6 +48,7 @@ export default function MarketInsights() {
           </Link>
         </motion.div>
 
+        {/* IMG-04: Horizontal card layout with thumbnail image */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {articles.map((article, i) => (
             <Link href={`/insights/${article.slug}`} key={i} className="block group">
@@ -45,22 +57,31 @@ export default function MarketInsights() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: i * 0.15 }}
                 viewport={{ once: true, margin: '-50px' }}
-                className="glass-card-hover cursor-pointer flex flex-col sm:flex-row gap-6 p-6 h-full"
+                className="glass-card-hover cursor-pointer flex flex-col sm:flex-row overflow-hidden h-full"
               >
-                {/* Thumbnail with gradient glow */}
-                <div className="w-full sm:w-48 h-48 sm:h-auto rounded-2xl overflow-hidden shrink-0 relative">
-                  <div className={`absolute inset-0 bg-gradient-to-br ${glows[i]} via-transparent to-transparent`} />
-                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-24 h-24 rounded-full blur-2xl bg-gold-500/20 opacity-0 group-hover:opacity-70 transition-opacity duration-500" />
+                {/* Thumbnail — left on desktop, top on mobile — IMG-04 */}
+                <div className="relative w-full sm:w-48 h-40 sm:h-auto flex-shrink-0 overflow-hidden">
+                  <Image
+                    src={articleImages[i].src}
+                    alt={articleImages[i].alt}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 640px) 100vw, 192px"
+                  />
+                  {/* TODO: Replace with real brand photography */}
                 </div>
-                <div className="flex flex-col justify-center py-2">
+                <div className="flex flex-col justify-center py-5 px-6">
                   <div className="flex items-center gap-4 mb-4">
                     <span className="text-gold-400 text-xs font-mono tracking-widest uppercase">{article.category}</span>
                     <span className="text-white/30 text-xs">{article.date}</span>
                   </div>
-                  <h3 className="text-2xl text-white font-serif mb-4 group-hover:text-gold-300 transition-colors line-clamp-2">
+                  <h3 className="text-xl text-white font-serif mb-3 group-hover:text-gold-300 transition-colors line-clamp-2">
                     {article.title}
                   </h3>
-                  <p className="text-white/40 text-sm line-clamp-2">{article.description}</p>
+                  <p className="text-white/40 text-sm line-clamp-2 mb-4">{article.description}</p>
+                  <span className="text-gold-400 text-xs font-mono uppercase tracking-widest group-hover:text-gold-300 transition-colors self-start">
+                    Read Article →
+                  </span>
                 </div>
               </motion.div>
             </Link>

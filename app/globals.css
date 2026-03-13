@@ -5,6 +5,14 @@
 :root {
   --background: #05080f;
   --foreground: #ffffff;
+
+  /* DS-01: Glassmorphism design tokens */
+  --glass-bg:      rgba(255, 255, 255, 0.06);
+  --glass-border:  rgba(255, 255, 255, 0.12);
+  --glass-shadow:  0 8px 32px rgba(0, 0, 0, 0.36);
+  --glass-blur:    blur(16px);
+  --glass-radius:  16px;
+  --glass-glow:    rgba(212, 175, 100, 0.15);
 }
 
 body {
@@ -36,6 +44,41 @@ body {
   .glass-card-hover:hover {
     @apply bg-white/[0.07] border-white/[0.14];
     box-shadow: 0 8px 40px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.10);
+  }
+
+  /* DS-01: Standalone .glass class matching PRD spec */
+  .glass {
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--glass-radius);
+    box-shadow: var(--glass-shadow);
+  }
+
+  /* DS-01: Glass hover state */
+  .glass-hover {
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  .glass-hover:hover {
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0 8px 40px var(--glass-glow);
+  }
+
+  /* DS-06: Glass input fields */
+  .glass-input {
+    @apply w-full px-4 py-3 rounded-xl;
+    @apply bg-white/5 border border-white/10;
+    @apply text-white placeholder-white/40;
+    @apply backdrop-blur-sm;
+    @apply focus:outline-none;
+    @apply transition-all duration-300;
+    -webkit-backdrop-filter: blur(4px);
+  }
+  .glass-input:focus {
+    border-color: rgba(212, 175, 55, 0.5);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.3);
   }
 
   /* Ambient glow blobs */

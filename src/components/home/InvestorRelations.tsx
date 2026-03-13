@@ -115,7 +115,7 @@ export default function InvestorRelations() {
                       placeholder={field.placeholder}
                       value={formData[field.key as keyof typeof formData]}
                       onChange={e => setFormData({ ...formData, [field.key]: e.target.value })}
-                      className="w-full glass-card-sm border-white/10 rounded-xl px-4 py-4 text-white placeholder-white/25 focus:outline-none focus:border-gold-500/50 transition-colors text-sm"
+                      className="glass-input text-sm"
                     />
                   ))}
                   <button

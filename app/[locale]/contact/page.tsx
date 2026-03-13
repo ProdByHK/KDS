@@ -96,7 +96,7 @@ export default function ContactPage() {
                     <input
                       type="text" value={form.name}
                       onChange={e => setForm({ ...form, name: e.target.value })}
-                      className={`w-full glass-card-sm rounded-xl px-4 py-3 text-white placeholder-white/20 focus:outline-none focus:border-gold-500/50 transition-colors text-sm ${errors.name ? 'border-red-500/50' : 'border-white/[0.09]'}`}
+                      className={`glass-input ${errors.name ? 'border-red-500/50' : 'border-white/[0.09]'}`}
                       placeholder="David Kingsley"
                     />
                     {errors.name && <p className="text-red-400 text-xs mt-1">{errors.name}</p>}
@@ -106,7 +106,7 @@ export default function ContactPage() {
                     <input
                       type="email" value={form.email}
                       onChange={e => setForm({ ...form, email: e.target.value })}
-                      className={`w-full glass-card-sm rounded-xl px-4 py-3 text-white placeholder-white/20 focus:outline-none focus:border-gold-500/50 transition-colors text-sm ${errors.email ? 'border-red-500/50' : 'border-white/[0.09]'}`}
+                      className={`glass-input ${errors.email ? 'border-red-500/50' : 'border-white/[0.09]'}`}
                       placeholder="contact@company.com"
                     />
                     {errors.email && <p className="text-red-400 text-xs mt-1">{errors.email}</p>}
@@ -118,7 +118,7 @@ export default function ContactPage() {
                   <input
                     type="text" value={form.company}
                     onChange={e => setForm({ ...form, company: e.target.value })}
-                    className="w-full glass-card-sm rounded-xl px-4 py-3 text-white placeholder-white/20 focus:outline-none focus:border-gold-500/50 transition-colors text-sm border-white/[0.09]"
+                    className="glass-input border-white/[0.09]"
                     placeholder="Your Organisation"
                   />
                 </div>
@@ -127,7 +127,7 @@ export default function ContactPage() {
                   <textarea
                     rows={5} value={form.message}
                     onChange={e => setForm({ ...form, message: e.target.value })}
-                    className={`w-full glass-card-sm rounded-xl px-4 py-3 text-white placeholder-white/20 focus:outline-none focus:border-gold-500/50 transition-colors text-sm resize-none ${errors.message ? 'border-red-500/50' : 'border-white/[0.09]'}`}
+                    className={`glass-input resize-none ${errors.message ? 'border-red-500/50' : 'border-white/[0.09]'}`}
                     placeholder="Tell us about your business needs..."
                   />
                   {errors.message && <p className="text-red-400 text-xs mt-1">{errors.message}</p>}

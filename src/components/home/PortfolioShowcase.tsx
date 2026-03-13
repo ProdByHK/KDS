@@ -1,7 +1,25 @@
 'use client';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '../../i18n/navigation';
+
+// Portfolio project images — IMG-03
+// TODO: Replace with real project screenshots or mockups
+const projectImages = [
+  {
+    src: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80',
+    alt: 'Government data center infrastructure for national logistics hub',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80',
+    alt: 'Premium fintech mobile banking application interface',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
+    alt: 'Enterprise resource dashboard with real-time operational data',
+  },
+];
 
 export default function PortfolioShowcase() {
   const t = useTranslations('Portfolio');
@@ -10,12 +28,6 @@ export default function PortfolioShowcase() {
     { title: t('projects.p1.title'), client: t('projects.p1.client'), description: t('projects.p1.description'), link: '/ecosystem/gold-lion' },
     { title: t('projects.p2.title'), client: t('projects.p2.client'), description: t('projects.p2.description'), link: '/ecosystem/carry' },
     { title: t('projects.p3.title'), client: t('projects.p3.client'), description: t('projects.p3.description'), link: '/ecosystem/pasarx' },
-  ];
-
-  const glows = [
-    'from-gold-500/20 via-gold-500/5',
-    'from-blue-500/20 via-blue-500/5',
-    'from-gold-500/15 via-purple-500/5',
   ];
 
   return (
@@ -44,10 +56,19 @@ export default function PortfolioShowcase() {
                 viewport={{ once: true, margin: '-100px' }}
                 className="h-full"
               >
-                {/* Glass card thumbnail with gradient glow */}
-                <div className="w-full aspect-[4/5] glass-card mb-6 overflow-hidden relative flex items-end">
-                  <div className={`absolute inset-0 bg-gradient-to-t ${glows[i]} to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-700`} />
-                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-40 h-40 rounded-full blur-3xl bg-gold-500/20 opacity-0 group-hover:opacity-60 transition-opacity duration-700" />
+                {/* Project image — top of card — IMG-03 */}
+                <div className="relative h-52 overflow-hidden rounded-t-3xl shrink-0">
+                  <Image
+                    src={projectImages[i].src}
+                    alt={projectImages[i].alt}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                  />
+                  {/* Sector badge overlay */}
+                  <span className="absolute top-4 left-4 px-3 py-1 rounded-full bg-black/50 backdrop-blur-sm text-gold-400 text-xs uppercase tracking-widest font-mono">
+                    {p.client}
+                  </span>
                 </div>
                 <div className="px-2 border-l border-gold-500/0 group-hover:border-gold-500/60 pl-4 transition-all duration-300">
                   <div className="text-gold-400 text-xs font-mono mb-2 tracking-widest uppercase">{p.client}</div>

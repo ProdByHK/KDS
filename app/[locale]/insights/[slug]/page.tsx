@@ -1,18 +1,48 @@
 import { notFound } from 'next/navigation';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
+import Image from 'next/image';
+
+// Article cover images — TODO: Replace with real brand photography
+const articleImages: Record<string, { src: string; alt: string }> = {
+  'multimodal-freight-se-asia': {
+    src: 'https://images.unsplash.com/photo-1605745341112-85968b19335b?auto=format&fit=crop&w=1400&q=80',
+    alt: 'Container ships at a Southeast Asian port at dusk',
+  },
+  'ai-integration-legacy-enterprise': {
+    src: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1400&q=80',
+    alt: 'Abstract AI neural network visualization on dark background',
+  },
+  'commodity-trading-2025': {
+    src: 'https://images.unsplash.com/photo-1595665593673-bf1ad72905c0?auto=format&fit=crop&w=1400&q=80',
+    alt: 'Coffee and spice commodities on a trading table',
+  },
+  'luxury-travel-corporate': {
+    src: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1400&q=80',
+    alt: 'Business traveller in a premium airport lounge',
+  },
+  'supply-chain-resilience': {
+    src: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1400&q=80',
+    alt: 'Aerial view of shipping containers at a logistics hub',
+  },
+  'vip-transport-expansion': {
+    src: 'https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1400&q=80',
+    alt: 'Luxury black sedan at night for corporate transport',
+  },
+};
 
 const articles = [
   {
     slug: 'multimodal-freight-se-asia',
     category: 'Logistics',
     title: 'The Future of Multi-Modal Freight in SE Asia',
-    date: 'Mar 5, 2025',
+    date: 'February 18, 2026',
     author: 'KDS Intelligence Division',
-    description: 'How shifting trade winds and port infrastructure investment are reshaping multi-modal corridors across Southeast Asia\'s $2.4 trillion logistics sector.',
+    description:
+      'A deep dive into how multi-modal freight is reshaping supply chain strategy across Indonesia, Malaysia, and Vietnam — and what enterprise shippers must prepare for in 2026.',
     accent: 'from-gold-500/25',
     body: [
-      'Southeast Asia\'s logistics landscape is undergoing a fundamental transformation. The growth of e-commerce, combined with major infrastructure investments from the ASEAN Connectivity Master Plan, is creating new multi-modal freight corridors that bypass traditional bottlenecks.',
+      "Southeast Asia's logistics landscape is undergoing a fundamental transformation. The growth of e-commerce, combined with major infrastructure investments from the ASEAN Connectivity Master Plan, is creating new multi-modal freight corridors that bypass traditional bottlenecks.",
       'King David CARRY has been at the forefront of this shift, integrating sea, air, and road freight under a single operational dashboard. This unified visibility allows corporate clients to dynamically route shipments based on real-time cost and speed data.',
       'Key trends driving this transformation include the rapid expansion of cold-chain logistics for agricultural exports, the digitisation of customs procedures at major ports, and the emergence of inland container depots reducing port congestion. For enterprise shippers, the winners will be those who invest in multi-modal visibility now, before the market fully matures.',
     ],
@@ -22,9 +52,10 @@ const articles = [
     slug: 'ai-integration-legacy-enterprise',
     category: 'Technology',
     title: 'AI Integration Strategies for Legacy Enterprise',
-    date: 'Feb 18, 2025',
+    date: 'January 30, 2026',
     author: 'KDS Intelligence Division',
-    description: 'Legacy ERP systems represent 60% of enterprise software spend. We examine proven migration frameworks for embedding AI without disrupting operations.',
+    description:
+      "Legacy enterprise systems don't have to be a liability. This piece explores practical AI integration strategies that deliver ROI without requiring a full infrastructure overhaul.",
     accent: 'from-blue-500/20',
     body: [
       'The promise of AI in enterprise operations has been discussed for years, but most organisations still run mission-critical workflows on systems built in the early 2000s. The challenge is not whether to integrate AI — it is how to do so without destabilising the systems entire supply chains depend on.',
@@ -37,7 +68,7 @@ const articles = [
     slug: 'commodity-trading-2025',
     category: 'Commodities',
     title: 'Global Commodity Trading Outlook 2025',
-    date: 'Jan 22, 2025',
+    date: 'January 22, 2025',
     author: 'KDS Intelligence Division',
     description: 'An in-depth look at coffee, spice, and agricultural commodity pricing dynamics heading into 2025, and what enterprise buyers need to know.',
     accent: 'from-purple-500/20',
@@ -52,9 +83,9 @@ const articles = [
     slug: 'luxury-travel-corporate',
     category: 'Travel',
     title: 'The Rise of Bleisure: Corporate Travel Reimagined',
-    date: 'Jan 8, 2025',
+    date: 'January 8, 2025',
     author: 'KDS Intelligence Division',
-    description: 'As executives demand more from business travel, the line between business and leisure is dissolving. How Gold Miles is redefining corporate travel programmes.',
+    description: "As executives demand more from business travel, the line between business and leisure is dissolving. How Gold Miles is redefining corporate travel programmes.",
     accent: 'from-gold-500/25',
     body: [
       "The post-pandemic enterprise traveller is not the same person who spent three days in an airport Marriott attending back-to-back meetings. Today's C-suite executive expects business travel to be an extension of their personal brand — and they are willing to allocate budget accordingly.",
@@ -67,7 +98,7 @@ const articles = [
     slug: 'supply-chain-resilience',
     category: 'Logistics',
     title: 'Building Resilient Supply Chains in Uncertain Times',
-    date: 'Dec 12, 2024',
+    date: 'December 12, 2024',
     author: 'KDS Intelligence Division',
     description: 'Geopolitical volatility and climate disruption are forcing enterprises to rethink single-source supply dependencies. A framework for building anti-fragile supply chains.',
     accent: 'from-blue-500/20',
@@ -82,12 +113,12 @@ const articles = [
     slug: 'vip-transport-expansion',
     category: 'Transportation',
     title: 'Gold Lion Expands VIP Fleet to 5 New Markets',
-    date: 'Nov 28, 2024',
+    date: 'November 28, 2024',
     author: 'KDS Intelligence Division',
     description: "King David's premium transportation arm announces expansion into Singapore, Kuala Lumpur, Bangkok, Manila, and Ho Chi Minh City with an all-new luxury fleet.",
     accent: 'from-purple-500/20',
     body: [
-      'Gold Lion Premium Transportation has completed a significant operational expansion, establishing dedicated fleets in five major Southeast Asian business capitals. The move positions King David Service to offer seamless VIP ground transportation across the region\'s highest-value corporate corridors.',
+      "Gold Lion Premium Transportation has completed a significant operational expansion, establishing dedicated fleets in five major Southeast Asian business capitals. The move positions King David Service to offer seamless VIP ground transportation across the region's highest-value corporate corridors.",
       'The expansion fleet includes the latest Mercedes-Benz S-Class, BMW 7 Series, and Lexus LM MPV configurations, all operated by professionally trained chauffeurs with corporate protocol training. Every vehicle is equipped with in-car Wi-Fi, privacy screens, and integrated booking interfaces for real-time route optimisation.',
       'For corporate clients operating across multiple ASEAN markets, the expansion means a single contracted provider can now handle executive ground transportation across their entire regional footprint. The logistics coordination benefit — a unified billing system, consistent service standards, and 24/7 regional dispatch support — has already attracted three Fortune 500 companies to regional framework agreements in the first quarter of operations.',
     ],
@@ -119,6 +150,8 @@ export default async function ArticleDetailPage({
   const article = articles.find(a => a.slug === params.slug);
   if (!article) notFound();
 
+  const coverImage = articleImages[article.slug];
+
   const relatedArticles = article.related
     .map(slug => articles.find(a => a.slug === slug))
     .filter(Boolean) as typeof articles;
@@ -129,33 +162,46 @@ export default async function ArticleDetailPage({
       <div className="ambient-blob w-[500px] h-[500px] bg-gold-500/6 top-0 right-0" />
       <div className="ambient-blob w-[400px] h-[400px] bg-blue-600/5 bottom-1/3 left-0" />
 
-      {/* Hero */}
-      <div className={`relative pt-40 pb-20 border-b border-white/[0.04] overflow-hidden`}>
-        <div className={`absolute inset-0 bg-gradient-to-br ${article.accent} via-transparent to-transparent opacity-30`} />
-        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Breadcrumb */}
-          <div className="flex items-center gap-2 text-white/30 text-xs font-mono mb-8">
-            <Link href="/insights" className="hover:text-gold-400 transition-colors">
-              ← Back to Insights
-            </Link>
-          </div>
-
-          <span className="inline-block glass-card-sm px-3 py-1 text-gold-400 text-xs font-mono tracking-widest uppercase mb-6">
+      {/* IMG-01: Full-width hero banner image */}
+      <div className="relative w-full h-[420px] mt-0">
+        {coverImage && (
+          <Image
+            src={coverImage.src}
+            alt={coverImage.alt}
+            fill
+            className="object-cover"
+            priority
+            sizes="100vw"
+          />
+        )}
+        {/* Dark gradient overlay — title on top */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+        {/* Breadcrumb */}
+        <div className="absolute top-8 left-0 right-0 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Link href="/insights" className="text-white/50 hover:text-gold-400 transition-colors text-xs font-mono">
+            ← Back to Insights
+          </Link>
+        </div>
+        {/* Title overlay at bottom of banner */}
+        <div className="absolute bottom-8 left-0 right-0 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <span className="inline-block glass-card-sm px-3 py-1 text-gold-400 text-xs font-mono tracking-widest uppercase mb-4">
             {article.category}
           </span>
-          <h1 className="text-4xl md:text-6xl font-serif text-white mb-6 leading-tight">
+          <h1 className="text-3xl md:text-5xl font-serif text-white leading-tight">
             {article.title}
           </h1>
-          <div className="flex items-center gap-6 text-white/40 text-sm">
-            <span className="font-mono">{article.date}</span>
-            <span className="w-[1px] h-4 bg-white/20" />
-            <span>{article.author}</span>
-          </div>
         </div>
       </div>
 
       {/* Body */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative z-10">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-10">
+        {/* Meta */}
+        <div className="flex items-center gap-6 text-white/40 text-sm mb-10">
+          <span className="font-mono">{article.date}</span>
+          <span className="w-[1px] h-4 bg-white/20" />
+          <span>{article.author}</span>
+        </div>
+
         <p className="text-xl text-white/60 leading-relaxed mb-12 font-light italic border-l-2 border-gold-500/40 pl-6">
           {article.description}
         </p>
@@ -175,19 +221,36 @@ export default async function ArticleDetailPage({
           <div>
             <h2 className="text-2xl font-serif text-white mb-8">Related Intelligence</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {relatedArticles.map(related => (
-                <Link key={related.slug} href={`/insights/${related.slug}`}>
-                  <div className="glass-card-hover p-6 group cursor-pointer">
-                    <span className="text-gold-400 text-xs font-mono tracking-widest uppercase block mb-3">
-                      {related.category}
-                    </span>
-                    <h3 className="text-white font-serif text-lg group-hover:text-gold-300 transition-colors mb-2 leading-snug">
-                      {related.title}
-                    </h3>
-                    <p className="text-white/30 text-xs font-mono">{related.date}</p>
-                  </div>
-                </Link>
-              ))}
+              {relatedArticles.map(related => {
+                const relImg = articleImages[related.slug];
+                return (
+                  <Link key={related.slug} href={`/insights/${related.slug}`}>
+                    <div className="glass-card-hover overflow-hidden group cursor-pointer">
+                      {relImg && (
+                        <div className="relative h-32 overflow-hidden">
+                          <Image
+                            src={relImg.src}
+                            alt={relImg.alt}
+                            fill
+                            className="object-cover group-hover:scale-105 transition-transform duration-500"
+                            sizes="(max-width: 768px) 100vw, 50vw"
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                        </div>
+                      )}
+                      <div className="p-6">
+                        <span className="text-gold-400 text-xs font-mono tracking-widest uppercase block mb-3">
+                          {related.category}
+                        </span>
+                        <h3 className="text-white font-serif text-lg group-hover:text-gold-300 transition-colors mb-2 leading-snug">
+                          {related.title}
+                        </h3>
+                        <p className="text-white/30 text-xs font-mono">{related.date}</p>
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         )}

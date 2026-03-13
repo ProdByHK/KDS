@@ -8,7 +8,7 @@
   },
   "Hero": {
     "welcome": "Welcome to the Future of Enterprise",
-    "title": "Elevating <br /> <span>Corporate Standards</span>",
+    "title": "Elevating <br/> <span>Corporate Standards</span>",
     "description": "An integrated ecosystem of luxury services, enterprise technology, global logistics, and commodity trading tailored for discerning clientele.",
     "explore": "Explore Ecosystem",
     "partner": "Partner With Us",
@@ -128,16 +128,16 @@
       "a1": {
         "category": "Logistics",
         "title": "The Future of Multi-Modal Freight in SE Asia",
-        "date": "Mar 5, 2025",
+        "date": "February 18, 2026",
         "slug": "multimodal-freight-se-asia",
-        "description": "How shifting trade winds and port infrastructure investment are reshaping multi-modal corridors across Southeast Asia's $2.4 trillion logistics sector."
+        "description": "A deep dive into how multi-modal freight is reshaping supply chain strategy across Indonesia, Malaysia, and Vietnam — and what enterprise shippers must prepare for in 2026."
       },
       "a2": {
         "category": "Technology",
         "title": "AI Integration Strategies for Legacy Enterprise",
-        "date": "Feb 18, 2025",
+        "date": "January 30, 2026",
         "slug": "ai-integration-legacy-enterprise",
-        "description": "Legacy ERP systems represent 60% of enterprise software spend. We examine proven migration frameworks for embedding AI without disrupting operations."
+        "description": "Legacy enterprise systems don't have to be a liability. This piece explores practical AI integration strategies that deliver ROI without requiring a full infrastructure overhaul."
       }
     }
   },
