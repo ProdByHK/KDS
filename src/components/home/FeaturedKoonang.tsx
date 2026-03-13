@@ -7,51 +7,48 @@ export default function FeaturedKoonang() {
   const t = useTranslations('Koonang');
 
   return (
-    <section className="py-32 bg-black relative border-t border-white/5 overflow-hidden">
-      <div 
-        className="absolute inset-0 opacity-30 mix-blend-screen pointer-events-none"
-      />
-      <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-deepBlue-900/40 pointer-events-none" />
+    <section className="py-32 bg-[#05080f] relative overflow-hidden border-t border-white/[0.04]">
+      {/* Ambient glow */}
+      <div className="ambient-blob w-[600px] h-[600px] bg-gold-500/8 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: true, margin: '-100px' }}
           className="text-center mb-20"
         >
-          <span className="text-gold-500 text-xs tracking-widest uppercase mb-4 block font-mono">
+          <span className="text-gold-400 text-xs tracking-widest uppercase mb-4 block font-mono">
             {t('featured')}
           </span>
-          <h2 className="text-5xl md:text-7xl font-serif text-white tracking-tight">
-            KOONANG
-          </h2>
-          <p className="mt-6 text-xl text-gray-400 font-light max-w-2xl mx-auto">
+          <h2 className="text-5xl md:text-7xl font-serif text-white tracking-tight">KOONANG</h2>
+          <p className="mt-6 text-xl text-white/50 font-light max-w-2xl mx-auto">
             {t('description')}
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
             { title: t('features.enterprise.title'), desc: t('features.enterprise.desc') },
             { title: t('features.ai.title'), desc: t('features.ai.desc') },
-            { title: t('features.mobile.title'), desc: t('features.mobile.desc') }
+            { title: t('features.mobile.title'), desc: t('features.mobile.desc') },
           ].map((feature, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: i * 0.2 }}
-              viewport={{ once: true, margin: "-100px" }}
-              className="bg-deepBlue-900 p-8 rounded-2xl border border-white/10 hover:border-gold-500/30 transition-colors group cursor-pointer"
+              transition={{ duration: 0.6, delay: i * 0.15 }}
+              viewport={{ once: true, margin: '-100px' }}
+              className="glass-card-hover p-8 group cursor-pointer relative overflow-hidden"
             >
-              <div className="w-12 h-12 bg-black border border-white/10 rounded-full mb-6 flex items-center justify-center text-gold-500 font-mono text-sm group-hover:scale-110 transition-transform">
-                0{i+1}
+              {/* Inner glow on hover */}
+              <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-gold-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-b-3xl" />
+              <div className="w-12 h-12 glass-card-sm mb-6 flex items-center justify-center text-gold-400 font-mono text-sm group-hover:scale-110 transition-transform">
+                0{i + 1}
               </div>
               <h3 className="text-xl text-white font-medium mb-4">{feature.title}</h3>
-              <p className="text-gray-400 leading-relaxed text-sm">
-                {feature.desc}
-              </p>
+              <p className="text-white/40 leading-relaxed text-sm">{feature.desc}</p>
             </motion.div>
           ))}
         </div>
@@ -60,13 +57,13 @@ export default function FeaturedKoonang() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: true, margin: '-100px' }}
           className="mt-16 text-center"
         >
           <Link href="/ecosystem/koonang">
-            <button 
-              className="text-white border-b border-gold-500 pb-1 hover:text-gold-500 transition-colors uppercase tracking-widest text-sm font-medium"
-              dangerouslySetInnerHTML={{ __html: t.raw('discover') }} 
+            <button
+              className="text-white border-b border-gold-500/50 pb-1 hover:text-gold-400 transition-colors uppercase tracking-widest text-sm font-medium"
+              dangerouslySetInnerHTML={{ __html: t.raw('discover') }}
             />
           </Link>
         </motion.div>

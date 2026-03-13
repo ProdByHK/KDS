@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #0A192F;
+  --background: #05080f;
   --foreground: #ffffff;
 }
 
@@ -17,5 +17,29 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  /* Glassmorphism card utilities */
+  .glass-card {
+    @apply bg-white/[0.04] backdrop-blur-xl border border-white/[0.08] rounded-3xl;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.07);
+  }
+
+  .glass-card-sm {
+    @apply bg-white/[0.05] backdrop-blur-lg border border-white/[0.09] rounded-2xl;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.06);
+  }
+
+  .glass-card-hover {
+    @apply glass-card transition-all duration-500;
+  }
+  .glass-card-hover:hover {
+    @apply bg-white/[0.07] border-white/[0.14];
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.10);
+  }
+
+  /* Ambient glow blobs */
+  .ambient-blob {
+    @apply absolute rounded-full blur-3xl pointer-events-none;
   }
 }
