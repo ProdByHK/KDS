@@ -1,5 +1,6 @@
 import { Link } from '../../i18n/navigation';
 import { useTranslations } from 'next-intl';
+import { Instagram } from 'lucide-react';
 
 export default function Footer() {
   const t = useTranslations('Footer');
@@ -12,9 +13,20 @@ export default function Footer() {
             <Link href="/" className="text-2xl font-serif text-gold-500 font-bold tracking-wider block mb-4">
               KING DAVID SERVICE
             </Link>
-            <p className="text-gray-400 max-w-sm text-sm leading-relaxed">
+            <p className="text-gray-400 max-w-sm text-sm leading-relaxed mb-6">
               {t('description')}
             </p>
+            <div className="flex space-x-4">
+              <a 
+                href="https://instagram.com/kingdavidservice" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full glass-card-sm flex items-center justify-center text-white/40 hover:text-gold-400 hover:border-gold-500/50 transition-all"
+                title="Follow us on Instagram"
+              >
+                <Instagram size={20} />
+              </a>
+            </div>
           </div>
           
           <div>

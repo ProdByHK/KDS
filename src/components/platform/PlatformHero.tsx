@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Platform } from '../../lib/mock-data';
 import { useEffect, useState } from 'react';
 import { Link } from '../../i18n/navigation';
+import { Instagram } from 'lucide-react';
 
 interface PlatformHeroProps {
   platform: Platform;
@@ -85,6 +86,21 @@ export default function PlatformHero({ platform }: PlatformHeroProps) {
             className="mb-8 inline-block glass-card-sm px-5 py-2 text-xs tracking-[0.2em] text-gold-400 uppercase font-medium"
           >
             {tp(`items.${platform.id}.sector`)}
+          </motion.div>
+
+          <motion.div
+            style={{ translateZ: prefersReducedMotion ? 0 : 60 }}
+            className="mb-8"
+          >
+            <a 
+              href={`https://instagram.com/${platform.instagram}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 glass-card-sm text-[10px] tracking-[0.1em] text-white/40 hover:text-gold-400 hover:border-gold-500/40 transition-all uppercase font-medium group/insta"
+            >
+              <Instagram size={14} className="group-hover/insta:scale-110 transition-transform" />
+              <span>@{platform.instagram}</span>
+            </a>
           </motion.div>
 
           <motion.h1
