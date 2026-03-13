@@ -9,8 +9,7 @@ export default function FeaturedKoonang() {
   return (
     <section className="py-32 bg-black relative border-t border-white/5 overflow-hidden">
       <div 
-        className="absolute inset-0 opacity-30 bg-cover bg-center mix-blend-screen pointer-events-none"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1492571350019-22de08371fd3?q=80&w=1600&auto=format&fit=crop')" }}
+        className="absolute inset-0 opacity-30 mix-blend-screen pointer-events-none"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-deepBlue-900/40 pointer-events-none" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

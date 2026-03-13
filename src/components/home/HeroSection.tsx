@@ -50,8 +50,7 @@ export default function HeroSection() {
         className="absolute inset-0 z-0"
       >
         <div 
-          className="absolute inset-0 bg-deepBlue-900 bg-cover bg-center bg-no-repeat opacity-40 mix-blend-luminosity" 
-          style={{ backgroundImage: "url('/KDS/images/hero_bg.png')" }}
+          className="absolute inset-0 bg-deepBlue-900 opacity-40 mix-blend-luminosity" 
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-deepBlue-900/50 to-deepBlue-900" />
         <motion.div 

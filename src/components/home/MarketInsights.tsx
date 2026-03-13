@@ -7,8 +7,8 @@ export default function MarketInsights() {
   const t = useTranslations('Insights');
 
   const articles = [
-    { category: t('articles.a1.category'), title: t('articles.a1.title'), date: t('articles.a1.date'), img: "bg-[url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=800&auto=format&fit=crop')] bg-cover bg-center" },
-    { category: t('articles.a2.category'), title: t('articles.a2.title'), date: t('articles.a2.date'), img: "bg-[url('https://images.unsplash.com/photo-1621252179027-94459d278660?q=80&w=800&auto=format&fit=crop')] bg-cover bg-center" }
+    { category: t('articles.a1.category'), title: t('articles.a1.title'), date: t('articles.a1.date'), img: "" },
+    { category: t('articles.a2.category'), title: t('articles.a2.title'), date: t('articles.a2.date'), img: "" }
   ];
 
   return (
@@ -45,7 +45,7 @@ export default function MarketInsights() {
                 viewport={{ once: true, margin: "-50px" }}
                 className="cursor-pointer flex flex-col sm:flex-row gap-6 bg-black/30 p-6 rounded-2xl border border-white/5 hover:border-gold-500/30 transition-colors h-full"
               >
-                <div className={`w-full sm:w-48 h-48 sm:h-full rounded-xl overflow-hidden shrink-0 ${article.img}`}>
+                <div className="w-full sm:w-48 h-48 sm:h-full rounded-xl overflow-hidden shrink-0 bg-white/5 border border-white/10">
                   <div className="w-full h-full bg-black/20 group-hover:bg-transparent group-hover:scale-110 transition-all duration-700" />
                 </div>
                 <div className="flex flex-col justify-center py-4">

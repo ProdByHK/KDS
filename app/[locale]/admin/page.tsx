@@ -54,7 +54,7 @@ export default function AdminDashboard() {
           </h3>
           <p className="text-sm text-slate-400">Total System Transactions</p>
         </div>
-        
+
         <div className="bg-[#111827] border border-[#1f2937] p-5 rounded-xl">
           <div className="flex justify-between items-start mb-4">
             <div className="p-2 bg-purple-500/10 text-purple-400 rounded-lg"><Users className="w-5 h-5" /></div>
@@ -67,7 +67,7 @@ export default function AdminDashboard() {
           </h3>
           <p className="text-sm text-slate-400">Active Enterprise Users</p>
         </div>
-        
+
         <div className="bg-[#111827] border border-[#1f2937] p-5 rounded-xl">
           <div className="flex justify-between items-start mb-4">
             <div className="p-2 bg-gold-500/10 text-gold-400 rounded-lg"><TrendingUp className="w-5 h-5" /></div>
@@ -80,7 +80,7 @@ export default function AdminDashboard() {
           </h3>
           <p className="text-sm text-slate-400">Commodity Volume (24h)</p>
         </div>
-        
+
         <div className="bg-[#111827] border border-[#1f2937] p-5 rounded-xl">
           <div className="flex justify-between items-start mb-4">
             <div className="p-2 bg-green-500/10 text-green-400 rounded-lg"><Server className="w-5 h-5" /></div>
@@ -94,7 +94,7 @@ export default function AdminDashboard() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        
+
         {/* Platform Status */}
         <div className="lg:col-span-2 space-y-6">
           <div className="bg-[#111827] border border-[#1f2937] rounded-xl overflow-hidden">
@@ -122,7 +122,7 @@ export default function AdminDashboard() {
               </div>
             </div>
           </div>
-          
+
           {/* Mock Analytics Chart */}
           <div className="bg-[#111827] border border-[#1f2937] rounded-xl p-5">
             <div className="flex justify-between items-center mb-6">
@@ -210,9 +210,8 @@ export default function AdminDashboard() {
                         <div className="text-slate-500 text-[11px] mt-0.5">{client.id} • {client.tier}</div>
                       </td>
                       <td className="p-4 text-right">
-                        <span className={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium ${
-                          client.status === 'Active' ? 'bg-green-400/10 text-green-400 border border-green-400/20' : 'bg-slate-400/10 text-slate-400 border border-slate-400/20'
-                        }`}>
+                        <span className={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium ${client.status === 'Active' ? 'bg-green-400/10 text-green-400 border border-green-400/20' : 'bg-slate-400/10 text-slate-400 border border-slate-400/20'
+                          }`}>
                           {client.status}
                         </span>
                         <div className="text-[10px] text-slate-600 mt-1">{client.lastActive}</div>
@@ -227,7 +226,7 @@ export default function AdminDashboard() {
             </div>
           </div>
         </div>
-        
+
       </div>
     </div>
   );

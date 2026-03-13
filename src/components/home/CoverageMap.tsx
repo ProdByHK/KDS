@@ -28,8 +28,8 @@ export default function CoverageMap() {
             viewport={{ once: true, margin: "-100px" }}
             className="order-2 lg:order-1 h-[500px] w-full bg-deepBlue-900 border border-white/10 rounded-2xl flex items-center justify-center relative overflow-hidden"
           >
-            {/* Interactive map placeholder */}
-            <div className="absolute inset-0 opacity-20 bg-[url('https://upload.wikimedia.org/wikipedia/commons/e/ec/World_map_blank_without_borders.svg')] bg-no-repeat bg-center bg-contain mix-blend-screen" />
+            {/* Interactive map background removed */}
+            <div className="absolute inset-0 opacity-20 mix-blend-screen" />
             
             {/* Interactive Nodes */}
             {nodes.map(node => (

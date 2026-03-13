@@ -70,18 +70,9 @@ function PlatformCard({ platform, index }: { platform: Platform; index: number }
         >
           <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent z-10" />
           
-          {/* Image Background */}
+          {/* Image Background Removed */}
           <div 
-            className="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-700 ease-in-out opacity-30 group-hover:opacity-50"
-            style={{ 
-              backgroundImage: 
-                platform.slug === 'carry' ? "url('https://images.unsplash.com/photo-1586528116311-ad8ed7c80a30?q=80&w=800&auto=format&fit=crop')" :
-                platform.slug === 'pasarx' ? "url('https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=800&auto=format&fit=crop')" :
-                platform.slug === 'konekt' ? "url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=800&auto=format&fit=crop')" :
-                platform.slug === 'k-secure' ? "url('https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=800&auto=format&fit=crop')" :
-                platform.slug === 'gold-lion' ? "url('https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=800&auto=format&fit=crop')" :
-                "url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=800&auto=format&fit=crop')"
-            }}
+            className="absolute inset-0 group-hover:scale-110 transition-transform duration-700 ease-in-out opacity-30 group-hover:opacity-50"
           />
 
           <div 

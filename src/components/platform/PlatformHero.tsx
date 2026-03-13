@@ -87,10 +87,9 @@ export default function PlatformHero({ platform }: PlatformHeroProps) {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden perspective-1000">
       <div className="absolute inset-0 z-0 bg-deepBlue-900 overflow-hidden">
-        {/* Background Image Overlay */}
+        {/* Background Image Overlay Removed */}
         <div 
-          className="absolute inset-0 opacity-25 bg-cover bg-center mix-blend-screen transition-opacity duration-1000"
-          style={{ backgroundImage: `url('${theme.image}')` }}
+          className="absolute inset-0 opacity-25 mix-blend-screen transition-opacity duration-1000"
         />
         {/* Animated Background Layers */}
         <motion.div 

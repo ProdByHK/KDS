@@ -12,8 +12,7 @@ export default function InsightsPage({ params: { locale } }: { params: { locale:
   return (
     <div className="min-h-screen relative pt-32 pb-16 bg-deepBlue-900">
       <div 
-        className="absolute inset-0 opacity-20 bg-cover bg-center mix-blend-screen pointer-events-none"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2000&auto=format&fit=crop')" }}
+        className="absolute inset-0 opacity-20 mix-blend-screen pointer-events-none"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-deepBlue-900/40 via-deepBlue-900/80 to-deepBlue-900 pointer-events-none" />
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -25,16 +24,7 @@ export default function InsightsPage({ params: { locale } }: { params: { locale:
           {[1,2,3,4,5,6].map(i => (
             <article key={i} className="bg-white/5 border border-white/10 rounded-xl overflow-hidden group cursor-pointer hover:border-gold-500/50 transition-colors">
               <div 
-                className="h-48 bg-gray-800 bg-cover bg-center group-hover:scale-105 transition-transform duration-700 opacity-80 group-hover:opacity-100" 
-                style={{
-                  backgroundImage: 
-                    i === 1 ? "url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=800&auto=format&fit=crop')" :
-                    i === 2 ? "url('https://images.unsplash.com/photo-1621252179027-94459d278660?q=80&w=800&auto=format&fit=crop')" :
-                    i === 3 ? "url('https://images.unsplash.com/photo-1586528116311-ad8ed7c80a30?q=80&w=800&auto=format&fit=crop')" :
-                    i === 4 ? "url('https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=800&auto=format&fit=crop')" :
-                    i === 5 ? "url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=800&auto=format&fit=crop')" :
-                    "url('https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=800&auto=format&fit=crop')"
-                }}
+                className="h-48 bg-gray-800 transition-transform duration-700 opacity-80 group-hover:opacity-100" 
               />
               <div className="p-6 relative z-10 bg-[#0a0f1c]/80 backdrop-blur-sm group-hover:bg-[#0a0f1c]/95 transition-colors">
                 <div className="text-gold-500 text-xs font-mono mb-3 tracking-widest uppercase">{t('category')}</div>

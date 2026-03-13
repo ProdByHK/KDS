@@ -35,8 +35,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen relative pt-32 pb-16 bg-deepBlue-900">
       <div
-        className="absolute inset-0 opacity-20 bg-cover bg-center mix-blend-screen pointer-events-none"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=2000&auto=format&fit=crop')" }}
+        className="absolute inset-0 opacity-20 mix-blend-screen pointer-events-none"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-deepBlue-900 via-deepBlue-900/80 to-transparent pointer-events-none" />
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

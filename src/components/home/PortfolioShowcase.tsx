@@ -6,9 +6,9 @@ export default function PortfolioShowcase() {
   const t = useTranslations('Portfolio');
 
   const projects = [
-    { title: t('projects.p1.title'), client: t('projects.p1.client'), img: "bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop')] bg-cover bg-center" },
-    { title: t('projects.p2.title'), client: t('projects.p2.client'), img: "bg-[url('https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=800&auto=format&fit=crop')] bg-cover bg-center" },
-    { title: t('projects.p3.title'), client: t('projects.p3.client'), img: "bg-[url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop')] bg-cover bg-center" }
+    { title: t('projects.p1.title'), client: t('projects.p1.client'), img: "" },
+    { title: t('projects.p2.title'), client: t('projects.p2.client'), img: "" },
+    { title: t('projects.p3.title'), client: t('projects.p3.client'), img: "" }
   ];
 
   return (
@@ -37,7 +37,7 @@ export default function PortfolioShowcase() {
               viewport={{ once: true, margin: "-100px" }}
               className={`flex-1 group cursor-pointer ${i === 1 ? 'md:-translate-y-12' : ''}`}
             >
-              <div className={`w-full aspect-[4/5] rounded-2xl ${p.img} mb-6 overflow-hidden relative`}>
+              <div className={`w-full aspect-[4/5] rounded-2xl bg-white/5 border border-white/10 mb-6 overflow-hidden relative`}>
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-t from-deepBlue-900 via-transparent to-transparent transition-opacity duration-500" />
               </div>

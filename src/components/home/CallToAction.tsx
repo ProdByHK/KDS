@@ -8,10 +8,9 @@ export default function CallToAction() {
 
   return (
     <section className="py-32 relative overflow-hidden flex items-center justify-center min-h-[60vh]">
-      {/* Background Graphic */}
+      {/* Background Graphic Removed */}
       <div 
-        className="absolute inset-0 bg-cover bg-center mix-blend-overlay opacity-20 pointer-events-none"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2000&auto=format&fit=crop')" }}
+        className="absolute inset-0 mix-blend-overlay opacity-20 pointer-events-none"
       />
       <div className="absolute inset-0 bg-deepBlue-900/80" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gold-500/20 via-deepBlue-900 to-deepBlue-900 pointer-events-none" />
